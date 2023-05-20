@@ -29,8 +29,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Codebase/Infrastructure/Bootstrapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Codebase/Infrastructure/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Codebase/Hero/HeroAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Codebase/Logic/IAnimationStateReader'.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -40,6 +40,17 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/infrastructure/Bootstrapper.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Bootstrapper.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastucture/GameBootstraper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/GameBootstraper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/GameBootstraper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Input/DynamicJoystick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Services/Input/IInputService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Services/Input/Input.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Logic/IAnimationStateReader'.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Logic/AnimatorState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroLook.cs" />
       </list>
     </option>
   </component>
@@ -87,6 +98,9 @@
       <workItem from="1684505966153" duration="93000" />
       <workItem from="1684506984412" duration="1494000" />
       <workItem from="1684508680241" duration="1166000" />
+      <workItem from="1684510760404" duration="700000" />
+      <workItem from="1684515873413" duration="637000" />
+      <workItem from="1684573787759" duration="12886000" />
     </task>
     <servers />
   </component>
@@ -109,5 +123,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="788" y="193" key="RiderGenerateDialog" timestamp="1684581917461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="788" y="193" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1684581917461" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1684589257962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1684589257962" />
   </component>
 </project>

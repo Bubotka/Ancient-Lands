@@ -8,13 +8,24 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="CodeBase" t="Include">
+          <e p="Hero" t="Include">
+            <e p="HeroAnimator.cs" t="Include" />
+            <e p="HeroLook.cs" t="Include" />
+            <e p="HeroMove.cs" t="Include" />
+          </e>
           <e p="infrastructure" t="Include">
             <e p="Game.cs" t="Include" />
             <e p="GameBootstraper.cs" t="Include" />
           </e>
-        </e>
-        <e p="Input" t="Include">
-          <e p="Input.cs" t="Include" />
+          <e p="Logic" t="Include">
+            <e p="AnimatorState.cs" t="Include" />
+            <e p="IAnimationStateReader'.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include">
+            <e p="Input" t="Include">
+              <e p="InputService.cs" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="PostProcessing" t="Include" />
         <e p="Rendering" t="Include" />

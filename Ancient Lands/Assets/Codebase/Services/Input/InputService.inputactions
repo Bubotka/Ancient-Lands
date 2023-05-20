@@ -1,5 +1,5 @@
 {
-    "name": "Input",
+    "name": "InputService",
     "maps": [
         {
             "name": "Player",
