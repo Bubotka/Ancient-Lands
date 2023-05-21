@@ -9,8 +9,8 @@
       <e p="Assets" t="Include">
         <e p="CodeBase" t="Include">
           <e p="Hero" t="Include">
+            <e p="CameraLookRotation.cs" t="Include" />
             <e p="HeroAnimator.cs" t="Include" />
-            <e p="HeroLook.cs" t="Include" />
             <e p="HeroMove.cs" t="Include" />
           </e>
           <e p="infrastructure" t="Include">

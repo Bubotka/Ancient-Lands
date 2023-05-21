@@ -1,18 +1,24 @@
 using System;
 using Codebase.Infrastructure;
+using Unity.VisualScripting;
 using UnityEngine;
+using Input = UnityEngine.Windows.Input;
 
 namespace Codebase.Hero
 {
     public class HeroMove : MonoBehaviour
     {
-        public CharacterController _CharacterController;
+        public CharacterController _characterController;
         public float MoveSpeed = 2;
+        public float TurnSmoothTime = 0.2f;
 
+        private float _turnVelocity;
         private InputService _inputService;
+        private Camera _camera;
 
         private void Awake()
         {
+            _camera = Camera.main;
             _inputService = Game.InputService;
         }
 
@@ -24,16 +30,32 @@ namespace Codebase.Hero
 
         private void Update()
         {
-            Vector3 movementVector = new Vector3(GetValueX(), 0, GetValueZ());
-            ;
-            Vector3 movementVectorNormalized = movementVector.normalized;
+            Vector3 moveDir = Vector3.zero;
 
-            transform.forward = movementVectorNormalized;
+            if (_inputService.Player.Move.ReadValue<Vector2>() != Vector2.zero)
+            {
+                Vector3 direction = ReadMoveValue().normalized;
 
-            movementVectorNormalized += Physics.gravity;
+                float targetAngle = CalculateRotateAngle(direction);
+                float angle = SmoothAngle(targetAngle);
+                transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
-            _CharacterController.Move(movementVectorNormalized * MoveSpeed * Time.deltaTime);
+                moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+            }
+
+            moveDir += Physics.gravity;
+
+            _characterController.Move(moveDir.normalized * MoveSpeed * Time.deltaTime);
         }
+
+        private Vector3 ReadMoveValue() =>
+            new Vector3(GetValueX(), 0, GetValueZ());
+
+        private float SmoothAngle(float targetAngle) =>
+            Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref _turnVelocity, TurnSmoothTime);
+
+        private float CalculateRotateAngle(Vector3 directionNormalized) =>
+            Mathf.Atan2(directionNormalized.x, directionNormalized.z) * Mathf.Rad2Deg + _camera.transform.eulerAngles.y;
 
         private float GetValueZ() =>
             _inputService.Player.Move.ReadValue<Vector2>().y;
