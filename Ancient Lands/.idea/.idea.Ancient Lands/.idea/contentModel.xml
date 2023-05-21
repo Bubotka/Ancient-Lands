@@ -8,14 +8,20 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="CodeBase" t="Include">
-          <e p="Hero" t="Include">
+          <e p="CameraLogic" t="Include">
             <e p="CameraLookRotation.cs" t="Include" />
+          </e>
+          <e p="Hero" t="Include">
             <e p="HeroAnimator.cs" t="Include" />
             <e p="HeroMove.cs" t="Include" />
           </e>
           <e p="infrastructure" t="Include">
-            <e p="Game.cs" t="Include" />
-            <e p="GameBootstraper.cs" t="Include" />
+            <e p="AssetManagement" t="Include">
+              <e p="Game.cs" t="Include" />
+              <e p="GameBootstraper.cs" t="Include" />
+              <e p="GameStateMachine.cs" t="Include" />
+              <e p="IState.cs" t="Include" />
+            </e>
           </e>
           <e p="Logic" t="Include">
             <e p="AnimatorState.cs" t="Include" />
@@ -292,6 +298,14 @@
               <e p="Prefab" t="Include" />
               <e p="Scene" t="Include" />
               <e p="Texture" t="Include" />
+            </e>
+            <e p="RPGHero" t="Include">
+              <e p="Animations" t="Include" />
+              <e p="Animator" t="Include" />
+              <e p="Materials" t="Include" />
+              <e p="Meshes" t="Include" />
+              <e p="Prefabs" t="Include" />
+              <e p="Textures" t="Include" />
             </e>
           </e>
           <e p="Hud" t="Include">

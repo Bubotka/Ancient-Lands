@@ -1542,6 +1542,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4086279202973348}
   - component: {fileID: 95922273507661854}
+  - component: {fileID: 617087588}
+  - component: {fileID: 617087586}
+  - component: {fileID: 617087587}
   m_Layer: 0
   m_Name: RPGHeroHP
   m_TagString: Untagged
@@ -1576,7 +1579,7 @@ Animator:
   m_GameObject: {fileID: 1556040939566342}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 9ce6002518e821e43b4f97c76700fbac, type: 3}
-  m_Controller: {fileID: 9100000, guid: 081111fd1834f42469e07a9a2ce295c6, type: 2}
+  m_Controller: {fileID: 9100000, guid: f473773cd3a2feb4092f0f13ead8b7c7, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1587,6 +1590,53 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!143 &617087588
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556040939566342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1.8
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.9, z: 0}
+--- !u!114 &617087586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556040939566342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da95627622ff7c6409e5493cf77c4ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _characterController: {fileID: 617087588}
+  MoveSpeed: 50
+  TurnSmoothTime: 0.1
+--- !u!114 &617087587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556040939566342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a429e0c315320cb4e9f39409a45301b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _characterController: {fileID: 617087588}
+  _animator: {fileID: 95922273507661854}
 --- !u!1 &1613396906338018
 GameObject:
   m_ObjectHideFlags: 0

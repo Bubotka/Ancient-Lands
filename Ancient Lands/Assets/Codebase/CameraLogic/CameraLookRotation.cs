@@ -1,6 +1,7 @@
 ﻿using System;
 using Cinemachine;
 using Codebase.Infrastructure;
+using Codebase.Infrastructure.AssetManagement;
 using UnityEngine;
 
 namespace Codebase.Hero

@@ -54,6 +54,7 @@
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroLook.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/CameraLookRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/GameStateMachine.cs" />
       </list>
     </option>
   </component>
@@ -105,7 +106,7 @@
       <workItem from="1684515873413" duration="637000" />
       <workItem from="1684573787759" duration="13851000" />
       <workItem from="1684591078558" duration="9687000" />
-      <workItem from="1684651455894" duration="10557000" />
+      <workItem from="1684651455894" duration="13543000" />
     </task>
     <servers />
   </component>

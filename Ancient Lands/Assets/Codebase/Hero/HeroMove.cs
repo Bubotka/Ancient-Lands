@@ -1,8 +1,6 @@
-using System;
 using Codebase.Infrastructure;
-using Unity.VisualScripting;
+using Codebase.Infrastructure.AssetManagement;
 using UnityEngine;
-using Input = UnityEngine.Windows.Input;
 
 namespace Codebase.Hero
 {
@@ -35,6 +33,7 @@ namespace Codebase.Hero
             if (_inputService.Player.Move.ReadValue<Vector2>() != Vector2.zero)
             {
                 Vector3 direction = ReadMoveValue().normalized;
+                Debug.Log(direction);
 
                 float targetAngle = CalculateRotateAngle(direction);
                 float angle = SmoothAngle(targetAngle);

@@ -1,4 +1,4 @@
-﻿namespace Codebase.Infrastructure
+﻿namespace Codebase.Infrastructure.AssetManagement
 {
     public  class Game
     {

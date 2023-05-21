@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-namespace Codebase.Infrastructure
+namespace Codebase.Infrastructure.AssetManagement
 {
     public class GameBootstraper : MonoBehaviour
     {
