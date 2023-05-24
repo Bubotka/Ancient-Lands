@@ -1,7 +1,8 @@
 ﻿using System;
 using Cinemachine;
 using Codebase.Infrastructure;
-using Codebase.Infrastructure.AssetManagement;
+using Codebase.Infrastructure.Input;
+using Codebase.Infrastructure.Services;
 using UnityEngine;
 
 namespace Codebase.Hero
@@ -11,12 +12,12 @@ namespace Codebase.Hero
         public float MouseSensivityX = 2;
         public float MouseSensivityY = 1;
 
-        private InputService _inputService;
+        private IInputService _inputService;
         private CinemachineFreeLook _cineMachine;
 
         private void Awake()
         {
-            _inputService = Game.InputService;
+            _inputService = AllServices.Container.Single<IInputService>();
             _cineMachine = GetComponent<CinemachineFreeLook>();
         }
 

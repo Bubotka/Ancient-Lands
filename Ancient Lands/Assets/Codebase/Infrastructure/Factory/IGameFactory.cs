@@ -1,0 +1,16 @@
+﻿using System.Collections.Generic;
+using Codebase.Hero;
+using Codebase.Infrastructure.Services;
+using UnityEngine;
+
+namespace Codebase.Infrastructure.Factory
+{
+    public interface IGameFactory:IService
+    {
+        GameObject CreateHero(GameObject at);
+        void CreateHud();
+        List<ISavedProgressReader> ProgressReaders { get; }
+        List<ISavedProgress> ProgressWriters { get; }
+        void Cleanup();
+    }
+}

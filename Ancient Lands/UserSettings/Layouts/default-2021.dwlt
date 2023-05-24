@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 19
+  controlID: 27
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 145
+  controlID: 28
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 25
+  controlID: 51
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,8 +243,8 @@ MonoBehaviour:
     y: 0
     width: 497
     height: 417
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -561,9 +561,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.270342, y: 2.8000493, z: -6.251415}
+    m_Target: {x: 2.5048504, y: 0.35000002, z: 36.41309}
     speed: 2
-    m_Value: {x: -9.270342, y: 2.8000493, z: -6.251415}
+    m_Value: {x: 2.5048504, y: 0.35000002, z: 36.41309}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -610,13 +610,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.02276733, y: -0.9311476, z: 0.059029125, w: 0.3591303}
+    m_Target: {x: -0.2004815, y: 0.79926836, z: -0.41186267, w: -0.38906813}
     speed: 2
-    m_Value: {x: 0.02276718, y: -0.9311415, z: 0.059028737, w: 0.35912794}
+    m_Value: {x: -0.20047873, y: 0.79925734, z: -0.41185698, w: -0.38906273}
   m_Size:
-    m_Target: 3.7637498
+    m_Target: 11.372388
     speed: 2
-    m_Value: 3.7637498
+    m_Value: 11.372388
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -772,23 +772,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a82efbff
-      m_LastClickedID: -315736
-      m_ExpandedIDs: 6eccfeff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: fa2bffff022dffff0833fffffc37ffff7a4effffbe58ffff865dffff2ae9ffffe4fafffff4ffffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: GameBootstreper
-        m_OriginalName: GameBootstreper
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 105618
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -840,13 +840,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Codebase/CameraLogic
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Codebase/CameraLogic
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "D:\\Unity \u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\Ancient-Lands\\Ancient
     Lands"
@@ -854,9 +854,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4e960200
-    m_LastClickedID: 169550
-    m_ExpandedIDs: 0000000068a001006aa001006ca001006ea0010070a0010072a0010074a0010076a0010078a001007aa001007ca001007ea0010080a0010082a0010084a0010086a0010088a001008aa001008ca001008ea0010090a0010092a0010094a0010096a0010098a001009aa001009ca00100a0a00100c279020000ca9a3b
+    m_SelectedIDs: 845f0000
+    m_LastClickedID: 24452
+    m_ExpandedIDs: 000000004c5f00004e5f0000505f0000525f0000545f0000565f0000585f00005a5f00005c5f00005e5f0000605f0000625f0000645f0000665f0000685f00006a5f00006c5f00006e5f0000705f0000725f0000745f0000765f0000785f00007a5f00007c5f00007e5f0000805f0000825f0000845f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -884,7 +884,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000068a001006aa001006ca001006ea0010070a0010072a0010074a0010076a0010078a001007aa001007ca001007ea0010080a0010082a0010084a0010086a0010088a001008aa001008ca001008ea0010090a0010092a0010094a0010096a0010098a001009aa001009ca001009ea00100a0a00100
+    m_ExpandedIDs: 000000004c5f00004e5f0000505f0000525f0000545f0000565f0000585f00005a5f00005c5f00005e5f0000605f0000625f0000645f0000665f0000685f00006a5f00006c5f00006e5f0000705f0000725f0000745f0000765f0000785f00007a5f00007c5f00007e5f0000805f0000825f0000845f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1015,7 +1015,7 @@ MonoBehaviour:
   - UnityEditor.DeviceSimulation.SimulatorWindow
   m_SerializedViewValues:
   - "D:\\Unity \u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\Ancient-Lands\\Ancient
-    Lands\\Library\\PlayModeViewStates\\aa7899926025fb846bcfef7f1f9a89ff"
+    Lands\\Library\\PlayModeViewStates\\8a8c3a3f4b95eb44b9d2b72a70bc4866"
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -1058,18 +1058,18 @@ MonoBehaviour:
       y: 21
       width: 1079
       height: 459
-    m_Scale: {x: 1.1940521, y: 1.1940521}
-    m_Translation: {x: 539.5, y: 244.02644}
+    m_Scale: {x: 1.1255087, y: 1.1255087}
+    m_Translation: {x: 539.5, y: 239.5472}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -451.82285
-      y: -204.36833
-      width: 903.6457
-      height: 384.40533
+      x: -479.33884
+      y: -212.83461
+      width: 958.6777
+      height: 407.8156
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1079, y: 480}

@@ -11,28 +11,66 @@
           <e p="CameraLogic" t="Include">
             <e p="CameraLookRotation.cs" t="Include" />
           </e>
+          <e p="Data" t="Include">
+            <e p="DataExtansions.cs" t="Include" />
+            <e p="PlayerProgress.cs" t="Include" />
+            <e p="PositionOnLevel.cs" t="Include" />
+            <e p="Vector3Data.cs" t="Include" />
+            <e p="WorldData.cs" t="Include" />
+          </e>
           <e p="Hero" t="Include">
             <e p="HeroAnimator.cs" t="Include" />
             <e p="HeroMove.cs" t="Include" />
+            <e p="ISavedProgress.cs" t="Include" />
           </e>
           <e p="infrastructure" t="Include">
             <e p="AssetManagement" t="Include">
-              <e p="Game.cs" t="Include" />
-              <e p="GameBootstraper.cs" t="Include" />
+              <e p="Asset.cs" t="Include" />
+              <e p="IAssets.cs" t="Include" />
+            </e>
+            <e p="AssetPath.cs" t="Include" />
+            <e p="Factory" t="Include">
+              <e p="GameFactory.cs" t="Include" />
+              <e p="IGameFactory.cs" t="Include" />
+            </e>
+            <e p="Game.cs" t="Include" />
+            <e p="GameBootstraper.cs" t="Include" />
+            <e p="ICoroutineRunner.cs" t="Include" />
+            <e p="SceneLoader.cs" t="Include" />
+            <e p="Services" t="Include">
+              <e p="AllServices.cs" t="Include" />
+              <e p="Input" t="Include">
+                <e p="IInputService.cs" t="Include" />
+                <e p="InputService.cs" t="Include" />
+              </e>
+              <e p="IService.cs" t="Include" />
+              <e p="PersistentProgress" t="Include">
+                <e p="IPersistentProgressService.cs" t="Include" />
+                <e p="PersistentProgressService.cs" t="Include" />
+              </e>
+              <e p="SaveLaod" t="Include">
+                <e p="ISaveLoadService.cs" t="Include" />
+                <e p="SaveLoadService.cs" t="Include" />
+              </e>
+            </e>
+            <e p="States" t="Include">
+              <e p="BootstrapState.cs" t="Include" />
+              <e p="GameLoopState.cs" t="Include" />
               <e p="GameStateMachine.cs" t="Include" />
               <e p="IState.cs" t="Include" />
+              <e p="LoadLevelState.cs" t="Include" />
+              <e p="LoadProgressState.cs" t="Include" />
             </e>
           </e>
           <e p="Logic" t="Include">
             <e p="AnimatorState.cs" t="Include" />
             <e p="IAnimationStateReader'.cs" t="Include" />
+            <e p="LoadingCurtain.cs" t="Include" />
+            <e p="SaveTrigger.cs" t="Include" />
           </e>
-          <e p="Services" t="Include">
-            <e p="Input" t="Include">
-              <e p="InputService.cs" t="Include" />
-            </e>
-          </e>
+          <e p="Services" t="Include" />
         </e>
+        <e p="playerData.json" t="Include" />
         <e p="PostProcessing" t="Include" />
         <e p="Rendering" t="Include" />
         <e p="Resources" t="Include">
@@ -313,9 +351,16 @@
               <e p="Sprites" t="Include" />
             </e>
           </e>
+          <e p="infrastructure" t="Include" />
+          <e p="Scene Assets" t="Include" />
+          <e p="UI" t="Include">
+            <e p="Curtain" t="Include">
+              <e p="Animations" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Scenes" t="Include">
-          <e p="SampleScene" t="Include" />
+          <e p="Main" t="Include" />
         </e>
         <e p="Terrains" t="Include" />
       </e>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -29,16 +32,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Codebase/Services/Input/InputService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E408709D-8CA0-4081-8C6A-06E420E16B9A/ee/3ea46522/IInputActionCollection2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/Input/InputService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Codebase/Logic/LoadingCurtain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Codebase/Hero/HeroAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Codebase/Logic/IAnimationStateReader'.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Input/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Input/CameraLook.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/infrastructure/Bootstrapper.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Bootstrapper.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastucture/GameBootstraper.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/GameBootstraper.cs" />
@@ -49,12 +51,47 @@
         <option value="$PROJECT_DIR$/Assets/Codebase/Logic/IAnimationStateReader'.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Logic/AnimatorState.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Services/Input/InputService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroLook.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/CameraLookRotation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/IState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/BootstrapState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Logic/LoadingCurtain.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/GameBootstraper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/IGameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/LoadLevelState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/GameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/AssetProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/GameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/IAssetProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/IAssets.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/AllServices.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Services/Input/InputService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/CameraLogic/CameraLookRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/PersistentProgress/PersistenProgressService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/PersistentProgress/PersistentProgressService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/PersistentProgress/IPersistentProgressService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Data/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Data/PlayerProgress.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Data/WorldData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Data/PositionOnLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/PersistentProgress/PersistentProgressService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/PersistentProgress/IPersistentProgressService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Factory/IGameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Factory/GameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Data/DataExtansions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/LoadLevelState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Logic/SaveTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/SaveLaod/ISaveLoadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Hero/ISavedProgress.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/BootstrapState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/SaveLaod/SaveLoadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/LoadProgressState.cs" />
       </list>
     </option>
   </component>
@@ -107,6 +144,15 @@
       <workItem from="1684573787759" duration="13851000" />
       <workItem from="1684591078558" duration="9687000" />
       <workItem from="1684651455894" duration="13543000" />
+      <workItem from="1684676658285" duration="1629000" />
+      <workItem from="1684742774905" duration="1291000" />
+      <workItem from="1684750406004" duration="4848000" />
+      <workItem from="1684756047708" duration="376000" />
+      <workItem from="1684756711845" duration="1394000" />
+      <workItem from="1684758610965" duration="6848000" />
+      <workItem from="1684822685387" duration="11394000" />
+      <workItem from="1684910442229" duration="2692000" />
+      <workItem from="1684913223519" duration="15177000" />
     </task>
     <servers />
   </component>
@@ -131,13 +177,13 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="788" y="193" key="RiderGenerateDialog" timestamp="1684581917461">
+    <state x="788" y="193" key="RiderGenerateDialog" timestamp="1684922629008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="788" y="193" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1684581917461" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1684660031050">
+    <state x="788" y="193" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1684922629008" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1684935291293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1684660031050" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1684935291293" />
   </component>
 </project>
