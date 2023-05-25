@@ -1,13 +1,13 @@
-using Codebase.Data;
-using Codebase.Infrastructure;
+﻿using CodeBase.Data;
 using Codebase.Infrastructure.Input;
 using Codebase.Infrastructure.Services;
+using CodeBase.Infrastructure.Services.PersistentProgress;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Codebase.Hero
+namespace CodeBase.Hero
 {
-    public class HeroMove : MonoBehaviour,ISavedProgress
+    public class HeroMove : MonoBehaviour, ISavedProgress
     {
         public CharacterController _characterController;
         public float MoveSpeed = 2;
@@ -50,6 +50,21 @@ namespace Codebase.Hero
             _characterController.Move(moveDir.normalized * MoveSpeed * Time.deltaTime);
         }
 
+        public void LoadProgress(PlayerProgress progress)
+        {
+            if (CurrentLevel() == progress.WorldData.PositionOnLevel.Level)
+            {
+                Vector3Data savedPosition = progress.WorldData.PositionOnLevel.Position;
+                
+                if (savedPosition != null)
+                    Warp(to: savedPosition);
+            }
+        }
+
+        public void UpdateProgress(PlayerProgress progress) =>
+            progress.WorldData.PositionOnLevel =
+                new PositionOnLevel(CurrentLevel(), transform.position.AsVectorData());
+
         private Vector3 ReadMoveValue() =>
             new Vector3(GetValueX(), 0, GetValueZ());
 
@@ -65,24 +80,6 @@ namespace Codebase.Hero
         private float GetValueX() =>
             _inputService.Player.Move.ReadValue<Vector2>().x;
 
-        public void LoadProgress(PlayerProgress playerProgress)
-        {
-            if (CurrentLevel()==playerProgress.WorldData.PositionOnLevel.Level)
-            {
-                Vector3Data savedPosition = playerProgress.WorldData.PositionOnLevel.Position;
-                if (savedPosition != null) 
-                    Warp(to: savedPosition);
-            }
-        }
-
-        private static string CurrentLevel() => 
-            SceneManager.GetActiveScene().name;
-
-        public void UpdateProgress(PlayerProgress playerProgress)
-        {
-            playerProgress.WorldData.PositionOnLevel = new PositionOnLevel(CurrentLevel(),
-                transform.position.AsVectorData());
-        }
 
         private void Warp(Vector3Data to)
         {
@@ -90,5 +87,8 @@ namespace Codebase.Hero
             transform.position = to.AsUnityVector();
             _characterController.enabled = true;
         }
+
+        private static string CurrentLevel() =>
+            SceneManager.GetActiveScene().name;
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Codebase.Hero;
 using Codebase.Infrastructure.AssetManagement;
+using CodeBase.Infrastructure.Services.PersistentProgress;
 using UnityEngine;
 
 namespace Codebase.Infrastructure.Factory

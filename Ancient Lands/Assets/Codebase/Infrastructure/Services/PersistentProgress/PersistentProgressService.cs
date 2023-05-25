@@ -1,9 +1,9 @@
-﻿using Codebase.Data;
+using CodeBase.Data;
 
-namespace Codebase.Infrastructure.Services.PersistentProgress
+namespace CodeBase.Infrastructure.Services.PersistentProgress
 {
-    public class PersistentProgressService : IPersistentProgressService
-    {
-        public PlayerProgress Progress { get; set; } 
-    }
+  public class PersistentProgressService : IPersistentProgressService
+  {
+    public PlayerProgress Progress { get; set; }
+  }
 }

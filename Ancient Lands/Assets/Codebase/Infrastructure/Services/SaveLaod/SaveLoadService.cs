@@ -1,52 +1,35 @@
-﻿using System.IO;
-using System.Text;
-using Codebase.Data;
-using Codebase.Hero;
+using CodeBase.Data;
 using Codebase.Infrastructure.Factory;
-using Codebase.Infrastructure.Services.PersistentProgress;
-using Unity.VisualScripting;
+using CodeBase.Infrastructure.Services.PersistentProgress;
 using UnityEngine;
 
 namespace Codebase.Infrastructure.Services.SaveLaod
 {
-    public class SaveLoadService : ISaveLoadService
+  public class SaveLoadService : ISaveLoadService
+  {
+    private const string ProgressKey = "Progress";
+    
+    private readonly IPersistentProgressService _progressService;
+    private readonly IGameFactory _gameFactory;
+
+    public SaveLoadService(IPersistentProgressService progressService, IGameFactory gameFactory)
     {
-        private readonly IPersistentProgressService _progressService;
-        private readonly IGameFactory _gameFactory;
-
-        public SaveLoadService(IPersistentProgressService progressService, IGameFactory gameFactory)
-        {
-            _progressService = progressService;
-            _gameFactory = gameFactory;
-        }
-        
-        public void SaveProgress()
-        {
-            foreach(ISavedProgress progressWriter in _gameFactory.ProgressWriters)
-                progressWriter.UpdateProgress(_progressService.Progress);
-
-            string path = Path.Combine(Application.dataPath, "playerData.json");
-            
-            using (StreamWriter streamWriter = new StreamWriter(path,false,Encoding.UTF8))
-            {
-                streamWriter.Write(_progressService.Progress.ToJson());
-            }
-        }
-
-        public PlayerProgress LoadProgress()
-        {
-            string path = Path.Combine(Application.dataPath, "playerData.json");
-                
-            if (File.Exists(path))
-            {
-                using (StreamReader streamReader = new StreamReader(path))
-                {
-                    string jsonData = streamReader.ReadToEnd();
-                    return jsonData.ToDeserialized<PlayerProgress>();
-                }
-            }
-
-            return null;
-        }
+      _progressService = progressService;
+      _gameFactory = gameFactory;
     }
+
+    public void SaveProgress()
+    {
+      foreach (ISavedProgress progressWriter in _gameFactory.ProgressWriters)
+        progressWriter.UpdateProgress(_progressService.Progress);
+      
+      PlayerPrefs.SetString(ProgressKey, _progressService.Progress.ToJson());
+    }
+
+    public PlayerProgress LoadProgress()
+    {
+      return PlayerPrefs.GetString(ProgressKey)?
+        .ToDeserialized<PlayerProgress>();
+    }
+  }
 }

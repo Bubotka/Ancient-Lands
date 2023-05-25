@@ -12,7 +12,7 @@
             <e p="CameraLookRotation.cs" t="Include" />
           </e>
           <e p="Data" t="Include">
-            <e p="DataExtansions.cs" t="Include" />
+            <e p="DataExtensions.cs" t="Include" />
             <e p="PlayerProgress.cs" t="Include" />
             <e p="PositionOnLevel.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
@@ -21,7 +21,6 @@
           <e p="Hero" t="Include">
             <e p="HeroAnimator.cs" t="Include" />
             <e p="HeroMove.cs" t="Include" />
-            <e p="ISavedProgress.cs" t="Include" />
           </e>
           <e p="infrastructure" t="Include">
             <e p="AssetManagement" t="Include">
@@ -46,6 +45,8 @@
               <e p="IService.cs" t="Include" />
               <e p="PersistentProgress" t="Include">
                 <e p="IPersistentProgressService.cs" t="Include" />
+                <e p="ISavedProgress.cs" t="Include" />
+                <e p="ISavedProgressReader.cs" t="Include" />
                 <e p="PersistentProgressService.cs" t="Include" />
               </e>
               <e p="SaveLaod" t="Include">
@@ -68,7 +69,6 @@
             <e p="LoadingCurtain.cs" t="Include" />
             <e p="SaveTrigger.cs" t="Include" />
           </e>
-          <e p="Services" t="Include" />
         </e>
         <e p="playerData.json" t="Include" />
         <e p="PostProcessing" t="Include" />

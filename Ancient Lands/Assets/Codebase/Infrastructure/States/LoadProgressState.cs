@@ -1,8 +1,6 @@
-﻿using System.IO;
-using Codebase.Data;
-using Codebase.Infrastructure.Services.PersistentProgress;
+﻿using CodeBase.Data;
+using CodeBase.Infrastructure.Services.PersistentProgress;
 using Codebase.Infrastructure.Services.SaveLaod;
-using UnityEngine;
 
 namespace Codebase.Infrastructure.States
 {
@@ -23,7 +21,8 @@ namespace Codebase.Infrastructure.States
         public void Enter()
         {
             LoadProgressOrInitNew();
-            _stateMachine.Enter<LoadLevelState, string>("Main");
+            _stateMachine.Enter<LoadLevelState, string>(_progressService.Progress.WorldData.PositionOnLevel.Level);
+
         }
 
         public void Exit()

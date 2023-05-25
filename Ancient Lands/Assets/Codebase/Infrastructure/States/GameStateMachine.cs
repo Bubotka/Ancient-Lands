@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Codebase.Infrastructure.Factory;
 using Codebase.Infrastructure.Services;
-using Codebase.Infrastructure.Services.PersistentProgress;
+using CodeBase.Infrastructure.Services.PersistentProgress;
 using Codebase.Infrastructure.Services.SaveLaod;
 using Codebase.Logic;
 
