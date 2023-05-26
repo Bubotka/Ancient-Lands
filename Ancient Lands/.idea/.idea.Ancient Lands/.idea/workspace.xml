@@ -34,6 +34,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E408709D-8CA0-4081-8C6A-06E420E16B9A/ee/3ea46522/IInputActionCollection2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/Input/InputService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BA783288-CA16-4D30-9989-8A8819FCEC1C/ea/ca1126ba/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Codebase/Editor/Tools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Codebase/Logic/LoadingCurtain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Codebase/Hero/HeroAnimator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -42,13 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Codebase/Services/Input/IInputService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Services/Input/Input.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Logic/IAnimationStateReader'.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Logic/AnimatorState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroLook.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Hero/CameraLookRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/IState.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/BootstrapState.cs" />
@@ -80,8 +74,6 @@
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/ISavedProgress.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/PersistentProgress/IPersistentProgressService.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/SaveLaod/ISaveLoadService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Factory/GameFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Factory/IGameFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/LoadLevelState.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/GameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/BootstrapState.cs" />
@@ -93,6 +85,15 @@
         <option value="$PROJECT_DIR$/Assets/Codebase/Editor/Tools.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/GameRunner.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/GameBootstraper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/IAnimationStateReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Logic/AnimatorStateReporter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/EnemyAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Factory/IGameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Factory/GameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/AgentMoveToPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/AnimateAlongAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/TriggerObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/Aggro.cs" />
       </list>
     </option>
   </component>
@@ -158,6 +159,8 @@
       <workItem from="1684996821769" duration="411000" />
       <workItem from="1684997349349" duration="1075000" />
       <workItem from="1684998892761" duration="3556000" />
+      <workItem from="1685082238267" duration="313000" />
+      <workItem from="1685087151532" duration="10190000" />
     </task>
     <servers />
   </component>
@@ -182,13 +185,13 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="788" y="193" key="RiderGenerateDialog" timestamp="1684922629008">
+    <state x="788" y="193" key="RiderGenerateDialog" timestamp="1685096805655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="788" y="193" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1684922629008" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1685009213749">
+    <state x="788" y="193" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1685096805655" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1685096800463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1685009213749" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1685096800463" />
   </component>
 </project>

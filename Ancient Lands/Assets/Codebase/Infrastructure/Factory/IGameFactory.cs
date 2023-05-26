@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Codebase.Hero;
 using Codebase.Infrastructure.Services;
 using CodeBase.Infrastructure.Services.PersistentProgress;
@@ -12,6 +13,11 @@ namespace Codebase.Infrastructure.Factory
         void CreateHud();
         List<ISavedProgressReader> ProgressReaders { get; }
         List<ISavedProgress> ProgressWriters { get; }
+        
+        GameObject HeroGameObject { get; set; }
+
+        event Action HeroCreated;
+        
         void Cleanup();
     }
 }
