@@ -26,6 +26,7 @@
             <e p="AgentMoveToPlayer.cs" t="Include" />
             <e p="Aggro.cs" t="Include" />
             <e p="AnimateAlongAgent.cs" t="Include" />
+            <e p="Attack.cs" t="Include" />
             <e p="EnemyAnimator.cs" t="Include" />
             <e p="TriggerObserver.cs" t="Include" />
           </e>
@@ -83,7 +84,6 @@
             <e p="SaveTrigger.cs" t="Include" />
           </e>
         </e>
-        <e p="playerData.json" t="Include" />
         <e p="PostProcessing" t="Include" />
         <e p="Rendering" t="Include" />
         <e p="Resources" t="Include">
@@ -372,7 +372,6 @@
             </e>
           </e>
         </e>
-        <e p="SaveData.json" t="Include" />
         <e p="Scenes" t="Include">
           <e p="Main" t="Include" />
         </e>

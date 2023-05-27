@@ -43,7 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/IState.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/BootstrapState.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Logic/LoadingCurtain.cs" />
@@ -94,6 +93,7 @@
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/AnimateAlongAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/TriggerObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/Aggro.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/Attack.cs" />
       </list>
     </option>
   </component>
@@ -160,7 +160,8 @@
       <workItem from="1684997349349" duration="1075000" />
       <workItem from="1684998892761" duration="3556000" />
       <workItem from="1685082238267" duration="313000" />
-      <workItem from="1685087151532" duration="10190000" />
+      <workItem from="1685087151532" duration="12708000" />
+      <workItem from="1685168846374" duration="1442000" />
     </task>
     <servers />
   </component>
