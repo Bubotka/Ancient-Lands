@@ -1,7 +1,7 @@
 ﻿using Codebase.Infrastructure.AssetManagement;
 using Codebase.Infrastructure.Factory;
-using Codebase.Infrastructure.Input;
 using Codebase.Infrastructure.Services;
+using Codebase.Infrastructure.Services.Input;
 using CodeBase.Infrastructure.Services.PersistentProgress;
 using Codebase.Infrastructure.Services.SaveLaod;
 

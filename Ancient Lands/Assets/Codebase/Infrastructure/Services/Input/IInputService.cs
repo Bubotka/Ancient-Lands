@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Codebase.Infrastructure.Services;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 
-namespace Codebase.Infrastructure.Input
+namespace Codebase.Infrastructure.Services.Input
 {
     public interface IInputService : IInputActionCollection2, IDisposable, IService
     {

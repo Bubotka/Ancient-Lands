@@ -20,6 +20,7 @@ namespace Codebase.Enemy
         private bool _isAttacking;
         private int _layerMask;
         private Collider[] _hits = new Collider[1];
+        private bool _attackIsActive;
 
         private void Awake()
         {
@@ -40,9 +41,21 @@ namespace Codebase.Enemy
         {
             if (Hit(out Collider hit))
             {
-                
+                PhysicsDebug.DrawDebug(StartPoint(),Cleavage,1);
             }
         }
+
+        private void OnAttackEnded() 
+        {
+            _attackCooldown = AttackCooldown;
+            _isAttacking = false;
+        }
+
+        public void EnableAttack() => 
+            _attackIsActive = true;
+
+        public void DisableAttack() => 
+            _attackIsActive = false;
 
         private bool Hit(out Collider hit)
         {
@@ -57,12 +70,6 @@ namespace Codebase.Enemy
             new Vector3(transform.position.x,transform.position.y+0.5f,transform.position.z)+transform.forward*EffectiveDistance;
 
 
-        private void OnAttackEnded() 
-        {
-            _attackCooldown = AttackCooldown;
-            _isAttacking = false;
-        }
-        
         private void UpdateCooldown()
         {
             if (!CooldownIsUp())
@@ -78,7 +85,7 @@ namespace Codebase.Enemy
         }
 
         private bool CanAttack() => 
-            !_isAttacking&&CooldownIsUp();
+            _attackIsActive&&!_isAttacking&&CooldownIsUp();
 
         private bool CooldownIsUp() => 
             _attackCooldown <= 0;

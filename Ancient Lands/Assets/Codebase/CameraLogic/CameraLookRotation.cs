@@ -1,8 +1,8 @@
 ﻿using System;
 using Cinemachine;
 using Codebase.Infrastructure;
-using Codebase.Infrastructure.Input;
 using Codebase.Infrastructure.Services;
+using Codebase.Infrastructure.Services.Input;
 using UnityEngine;
 
 namespace Codebase.Hero

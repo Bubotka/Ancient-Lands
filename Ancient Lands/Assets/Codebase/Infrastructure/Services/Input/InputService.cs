@@ -11,7 +11,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
-using Codebase.Infrastructure.Input;
+using Codebase.Infrastructure.Services.Input;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 

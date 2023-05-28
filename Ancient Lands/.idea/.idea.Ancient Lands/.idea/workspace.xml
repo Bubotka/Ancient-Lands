@@ -43,9 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/IState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/BootstrapState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Logic/LoadingCurtain.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/GameBootstraper.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetManagement/GameStateMachine.cs" />
@@ -93,7 +90,10 @@
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/AnimateAlongAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/TriggerObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/Aggro.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/PhysicsDebug.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/CheckAttackRange.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/Attack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/Input/IInputService.cs" />
       </list>
     </option>
   </component>
@@ -162,6 +162,7 @@
       <workItem from="1685082238267" duration="313000" />
       <workItem from="1685087151532" duration="12708000" />
       <workItem from="1685168846374" duration="1442000" />
+      <workItem from="1685268348226" duration="1358000" />
     </task>
     <servers />
   </component>

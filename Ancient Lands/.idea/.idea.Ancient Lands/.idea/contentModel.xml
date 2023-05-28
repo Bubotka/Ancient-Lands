@@ -27,7 +27,9 @@
             <e p="Aggro.cs" t="Include" />
             <e p="AnimateAlongAgent.cs" t="Include" />
             <e p="Attack.cs" t="Include" />
+            <e p="CheckAttackRange.cs" t="Include" />
             <e p="EnemyAnimator.cs" t="Include" />
+            <e p="PhysicsDebug.cs" t="Include" />
             <e p="TriggerObserver.cs" t="Include" />
           </e>
           <e p="Hero" t="Include">
