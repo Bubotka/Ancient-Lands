@@ -1,7 +1,9 @@
 ﻿using Cinemachine;
+using Codebase.Hero;
 using Codebase.Infrastructure.Factory;
 using CodeBase.Infrastructure.Services.PersistentProgress;
 using Codebase.Logic;
+using Codebase.UI;
 using UnityEngine;
 
 namespace Codebase.Infrastructure.States
@@ -54,7 +56,8 @@ namespace Codebase.Infrastructure.States
             GameObject initPoint = GameObject.FindWithTag(Playerinitpoint);
 
             GameObject hero = _gameFactory.CreateHero(initPoint);
-            _gameFactory.CreateHud();
+            
+            _gameFactory.CreateHud(hero);
 
             SetCameraFollow(hero);
         }

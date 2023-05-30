@@ -22,8 +22,6 @@ namespace Codebase.Infrastructure.Services.SaveLaod
 
         public void SaveProgress()
         {
-            Debug.Log(Application.persistentDataPath + "/SaveData.json");
-            
             foreach (ISavedProgress progressWriter in _gameFactory.ProgressWriters)
                 progressWriter.UpdateProgress(_progressService.Progress);
 

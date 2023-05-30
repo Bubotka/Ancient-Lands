@@ -20,7 +20,7 @@ namespace Codebase.Hero
             _inputService = AllServices.Container.Single<IInputService>();
             _cineMachine = GetComponent<CinemachineFreeLook>();
         }
-
+        
         private void OnEnable() =>
             _inputService.Player.Enable();
 

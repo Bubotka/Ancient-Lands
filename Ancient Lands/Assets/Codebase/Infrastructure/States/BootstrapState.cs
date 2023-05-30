@@ -26,6 +26,7 @@ namespace Codebase.Infrastructure.States
         public void Enter()
         {
             _sceneLoader.Load(Initial, EnterLoadLevel);
+            
         }
 
         private void EnterLoadLevel() =>

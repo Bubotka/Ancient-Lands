@@ -23,12 +23,6 @@ namespace CodeBase.Hero
             _inputService = AllServices.Container.Single<IInputService>();
         }
 
-        private void OnEnable() =>
-            _inputService.Player.Enable();
-
-        private void OnDisable() =>
-            _inputService.Player.Disable();
-
         private void Update()
         {
             Vector3 moveDir = Vector3.zero;
@@ -36,7 +30,6 @@ namespace CodeBase.Hero
             if (_inputService.Player.Move.ReadValue<Vector2>() != Vector2.zero)
             {
                 Vector3 direction = ReadMoveValue().normalized;
-                Debug.Log(direction);
 
                 float targetAngle = CalculateRotateAngle(direction);
                 float angle = SmoothAngle(targetAngle);

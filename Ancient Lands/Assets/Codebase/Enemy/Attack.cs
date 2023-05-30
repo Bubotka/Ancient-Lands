@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Linq;
+using Codebase.Hero;
 using Codebase.Infrastructure.Factory;
 using Codebase.Infrastructure.Services;
+using Codebase.Logic;
 using UnityEngine;
 
 namespace Codebase.Enemy
@@ -12,7 +14,8 @@ namespace Codebase.Enemy
         public EnemyAnimator Animator;
         public float AttackCooldown;
         public float Cleavage = 0.5f;
-        public float EffectiveDistance= 0.5f;
+        public float EffectiveDistance = 0.5f;
+        public float Damage = 10f;
 
         private IGameFactory _factory;
         private Transform _heroTransform;
@@ -41,20 +44,22 @@ namespace Codebase.Enemy
         {
             if (Hit(out Collider hit))
             {
-                PhysicsDebug.DrawDebug(StartPoint(),Cleavage,1);
+                PhysicsDebug.DrawDebug(StartPoint(), Cleavage, 1);
+                hit.transform.GetComponent<IHealth>().TakeDamage(Damage);
             }
         }
 
-        private void OnAttackEnded() 
+
+        private void OnAttackEnded()
         {
             _attackCooldown = AttackCooldown;
             _isAttacking = false;
         }
 
-        public void EnableAttack() => 
+        public void EnableAttack() =>
             _attackIsActive = true;
 
-        public void DisableAttack() => 
+        public void DisableAttack() =>
             _attackIsActive = false;
 
         private bool Hit(out Collider hit)
@@ -62,12 +67,13 @@ namespace Codebase.Enemy
             int hitsCount = Physics.OverlapSphereNonAlloc(StartPoint(), Cleavage, _hits, _layerMask);
 
             hit = _hits.FirstOrDefault();
-            
+
             return hitsCount > 0;
         }
 
-        private Vector3 StartPoint() => 
-            new Vector3(transform.position.x,transform.position.y+0.5f,transform.position.z)+transform.forward*EffectiveDistance;
+        private Vector3 StartPoint() =>
+            new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z) +
+            transform.forward * EffectiveDistance;
 
 
         private void UpdateCooldown()
@@ -84,13 +90,13 @@ namespace Codebase.Enemy
             _isAttacking = true;
         }
 
-        private bool CanAttack() => 
-            _attackIsActive&&!_isAttacking&&CooldownIsUp();
+        private bool CanAttack() =>
+            _attackIsActive && !_isAttacking && CooldownIsUp();
 
-        private bool CooldownIsUp() => 
+        private bool CooldownIsUp() =>
             _attackCooldown <= 0;
 
-        private void OnHeroCreated() => 
+        private void OnHeroCreated() =>
             _heroTransform = _factory.HeroGameObject.transform;
     }
 }

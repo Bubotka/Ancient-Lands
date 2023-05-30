@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Codebase.Hero;
 using Codebase.Infrastructure.AssetManagement;
 using CodeBase.Infrastructure.Services.PersistentProgress;
+using Codebase.UI;
 using UnityEngine;
 
 namespace Codebase.Infrastructure.Factory
@@ -10,7 +11,6 @@ namespace Codebase.Infrastructure.Factory
     public class GameFactory : IGameFactory
     {
         private readonly IAssets _assets;
-
         public List<ISavedProgressReader> ProgressReaders { get; } = new List<ISavedProgressReader>();
         public List<ISavedProgress> ProgressWriters { get; } = new List<ISavedProgress>();
         public GameObject HeroGameObject { get; set; }
@@ -30,8 +30,11 @@ namespace Codebase.Infrastructure.Factory
             return HeroGameObject;
         }
 
-        public void CreateHud() => 
-            InstantiateRegistered(AssetPath.HudPath);
+        public void CreateHud(GameObject hero)
+        {
+            GameObject hud = InstantiateRegistered(AssetPath.HudPath);
+            hud.GetComponent<ActorUI>().Construct(hero.GetComponent<HeroHealth>());
+        }
 
         public void Cleanup()
         {
