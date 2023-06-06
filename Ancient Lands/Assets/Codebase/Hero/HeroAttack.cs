@@ -40,7 +40,7 @@ namespace Codebase.Hero
         }
 
         public void LoadProgress(PlayerProgress progress) => 
-            _stats = progress.HeroStats;
+            _stats = progress.Stats;
 
         private int Hit() =>
             Physics.OverlapSphereNonAlloc(StartPoint() + transform.forward, _stats.DamageRadius , _hits, _layerMask);

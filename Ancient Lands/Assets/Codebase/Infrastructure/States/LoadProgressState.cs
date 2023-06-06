@@ -21,7 +21,7 @@ namespace Codebase.Infrastructure.States
         public void Enter()
         {
             LoadProgressOrInitNew();
-            _stateMachine.Enter<LoadLevelState, string>(_progressService.Progress.WorldData.PositionOnLevel.Level);
+            _stateMachine.Enter<LoadSceneState, string>(_progressService.Progress.WorldData.PositionOnLevel.Level);
 
         }
 
@@ -41,8 +41,8 @@ namespace Codebase.Infrastructure.States
 
             progress.HeroState.MaxHP = 100;
             progress.HeroState.ResetHP();
-            progress.HeroStats.Damage=25;
-            progress.HeroStats.DamageRadius=0.5f;
+            progress.Stats.Damage=25;
+            progress.Stats.DamageRadius=0.5f;
             
             return progress;
         }

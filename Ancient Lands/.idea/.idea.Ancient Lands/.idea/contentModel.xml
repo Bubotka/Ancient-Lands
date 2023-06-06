@@ -14,6 +14,7 @@
           </e>
           <e p="Data" t="Include">
             <e p="DataExtensions.cs" t="Include" />
+            <e p="KillData.cs" t="Include" />
             <e p="PlayerProgress.cs" t="Include" />
             <e p="PositionOnLevel.cs" t="Include" />
             <e p="State.cs" t="Include" />
@@ -22,7 +23,9 @@
             <e p="WorldData.cs" t="Include" />
           </e>
           <e p="Editor" t="Include">
+            <e p="EnemySpawnerEditor.cs" t="Include" />
             <e p="Tools.cs" t="Include" />
+            <e p="UniqueIdEditor.cs" t="Include" />
           </e>
           <e p="Enemy" t="Include">
             <e p="AgentMoveToPlayer.cs" t="Include" />
@@ -81,17 +84,20 @@
               <e p="GameLoopState.cs" t="Include" />
               <e p="GameStateMachine.cs" t="Include" />
               <e p="IState.cs" t="Include" />
-              <e p="LoadLevelState.cs" t="Include" />
               <e p="LoadProgressState.cs" t="Include" />
+              <e p="LoadSceneState.cs" t="Include" />
             </e>
           </e>
           <e p="Logic" t="Include">
             <e p="AnimatorState.cs" t="Include" />
             <e p="AnimatorStateReporter.cs" t="Include" />
+            <e p="EnemySpawner.cs" t="Include" />
             <e p="IAnimationStateReader'.cs" t="Include" />
             <e p="IHealth.cs" t="Include" />
             <e p="LoadingCurtain.cs" t="Include" />
+            <e p="MonsterTypeID.cs" t="Include" />
             <e p="SaveTrigger.cs" t="Include" />
+            <e p="UniqueId.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="ActorUI.cs" t="Include" />

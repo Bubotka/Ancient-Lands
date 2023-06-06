@@ -19,5 +19,7 @@ namespace Codebase.Infrastructure.Factory
         event Action HeroCreated;
         
         void Cleanup();
+
+        void Register(ISavedProgressReader progressReader);
     }
 }

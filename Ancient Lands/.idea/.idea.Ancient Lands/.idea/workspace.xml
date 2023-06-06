@@ -43,13 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Codebase/Services/Input/InputService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Game.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/PersistentProgress/PersistenProgressService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/PersistentProgress/PersistentProgressService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/PersistentProgress/IPersistentProgressService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Data/Vector3Data.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Data/WorldData.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Data/PositionOnLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/PersistentProgress/PersistentProgressService.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Data/DataExtansions.cs" />
@@ -73,9 +66,7 @@
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/CheckAttackRange.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/Input/IInputService.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/UI/HpBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Factory/IGameFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/LoadLevelState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Factory/GameFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/EnemyAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/SaveLaod/SaveLoadService.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroMove.cs" />
@@ -83,7 +74,6 @@
         <option value="$PROJECT_DIR$/Assets/Codebase/CameraLogic/CameraLookRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/Input/InputService.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroDeath.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Data/PlayerProgress.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/EnemyHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Logic/IHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroHealth.cs" />
@@ -94,6 +84,16 @@
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/LoadProgressState.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/EnemyDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Logic/MonsterTypeID.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Editor/EnemySpawnerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Logic/UniqueId.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Editor/UniqueIdEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Data/PlayerProgress.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Data/KillData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Factory/IGameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Factory/GameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Logic/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/LoadSceneState.cs" />
       </list>
     </option>
   </component>
@@ -168,6 +168,7 @@
       <workItem from="1685354498215" duration="5425000" />
       <workItem from="1685430796854" duration="4557000" />
       <workItem from="1685442134579" duration="2300000" />
+      <workItem from="1686032524281" duration="8531000" />
     </task>
     <servers />
   </component>
@@ -192,13 +193,17 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="788" y="193" key="RiderGenerateDialog" timestamp="1685271206370">
+    <state x="788" y="193" key="RiderGenerateDialog" timestamp="1686049944595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="788" y="193" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1685271206370" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1685443087160">
+    <state x="788" y="193" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1686049944595" />
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1686051289579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1685443087160" />
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1686051289579" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1686051111033">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1686051111033" />
   </component>
 </project>

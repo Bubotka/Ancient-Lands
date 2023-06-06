@@ -8,16 +8,17 @@ using UnityEngine;
 
 namespace Codebase.Infrastructure.States
 {
-    public class LoadLevelState : IPayloadedState<string>
+    public class LoadSceneState : IPayloadedState<string>
     {
         private const string Playerinitpoint = "PlayerInitPoint";
+        private const string Enemyspawner = "EnemySpawner";
         private readonly GameStateMachine _stateMachine;
         private readonly SceneLoader _sceneLoader;
         private readonly LoadingCurtain _loadingCurtain;
         private readonly IGameFactory _gameFactory;
         private readonly IPersistentProgressService _progressService;
 
-        public LoadLevelState(GameStateMachine stateMachine, SceneLoader sceneLoader, LoadingCurtain loadingCurtain,
+        public LoadSceneState(GameStateMachine stateMachine, SceneLoader sceneLoader, LoadingCurtain loadingCurtain,
             IGameFactory gameFactory, IPersistentProgressService progressService)
         {
             _stateMachine = stateMachine;
@@ -53,6 +54,8 @@ namespace Codebase.Infrastructure.States
 
         private void InitGameWorld()
         {
+            InitSpawners();
+            
             GameObject initPoint = GameObject.FindWithTag(Playerinitpoint);
 
             GameObject hero = _gameFactory.CreateHero(initPoint);
@@ -60,6 +63,15 @@ namespace Codebase.Infrastructure.States
             _gameFactory.CreateHud(hero);
 
             SetCameraFollow(hero);
+        }
+
+        private void InitSpawners()
+        {
+            foreach (GameObject spawnerObject in GameObject.FindGameObjectsWithTag(Enemyspawner))
+            {
+                var spawner = spawnerObject.GetComponent<EnemySpawner>();
+                _gameFactory.Register(spawner);
+            }
         }
 
         private static void SetCameraFollow(GameObject hero)
