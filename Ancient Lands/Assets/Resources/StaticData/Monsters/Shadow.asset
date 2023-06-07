@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953f0a017cbe4b8bb02ebc98f65c691f, type: 3}
+  m_Name: Shadow
+  m_EditorClassIdentifier: 
+  MonsterTypeID: 0
+  Hp: 75
+  Damage: 10
+  Cleavage: 1
+  EffectiveDistance: 1
+  MoveSpeed: 4
+  Prefab: {fileID: 1734572081990470152, guid: 7f3425f16f17470468f250a8fd950f73, type: 3}

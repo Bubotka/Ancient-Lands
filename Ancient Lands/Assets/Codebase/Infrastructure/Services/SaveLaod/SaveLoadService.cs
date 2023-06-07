@@ -2,7 +2,7 @@ using System.IO;
 using System.Text;
 using CodeBase.Data;
 using Codebase.Infrastructure.Factory;
-using CodeBase.Infrastructure.Services.PersistentProgress;
+using Codebase.Infrastructure.Services.PersistentProgress;
 using UnityEngine;
 
 namespace Codebase.Infrastructure.Services.SaveLaod

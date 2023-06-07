@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Codebase.Hero;
 using Codebase.Infrastructure.Services;
-using CodeBase.Infrastructure.Services.PersistentProgress;
+using Codebase.Infrastructure.Services.PersistentProgress;
+using Codebase.StaticData;
 using UnityEngine;
 
 namespace Codebase.Infrastructure.Factory
@@ -13,13 +13,10 @@ namespace Codebase.Infrastructure.Factory
         void CreateHud(GameObject hero);
         List<ISavedProgressReader> ProgressReaders { get; }
         List<ISavedProgress> ProgressWriters { get; }
-        
-        GameObject HeroGameObject { get; set; }
 
-        event Action HeroCreated;
-        
         void Cleanup();
 
         void Register(ISavedProgressReader progressReader);
+        GameObject CreateMonster(MonsterTypeID typeID, Transform parent);
     }
 }

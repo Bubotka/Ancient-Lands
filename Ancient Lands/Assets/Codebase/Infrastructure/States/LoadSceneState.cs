@@ -1,7 +1,7 @@
 ﻿using Cinemachine;
 using Codebase.Hero;
 using Codebase.Infrastructure.Factory;
-using CodeBase.Infrastructure.Services.PersistentProgress;
+using Codebase.Infrastructure.Services.PersistentProgress;
 using Codebase.Logic;
 using Codebase.UI;
 using UnityEngine;

@@ -68,6 +68,7 @@
                 <e p="InputService.cs" t="Include" />
               </e>
               <e p="IService.cs" t="Include" />
+              <e p="IStaticDataService.cs" t="Include" />
               <e p="PersistentProgress" t="Include">
                 <e p="IPersistentProgressService.cs" t="Include" />
                 <e p="ISavedProgress.cs" t="Include" />
@@ -78,6 +79,7 @@
                 <e p="ISaveLoadService.cs" t="Include" />
                 <e p="SaveLoadService.cs" t="Include" />
               </e>
+              <e p="StaticDataService.cs" t="Include" />
             </e>
             <e p="States" t="Include">
               <e p="BootstrapState.cs" t="Include" />
@@ -95,9 +97,12 @@
             <e p="IAnimationStateReader'.cs" t="Include" />
             <e p="IHealth.cs" t="Include" />
             <e p="LoadingCurtain.cs" t="Include" />
-            <e p="MonsterTypeID.cs" t="Include" />
             <e p="SaveTrigger.cs" t="Include" />
             <e p="UniqueId.cs" t="Include" />
+          </e>
+          <e p="StaticData" t="Include">
+            <e p="MonsterStaticData.cs" t="Include" />
+            <e p="MonsterTypeID.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="ActorUI.cs" t="Include" />
@@ -528,6 +533,9 @@
             </e>
           </e>
           <e p="Scene Assets" t="Include" />
+          <e p="StaticData" t="Include">
+            <e p="Monsters" t="Include" />
+          </e>
           <e p="UI" t="Include">
             <e p="Curtain" t="Include">
               <e p="Animations" t="Include" />

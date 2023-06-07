@@ -2,7 +2,7 @@
 using CodeBase.Data;
 using Codebase.Infrastructure.Services;
 using Codebase.Infrastructure.Services.Input;
-using CodeBase.Infrastructure.Services.PersistentProgress;
+using Codebase.Infrastructure.Services.PersistentProgress;
 using Codebase.Logic;
 using UnityEngine;
 

@@ -1,5 +1,5 @@
 ﻿using CodeBase.Data;
-using CodeBase.Infrastructure.Services.PersistentProgress;
+using Codebase.Infrastructure.Services.PersistentProgress;
 using Codebase.Infrastructure.Services.SaveLaod;
 
 namespace Codebase.Infrastructure.States

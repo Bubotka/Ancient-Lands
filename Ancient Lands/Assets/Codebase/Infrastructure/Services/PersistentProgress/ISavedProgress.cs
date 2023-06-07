@@ -1,6 +1,6 @@
 using CodeBase.Data;
 
-namespace CodeBase.Infrastructure.Services.PersistentProgress
+namespace Codebase.Infrastructure.Services.PersistentProgress
 {
   public interface ISavedProgress : ISavedProgressReader
   {
