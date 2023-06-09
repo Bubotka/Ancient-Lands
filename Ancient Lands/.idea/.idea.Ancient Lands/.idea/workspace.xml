@@ -33,7 +33,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E408709D-8CA0-4081-8C6A-06E420E16B9A/ee/3ea46522/IInputActionCollection2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Codebase/Enemy/EndlessRotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/Input/InputService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/Randomizer/RandomService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BA783288-CA16-4D30-9989-8A8819FCEC1C/ea/ca1126ba/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Codebase/Editor/Tools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Codebase/Logic/LoadingCurtain.cs" root0="FORCE_HIGHLIGHTING" />
@@ -43,13 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/PersistentProgress/IPersistentProgressService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/SaveLaod/ISaveLoadService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/GameStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Editior/Tools.cs" />
-        <option value="$PROJECT_DIR$/Assets/Editor/Tools.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Editor/Tools.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/GameRunner.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/GameBootstraper.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/IAnimationStateReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Logic/AnimatorStateReporter.cs" />
@@ -65,17 +60,13 @@
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/SaveLaod/SaveLoadService.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/CameraLogic/CameraLookRotation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/Input/InputService.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/EnemyHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Logic/IHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetPath.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/UI/LookAtCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/UI/ActorUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Hero/HeroAttack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/LoadProgressState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/EnemyDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Logic/MonsterTypeID.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Editor/EnemySpawnerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Logic/UniqueId.cs" />
@@ -88,12 +79,23 @@
         <option value="$PROJECT_DIR$/Assets/Codebase/StaticData/IStaticDataService.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/IStaticDataService.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Logic/EnemySpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/BootstrapState.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/AgentMoveToPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Codebase/StaticData/MonsterStaticData.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/Attack.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Factory/IGameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/AssetPath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/StaticData/MonsterStaticData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Data/Loot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/Randomizer/RandomService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Data/WorldData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/BootstrapState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/LootSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/EnemyDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Data/LootData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/States/LoadProgressState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Services/Input/InputService.cs" />
         <option value="$PROJECT_DIR$/Assets/Codebase/Infrastructure/Factory/GameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/Enemy/LootPiece.cs" />
+        <option value="$PROJECT_DIR$/Assets/Codebase/UI/LootCounter.cs" />
       </list>
     </option>
   </component>
@@ -170,7 +172,11 @@
       <workItem from="1685442134579" duration="2300000" />
       <workItem from="1686032524281" duration="8531000" />
       <workItem from="1686051401580" duration="353000" />
-      <workItem from="1686131411708" duration="7109000" />
+      <workItem from="1686131411708" duration="7110000" />
+      <workItem from="1686211215462" duration="2607000" />
+      <workItem from="1686226282755" duration="677000" />
+      <workItem from="1686292834646" duration="9202000" />
+      <workItem from="1686314611147" duration="2177000" />
     </task>
     <servers />
   </component>
@@ -195,17 +201,17 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="788" y="193" key="RiderGenerateDialog" timestamp="1686049944595">
+    <state x="788" y="193" key="RiderGenerateDialog" timestamp="1686307116980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="788" y="193" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1686049944595" />
+    <state x="788" y="193" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1686307116980" />
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1686138334548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1686138334548" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1686141356779">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1686315847855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1686141356779" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1686315847855" />
   </component>
 </project>

@@ -7,6 +7,7 @@ namespace Codebase.Enemy
     [RequireComponent(typeof(EnemyAnimator),typeof(EnemyHealth))]
     public class EnemyDeath : MonoBehaviour
     {
+        public Collider BoxCollider;
         public EnemyHealth Health;
         public EnemyAnimator Animator;
         public AgentMoveToPlayer Move;
@@ -34,7 +35,8 @@ namespace Codebase.Enemy
             Move.enabled = false;
             
             Animator.PlayDeath();
-
+            BoxCollider.enabled = false;
+            
             SpawnDeathFx();
             StartCoroutine(DestroyTimer());
             

@@ -4,6 +4,7 @@ using Codebase.Infrastructure.Factory;
 using Codebase.Infrastructure.Services;
 using Codebase.Infrastructure.Services.Input;
 using Codebase.Infrastructure.Services.PersistentProgress;
+using Codebase.Infrastructure.Services.Randomizer;
 using Codebase.Infrastructure.Services.SaveLaod;
 using UnityEditor.MemoryProfiler;
 
@@ -40,7 +41,11 @@ namespace Codebase.Infrastructure.States
             _services.RegisterSingle<IInputService>(new InputService());
             _services.RegisterSingle<IAssets>(new Assets());
             _services.RegisterSingle<IPersistentProgressService>(new PersistentProgressService());
-            _services.RegisterSingle<IGameFactory>(new GameFactory(_services.Single<IAssets>(), _services.Single<IStaticDataService>()));
+            _services.RegisterSingle<IRandomService>(new RandomService());
+            _services.RegisterSingle<IGameFactory>(new GameFactory(_services.Single<IAssets>(), 
+                _services.Single<IStaticDataService>(),
+                _services.Single<IRandomService>(),
+                _services.Single<IPersistentProgressService>()));
             _services.RegisterSingle<ISaveLoadService>(new SaveLoadService(_services.Single<IPersistentProgressService>(),_services.Single<IGameFactory>()));
         }
 

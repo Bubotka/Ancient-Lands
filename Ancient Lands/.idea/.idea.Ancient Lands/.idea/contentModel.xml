@@ -15,6 +15,8 @@
           <e p="Data" t="Include">
             <e p="DataExtensions.cs" t="Include" />
             <e p="KillData.cs" t="Include" />
+            <e p="Loot.cs" t="Include" />
+            <e p="LootData.cs" t="Include" />
             <e p="PlayerProgress.cs" t="Include" />
             <e p="PositionOnLevel.cs" t="Include" />
             <e p="State.cs" t="Include" />
@@ -33,9 +35,12 @@
             <e p="AnimateAlongAgent.cs" t="Include" />
             <e p="Attack.cs" t="Include" />
             <e p="CheckAttackRange.cs" t="Include" />
+            <e p="EndlessRotation.cs" t="Include" />
             <e p="EnemyAnimator.cs" t="Include" />
             <e p="EnemyDeath.cs" t="Include" />
             <e p="EnemyHealth.cs" t="Include" />
+            <e p="LootPiece.cs" t="Include" />
+            <e p="LootSpawner.cs" t="Include" />
             <e p="PhysicsDebug.cs" t="Include" />
             <e p="TriggerObserver.cs" t="Include" />
           </e>
@@ -75,6 +80,10 @@
                 <e p="ISavedProgressReader.cs" t="Include" />
                 <e p="PersistentProgressService.cs" t="Include" />
               </e>
+              <e p="Randomizer" t="Include">
+                <e p="IRandomService.cs" t="Include" />
+                <e p="RandomService.cs" t="Include" />
+              </e>
               <e p="SaveLaod" t="Include">
                 <e p="ISaveLoadService.cs" t="Include" />
                 <e p="SaveLoadService.cs" t="Include" />
@@ -108,6 +117,7 @@
             <e p="ActorUI.cs" t="Include" />
             <e p="HpBar.cs" t="Include" />
             <e p="LookAtCamera.cs" t="Include" />
+            <e p="LootCounter.cs" t="Include" />
           </e>
         </e>
         <e p="Resources" t="Include">
@@ -532,6 +542,12 @@
               <e p="Readme Cartoon FX Remaster FREE.txt" t="Include" />
             </e>
           </e>
+          <e p="Loot" t="Include">
+            <e p="BullSkull" t="Include">
+              <e p="Materials" t="Include" />
+              <e p="Texture" t="Include" />
+            </e>
+          </e>
           <e p="Scene Assets" t="Include" />
           <e p="StaticData" t="Include">
             <e p="Monsters" t="Include" />
@@ -552,6 +568,42 @@
           <e p="Main" t="Include" />
         </e>
         <e p="Terrains" t="Include" />
+        <e p="TextMesh Pro" t="Include">
+          <e p="Documentation" t="Include" />
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Fonts &amp; Materials" t="Include" />
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Sprite Assets" t="Include" />
+            <e p="Style Sheets" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+            <e p="EmojiOne.json" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="CFXRDemo.csproj" t="IncludeRecursive" />
       <e p="CFXREditor.csproj" t="IncludeRecursive" />

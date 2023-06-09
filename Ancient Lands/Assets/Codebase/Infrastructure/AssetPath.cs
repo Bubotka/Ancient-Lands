@@ -4,5 +4,6 @@
     {
         public const string HudPath = "UI/Hud/Hud";
         public const string HeroPath = "Heroes/RPGHero/Prefabs/RPGHeroHP";
+        public const string Loot = "Loot/Loot";
     }
 }

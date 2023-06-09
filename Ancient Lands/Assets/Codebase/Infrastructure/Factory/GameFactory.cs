@@ -4,6 +4,7 @@ using Codebase.Hero;
 using Codebase.Infrastructure.AssetManagement;
 using Codebase.Infrastructure.Services;
 using Codebase.Infrastructure.Services.PersistentProgress;
+using Codebase.Infrastructure.Services.Randomizer;
 using Codebase.Logic;
 using Codebase.StaticData;
 using Codebase.UI;
@@ -21,10 +22,15 @@ namespace Codebase.Infrastructure.Factory
 
         private readonly IAssets _assets;
         private IStaticDataService _staticData;
-        public GameFactory(IAssets assets, IStaticDataService staticData)
+        private readonly IRandomService _randomService;
+        private readonly IPersistentProgressService _progressService;
+
+        public GameFactory(IAssets assets, IStaticDataService staticData,IRandomService randomService, IPersistentProgressService progressService)
         {
             _assets = assets;
             _staticData = staticData;
+            _randomService = randomService;
+            _progressService = progressService;
         }
 
         public GameObject CreateHero(GameObject at)
@@ -37,6 +43,8 @@ namespace Codebase.Infrastructure.Factory
         {
             GameObject hud = InstantiateRegistered(AssetPath.HudPath);
             hud.GetComponent<ActorUI>().Construct(hero.GetComponent<HeroHealth>());
+           // hud.GetComponentInChildren<LootCounter>()
+           // .Construct(_progressService.Progress.WorldData);
         }
 
         public void Cleanup()
@@ -65,6 +73,10 @@ namespace Codebase.Infrastructure.Factory
             monster.GetComponent<AgentMoveToPlayer>().Construct(HeroGameObject.transform);
             monster.GetComponent<NavMeshAgent>().speed = monsterData.MoveSpeed;
 
+            LootSpawner lootSpawner = monster.GetComponentInChildren<LootSpawner>();
+            lootSpawner.SetLoot(monsterData.MinLoot, monsterData.MaxLoot);
+            lootSpawner.Construct(this, _randomService);
+
             var attack = monster.GetComponent<Attack>();
             attack.Construct(HeroGameObject.transform);
             attack.Damage = monsterData.Damage;
@@ -72,6 +84,16 @@ namespace Codebase.Infrastructure.Factory
             attack.EffectiveDistance = monsterData.EffectiveDistance;
 
             return monster;
+        }
+ 
+        public LootPiece CreateLoot()
+        {
+            LootPiece lootPiece = InstantiateRegistered(AssetPath.Loot)
+                .GetComponent<LootPiece>();
+            
+            lootPiece.Construct(_progressService.Progress.WorldData);
+            
+            return lootPiece;
         }
 
         private GameObject InstantiateRegistered(string prefabPath, Vector3 at)
