@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using CodeBase.Data;
 using CodeBase.Enemy;
 using CodeBase.Logic;
@@ -34,12 +35,18 @@ namespace CodeBase.Hero
       if (_inputService.IsAttackButtonUp() && !_animator.IsAttacking)
       {
         _animator.PlayAttack();
-        _heroMove.enabled = false;
       }
+    }
+
+    public void LoadProgress(PlayerProgress progress)
+    {
+      _stats = progress.HeroStats;
     }
 
     private void OnAttack()
     {
+      StartCoroutine(StopMove());
+      
       PhysicsDebug.DrawDebug(StartPoint() + transform.forward, _stats.DamageRadius, 1.0f);
       for (int i = 0; i < Hit(); ++i)
       {
@@ -47,17 +54,17 @@ namespace CodeBase.Hero
       }
     }
 
-    private void OnAttackEnded() => _heroMove.enabled = true;
+    private IEnumerator StopMove()
+    {
+      _heroMove.enabled = false;
+      yield return new WaitForSeconds(0.2f);
+      _heroMove.enabled = true;
+    }
 
     private int Hit() => 
       Physics.OverlapSphereNonAlloc(StartPoint() + transform.forward, _stats.DamageRadius, _hits, _layerMask);
 
     private Vector3 StartPoint() =>
       new Vector3(transform.position.x, _characterController.center.y / 2, transform.position.z);
-
-    public void LoadProgress(PlayerProgress progress)
-    {
-      _stats = progress.HeroStats;
-    }
   }
 }

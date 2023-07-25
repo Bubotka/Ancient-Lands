@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Linq;
 using CodeBase.Logic;
 using UnityEngine;
@@ -44,18 +45,12 @@ namespace CodeBase.Enemy
 
     private void OnAttack()
     {
-      Agent.speed = 0;
+      StartCoroutine(StopMove());
+
       if (Hit(out Collider hit))
       {
         hit.transform.GetComponent<IHealth>().TakeDamage(Damage);
       }
-    }
-
-    private void OnAttackEnded()
-    {
-      _attackCooldown = AttackCooldown;
-      _isAttacking = false;
-      Agent.speed = _enemySpeed;
     }
 
     public void DisableAttack() => 
@@ -96,6 +91,21 @@ namespace CodeBase.Enemy
       transform.LookAt(_heroTransform);
       Animator.PlayAttack();
       _isAttacking = true;
+      StartCoroutine(ResetAttack());
+    }
+
+    private IEnumerator StopMove()
+    {
+      Agent.speed = 0;
+      yield return new WaitForSeconds(0.2f);
+      Agent.speed = _enemySpeed;
+    }
+
+    private IEnumerator ResetAttack()
+    {
+      yield return new WaitForSeconds(0.2f);
+      _attackCooldown = AttackCooldown;
+      _isAttacking = false;
     }
   }
 }

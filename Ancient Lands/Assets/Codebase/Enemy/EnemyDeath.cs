@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.AI;
 
 namespace CodeBase.Enemy
 {
@@ -9,6 +10,7 @@ namespace CodeBase.Enemy
   {
     public EnemyHealth Health;
     public EnemyAnimator Animator;
+    public NavMeshAgent Agent;
 
     public GameObject DeathFx;
 
@@ -35,6 +37,7 @@ namespace CodeBase.Enemy
       Health.HealthChanged -= OnHealthChanged;
       
       Animator.PlayDeath();
+      Agent.speed = 0;
       SpawnDeathFx();
 
       StartCoroutine(DestroyTimer());

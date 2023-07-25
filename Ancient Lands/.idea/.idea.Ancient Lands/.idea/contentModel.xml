@@ -507,42 +507,18 @@
             </e>
           </e>
           <e p="Enemies" t="Include">
-            <e p="Golem" t="Include">
+            <e p="Minotaur" t="Include">
               <e p="Animations" t="Include" />
+              <e p="Base mesh" t="Include" />
               <e p="Materials" t="Include" />
-              <e p="Meshes" t="Include" />
-              <e p="Prefabs" t="Include" />
+              <e p="Prefab" t="Include" />
               <e p="Textures" t="Include" />
             </e>
-            <e p="Lich" t="Include">
-              <e p="Animations" t="Include">
-                <e p="Lich" t="Include" />
-              </e>
-              <e p="Materials" t="Include" />
-              <e p="Meshes" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Textures" t="Include">
-                <e p="PBR" t="Include" />
-              </e>
-            </e>
           </e>
-          <e p="Hero" t="Include">
-            <e p="Heavy Knight PBR" t="Include">
-              <e p="Animations" t="Include" />
-              <e p="AnimControllers" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Meshes" t="Include" />
-              <e p="OriginalFiles" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include">
-                <e p="knightPBRBlue" t="Include" />
-                <e p="knightPBRGreen" t="Include" />
-                <e p="knightPBRRed" t="Include" />
-                <e p="knightPBRYellow" t="Include" />
-              </e>
-            </e>
+          <e p="Hero" t="Include" />
+          <e p="Hud" t="Include">
+            <e p="Joystick" t="Include" />
           </e>
-          <e p="Hud" t="Include" />
           <e p="Infrastructure" t="Include" />
           <e p="Levels" t="Include">
             <e p="Graveyard" t="Include">
@@ -574,7 +550,9 @@
             </e>
           </e>
         </e>
-        <e p="Scenes" t="Include" />
+        <e p="Scenes" t="Include">
+          <e p="Main" t="Include" />
+        </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Documentation" t="Include" />
           <e p="Resources" t="Include">

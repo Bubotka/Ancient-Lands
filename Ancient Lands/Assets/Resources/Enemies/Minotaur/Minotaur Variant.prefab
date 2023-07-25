@@ -4568,11 +4568,26 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1260865992186159246, guid: 274c4c35ed05ea14c87492064b3cadfd,
+        type: 3}
+      propertyPath: Agent
+      value: 
+      objectReference: {fileID: 9168596177227939441}
+    - target: {fileID: 2720272718998919933, guid: 274c4c35ed05ea14c87492064b3cadfd,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 5506074209734154432, guid: 274c4c35ed05ea14c87492064b3cadfd,
         type: 3}
       propertyPath: Agent
       value: 
       objectReference: {fileID: 9168596177227939441}
+    - target: {fileID: 5506074209734154432, guid: 274c4c35ed05ea14c87492064b3cadfd,
+        type: 3}
+      propertyPath: AttackCooldown
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6015299376900249112, guid: 274c4c35ed05ea14c87492064b3cadfd,
         type: 3}
       propertyPath: m_Radius

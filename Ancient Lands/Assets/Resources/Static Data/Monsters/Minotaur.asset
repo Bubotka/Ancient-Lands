@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Minotaur
   m_EditorClassIdentifier: 
   MonsterTypeId: 20
-  Hp: 9
-  Damage: 12.6
+  Hp: 11
+  Damage: 10.4
   MaxLootValue: 25
   MinLootValue: 5
   EffectiveDistance: 0.637
