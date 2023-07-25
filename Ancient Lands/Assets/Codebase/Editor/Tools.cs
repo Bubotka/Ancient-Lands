@@ -1,25 +1,15 @@
-using System.IO;
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
 
-namespace Codebase.Editor
+namespace CodeBase.Editor
 {
-    public class Tools 
+  public class Tools 
+  {
+    [MenuItem("Tools/ClearPrefs")]
+    public static void ClearPrefs()
     {
-        [MenuItem("Tools/ClearSave")]
-        public static void ClearSave()
-        {
-            string path = Application.persistentDataPath + "/SaveData.json";
-
-            if (File.Exists(path))
-            {
-                File.Delete(path);
-            }
-            else
-            {
-                Debug.Log("File was cleared");
-            }
-        }
+      PlayerPrefs.DeleteAll();
+      PlayerPrefs.Save();
     }
+  }
 }
-  

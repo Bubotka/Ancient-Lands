@@ -1,50 +1,51 @@
-﻿using CodeBase.Data;
-using Codebase.Infrastructure.Services.PersistentProgress;
-using Codebase.Infrastructure.Services.SaveLaod;
+using System;
+using CodeBase.Data;
+using CodeBase.Services.PersistentProgress;
+using CodeBase.Services.SaveLoad;
 
-namespace Codebase.Infrastructure.States
+namespace CodeBase.Infrastructure.States
 {
-    public class LoadProgressState : IState
+  public class LoadProgressState : IState
+  {
+    private readonly GameStateMachine _gameStateMachine;
+    private readonly IPersistentProgressService _progressService;
+    private readonly ISaveLoadService _saveLoadProgress;
+
+    public LoadProgressState(GameStateMachine gameStateMachine, IPersistentProgressService progressService, ISaveLoadService saveLoadProgress)
     {
-        private readonly GameStateMachine _stateMachine;
-        private readonly IPersistentProgressService _progressService;
-        private readonly ISaveLoadService _saveLoadSerivce;
-
-        public LoadProgressState(GameStateMachine stateMachine, IPersistentProgressService progressService,
-            ISaveLoadService saveLoadSerivce)
-        {
-            _stateMachine = stateMachine;
-            _progressService = progressService;
-            _saveLoadSerivce = saveLoadSerivce;
-        }
-
-        public void Enter()
-        {
-            LoadProgressOrInitNew();
-            _stateMachine.Enter<LoadSceneState, string>(_progressService.Progress.WorldData.PositionOnLevel.Level);
-
-        }
-
-        public void Exit()
-        {
-        }
-
-        private void LoadProgressOrInitNew()
-        {
-            _progressService.Progress = _saveLoadSerivce.LoadProgress() ?? NewProgress();
-        }
-
-
-        private PlayerProgress NewProgress()
-        {
-            PlayerProgress progress = new PlayerProgress(initialLevel: "Main");
-
-            progress.HeroState.MaxHP = 100;
-            progress.HeroState.ResetHP();
-            progress.Stats.Damage=25;
-            progress.Stats.DamageRadius=0.5f;
-            
-            return progress;
-        }
+      _gameStateMachine = gameStateMachine;
+      _progressService = progressService;
+      _saveLoadProgress = saveLoadProgress;
     }
+
+    public void Enter()
+    {
+      LoadProgressOrInitNew();
+      
+      _gameStateMachine.Enter<LoadLevelState, string>(_progressService.Progress.WorldData.PositionOnLevel.Level);
+    }
+
+    public void Exit()
+    {
+    }
+
+    private void LoadProgressOrInitNew()
+    {
+      _progressService.Progress = 
+        _saveLoadProgress.LoadProgress() 
+        ?? NewProgress();
+    }
+
+    private PlayerProgress NewProgress()
+    {
+      var progress =  new PlayerProgress(initialLevel: "Main");
+
+      progress.HeroState.MaxHP = 50;
+      progress.HeroStats.Damage = 1;
+      progress.HeroStats.DamageRadius = 0.5f;
+      progress.HeroState.ResetHP();
+
+      return progress;
+    }
+  }
 }

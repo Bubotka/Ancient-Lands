@@ -4,8 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - PlayerInitPoint
+  - PlayerAggro
+  - PlayerCollider
+  - AttackRangeDetector
   - FxTemporaire
+  - InitialPoint
+  - LoadingCurtain
   - EnemySpawner
   layers:
   - Default
@@ -14,7 +18,7 @@ TagManager:
   - 
   - Water
   - UI
-  - PostProcess
+  - 
   - 
   - 
   - 
@@ -22,9 +26,9 @@ TagManager:
   - 
   - Player
   - Aggro
-  - Attack
+  - AttackZone
   - Hittable
-  - 
+  - Pickup
   - 
   - 
   - 

@@ -1,19 +1,21 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Codebase.UI
+namespace CodeBase.UI
 {
-    public class LookAtCamera : MonoBehaviour
+  public class LookAtCamera : MonoBehaviour
+  {
+    private Camera _mainCamera;
+
+    private void Start()
     {
-        private Camera _mainCamera;
-
-        private void Start() => 
-            _mainCamera = Camera.main;
-
-        private void Update()
-        {
-            Quaternion rotation = _mainCamera.transform.rotation;
-            transform.LookAt(transform.position+rotation*Vector3.back,rotation*Vector3.up);
-        }
+      _mainCamera = Camera.main;
     }
+
+    private void Update()
+    {
+      Quaternion rotation = _mainCamera.transform.rotation;
+      transform.LookAt(transform.position + rotation * Vector3.back, rotation * Vector3.up);
+    }
+  }
 }

@@ -1,0 +1,470 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.1f1 (f18e0c1b5784) revision 15830540'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32690 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+A:\Unity\2022.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+D:/Unity репозиторий/Ancient-Lands/Ancient Lands
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+5754
+Successfully changed project path to: D:/Unity репозиторий/Ancient-Lands/Ancient Lands
+D:/Unity репозиторий/Ancient-Lands/Ancient Lands
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15720] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 2820210151 [EditorId] 2820210151 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15720] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 2820210151 [EditorId] 2820210151 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
+[Subsystems] Discovering subsystems at path A:/Unity/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity репозиторий/Ancient-Lands/Ancient Lands/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'A:/Unity/2022.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003585 seconds.
+- Loaded All Assemblies, in  0.234 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 187 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.407 seconds
+Domain Reload Profiling: 640ms
+	BeginReloadAssembly (55ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (55ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (407ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (366ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (262ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.485 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.470 seconds
+Domain Reload Profiling: 955ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (178ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (471ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (360ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5577 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (421.1 KB). Loaded Objects now: 6055.
+Memory consumption went from 223.1 MB to 222.7 MB.
+Total: 3.038700 ms (FindLiveObjects: 0.325900 ms CreateObjectMapping: 0.240300 ms MarkObjects: 2.307700 ms  DeleteObjects: 0.164100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/PointAndClickManager.cs: ca53010796b4de73fe5b234435c3e078 -> fa32d372a252ee86bcc063642d34517c
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/Move.cs: 73a45274d592f163b9c1ce89ddb016d1 -> 
+  custom:scripting/monoscript/fileName/DisableMeshAtRuntime.cs: cab17774665095244ea56be384dc4693 -> b13d25dcacf5740aa2e5f629bc06acfd
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/SetCharacterEditor.cs: f74b6d9fe8fbca0103564d0889d951da -> 8973c7b2cc141a00270ba0c27360d0cc
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 9b150ee781d2c96881d6021398a5e296 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
+  custom:scripting/monoscript/fileName/FpsCounter.cs: b2a88c3520e04eb3d5c5bb2facecf66a -> f7d292bb0de5814b7cbdb34b921784fc
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 291ab2eb02dfb056a8571d14613b9921 -> 1a1d9a9cba7940fed9939f7306abee3f
+  custom:scripting/monoscript/fileName/SetCharacter.cs: 8e6ac516b7d92d6b7da39bc386506d1a -> 66000bc1a703bb6f10eb1b49c927df39
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11899.392911 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Materials/Male_Hair_3_Black.mat
+  artifactKey: Guid(8badc6f468c5a6340a18921906577d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Materials/Male_Hair_3_Black.mat using Guid(8badc6f468c5a6340a18921906577d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177348d3032ec1889961037c737a8c17') in 0.005908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_1/Materials/Male_Legs_1_Brown.mat
+  artifactKey: Guid(c58d0c3b49703fb49ab47e236ee66207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_1/Materials/Male_Legs_1_Brown.mat using Guid(c58d0c3b49703fb49ab47e236ee66207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d9c4d8c6a1c0ce5f71f778002f56b3') in 0.000611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Green.mat
+  artifactKey: Guid(62a60473b9d13bc43952441c4cfa8e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Green.mat using Guid(62a60473b9d13bc43952441c4cfa8e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65da44cc2959fb9044dd607a3a3ea710') in 0.000788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_2/Materials/Male_Head_2.mat
+  artifactKey: Guid(61a3b559664a8db4cbfdfd415b46ed7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_2/Materials/Male_Head_2.mat using Guid(61a3b559664a8db4cbfdfd415b46ed7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ba6d81dea2085cdb091df399ef016f') in 0.000639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 121.650943 seconds.
+  path: Assets/Resources/Enemies/Lich/Animations/Lich/Attack02.fbx
+  artifactKey: Guid(e502a5e6e3bfdc34ea7042bbe380e22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Lich/Animations/Lich/Attack02.fbx using Guid(e502a5e6e3bfdc34ea7042bbe380e22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507b2d80b3e2ab4960b8ecf86cf5d53d') in 0.003596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.006333 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/Meshes/SRC_Props/Candle_04.fbx
+  artifactKey: Guid(f942b92b70de4cbf868373c831d161a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/Meshes/SRC_Props/Candle_04.fbx using Guid(f942b92b70de4cbf868373c831d161a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fedb358962812d0b82c7970aa832401') in 0.001082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_3/Female_Torso_3.FBX
+  artifactKey: Guid(283116370a026f048b4d23bd4dbd5b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_3/Female_Torso_3.FBX using Guid(283116370a026f048b4d23bd4dbd5b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48650d6a859c7d0763dbd908cd81dec') in 0.002355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Male_Torso_2.FBX
+  artifactKey: Guid(a54c56bf4e395ac4c940603b7b12ee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Male_Torso_2.FBX using Guid(a54c56bf4e395ac4c940603b7b12ee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1754abd360ec7e828dfaa16e20f42ffb') in 0.002843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_1/Male_Head_1.FBX
+  artifactKey: Guid(3ed30173e52bad9469c5720c7646c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_1/Male_Head_1.FBX using Guid(3ed30173e52bad9469c5720c7646c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e059bde1f437734132294059ecb9a38f') in 0.002185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Heads/Head 2/Female_Head_2.FBX
+  artifactKey: Guid(65439f1f284f09c49a5eb43d7bb00de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Heads/Head 2/Female_Head_2.FBX using Guid(65439f1f284f09c49a5eb43d7bb00de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cec46857a6001c98a82af89a48e3d59') in 0.001556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Enemies/Lich/Meshes/FreeLich.fbx
+  artifactKey: Guid(3dc717adf98c7b043a3e77ed0130d470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Lich/Meshes/FreeLich.fbx using Guid(3dc717adf98c7b043a3e77ed0130d470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68f15957c7eb0feae3e77c9039ca469') in 0.001982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_1/Male_Legs_1.FBX
+  artifactKey: Guid(d7739944e3990de4bbb0cfdc16f876fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_1/Male_Legs_1.FBX using Guid(d7739944e3990de4bbb0cfdc16f876fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab2208e022f0f9536a75c60e1dfd401') in 0.001397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/Meshes/SRC_Props/Lamp_02.fbx
+  artifactKey: Guid(2d4aff2768bf4b44a98c029dda6071b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/Meshes/SRC_Props/Lamp_02.fbx using Guid(2d4aff2768bf4b44a98c029dda6071b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1cb9a09ce9495cc42a8c1ebf1fe20b') in 0.001218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Enemies/Lich/Animations/Lich/Run.fbx
+  artifactKey: Guid(6022850e50f6d834bb396db8945e2992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Lich/Animations/Lich/Run.fbx using Guid(6022850e50f6d834bb396db8945e2992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288e2fa12558734bc2046738f582eee6') in 0.001436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Enemies/Lich/Animations/Lich/Idle.fbx
+  artifactKey: Guid(d01821c0731788843bdef98c31b20722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Lich/Animations/Lich/Idle.fbx using Guid(d01821c0731788843bdef98c31b20722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4361ab1a104ea2e1b6258e3c7a37b87') in 0.001865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Enemies/Lich/Animations/Lich/GetHit.fbx
+  artifactKey: Guid(eb1d80017f2b5894c8f7cbe21f60c18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Lich/Animations/Lich/GetHit.fbx using Guid(eb1d80017f2b5894c8f7cbe21f60c18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb8b9236b17491f7757d446784c16fc') in 0.001921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/Levels/Graveyard/raw/mobile_models/Tree03_BG.fbx
+  artifactKey: Guid(fe4942aa989cf244eb7b7a30eb0a95e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Graveyard/raw/mobile_models/Tree03_BG.fbx using Guid(fe4942aa989cf244eb7b7a30eb0a95e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf1ccf485b56cc80c41e36a65b8d45b') in 0.000943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/Meshes/SRC_Props/Candle_02.fbx
+  artifactKey: Guid(cf36c939b69a4537aa9dd6a63cf249af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/Meshes/SRC_Props/Candle_02.fbx using Guid(cf36c939b69a4537aa9dd6a63cf249af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384a42ad770b39cfc2c40da8b19ba0e8') in 0.000943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Female_Animation_Skeleton.FBX
+  artifactKey: Guid(d4bc8aeee1248da43a4176631929bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Female_Animation_Skeleton.FBX using Guid(d4bc8aeee1248da43a4176631929bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311ef4afca931d5d724ef559f37b508e') in 0.002512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Base Torso/Female_Base_Torso.FBX
+  artifactKey: Guid(a0e146e0c77316448a26cd23acac2d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Base Torso/Female_Base_Torso.FBX using Guid(a0e146e0c77316448a26cd23acac2d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93081e98e65476e2dd92e1c3fb2fb96e') in 0.001782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Levels/Graveyard/raw/mobile_models/Tree04_BG.fbx
+  artifactKey: Guid(cb99235c8bf6a974981506ec98dbc64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Graveyard/raw/mobile_models/Tree04_BG.fbx using Guid(cb99235c8bf6a974981506ec98dbc64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195665af5f35ea4e475add2676b08448') in 0.000789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Base Legs/Female_Base_Legs.FBX
+  artifactKey: Guid(a0aa481402b130e4f89cdb1b1e6e0d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Base Legs/Female_Base_Legs.FBX using Guid(a0aa481402b130e4f89cdb1b1e6e0d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af178266c4e2b1470100fac5957ca16') in 0.001690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_3/Male_Torso_3.FBX
+  artifactKey: Guid(e8eb09b19391bfe4eab8554eac44634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_3/Male_Torso_3.FBX using Guid(e8eb09b19391bfe4eab8554eac44634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a5cc7e285f7c1af9c819843b35a39a') in 0.001578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Heads/Head 1/Female_Head_1.FBX
+  artifactKey: Guid(f778d65360c43c3488f0f6aee8c4fd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Heads/Head 1/Female_Head_1.FBX using Guid(f778d65360c43c3488f0f6aee8c4fd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a590562c371d23951b330deb8189399e') in 0.001718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Enemies/Lich/Animations/Lich/Victory.fbx
+  artifactKey: Guid(02b70578b17317042874e8b5269c2ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Lich/Animations/Lich/Victory.fbx using Guid(02b70578b17317042874e8b5269c2ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc9967dc55af588730ac06dca42cf08') in 0.001572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/Enemies/Lich/Animations/Lich/Die.fbx
+  artifactKey: Guid(b161d64d0b842484a8dfe278b2bc0b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Lich/Animations/Lich/Die.fbx using Guid(b161d64d0b842484a8dfe278b2bc0b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59eb29180c0f56d930ba38a7bca5d5b6') in 0.001630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Enemies/Lich/Animations/Lich/Walk.fbx
+  artifactKey: Guid(717ba0c3bcc684d4385f78478e117e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Lich/Animations/Lich/Walk.fbx using Guid(717ba0c3bcc684d4385f78478e117e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b7a2605d90ab725cd7576935a780b6') in 0.001924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Heads/Head 3/Female_Head_3.FBX
+  artifactKey: Guid(78bc7924c8b4fbb4296da625d0f72d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Heads/Head 3/Female_Head_3.FBX using Guid(78bc7924c8b4fbb4296da625d0f72d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa90d5d71e27cf4aacdf0245e833661') in 0.001056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Levels/Graveyard/raw/mobile_models/Tree01_BG.fbx
+  artifactKey: Guid(479f6285e495c35478ec9578924be7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Graveyard/raw/mobile_models/Tree01_BG.fbx using Guid(479f6285e495c35478ec9578924be7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5276e9630747280819f94de21347b24d') in 0.000871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Male_Hair_3.FBX
+  artifactKey: Guid(ba81bc73c9f97274688f3affce011d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Male_Hair_3.FBX using Guid(ba81bc73c9f97274688f3affce011d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433b7a337a9efb35d1abb434035b0fe3') in 0.001204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

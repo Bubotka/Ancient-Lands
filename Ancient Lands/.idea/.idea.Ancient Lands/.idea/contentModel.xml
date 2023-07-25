@@ -5,18 +5,304 @@
     <e p="C:\Users\Home\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Ancient Lands.870337880.00" t="ExcludeRecursive" />
     <e p="D:\Unity репозиторий\Ancient-Lands\Ancient Lands" t="IncludeRecursive">
       <e p="Ancient Lands.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="CodeBase" t="Include">
-          <e p="CameraLogic" t="Include">
-            <e p="CameraLookRotation.cs" t="Include" />
+        <e p="AssetsThirdParty" t="Include">
+          <e p="Cartoon Heroes" t="Include">
+            <e p="Character Prefabs" t="Include">
+              <e p="Female" t="Include" />
+              <e p="Male" t="Include" />
+            </e>
+            <e p="Female" t="Include">
+              <e p="3D" t="Include">
+                <e p="Animation Skeleton" t="Include">
+                  <e p="Animations" t="Include" />
+                </e>
+                <e p="Hairs" t="Include">
+                  <e p="Hair_1" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Hair_2" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Hair_3" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Hair_4" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                </e>
+                <e p="Heads" t="Include">
+                  <e p="Head 1" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Head 2" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Head 3" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                </e>
+                <e p="Legs" t="Include">
+                  <e p="Base Legs" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Legs_1" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Legs_2" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Legs_3" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                </e>
+                <e p="Torsos" t="Include">
+                  <e p="Base Torso" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Torso_1" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Torso_2" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Torso_3" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Textures" t="Include">
+                <e p="Hairs" t="Include">
+                  <e p="Hair_1" t="Include" />
+                  <e p="Hair_2" t="Include" />
+                  <e p="Hair_3" t="Include" />
+                  <e p="Hair_4" t="Include" />
+                </e>
+                <e p="Heads" t="Include">
+                  <e p="Head_1" t="Include" />
+                  <e p="Head_2" t="Include" />
+                  <e p="Head_3" t="Include" />
+                </e>
+                <e p="Legs" t="Include">
+                  <e p="Base Legs" t="Include" />
+                  <e p="Legs_1" t="Include" />
+                  <e p="Legs_2" t="Include" />
+                  <e p="Legs_3" t="Include" />
+                </e>
+                <e p="Torsos" t="Include">
+                  <e p="Base Torso" t="Include" />
+                  <e p="Torso_1" t="Include" />
+                  <e p="Torso_2" t="Include" />
+                  <e p="Torso_3" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Male" t="Include">
+              <e p="3D" t="Include">
+                <e p="Animation Skeleton" t="Include">
+                  <e p="Animations" t="Include" />
+                </e>
+                <e p="Hairs" t="Include">
+                  <e p="Hair_1" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Hair_2" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Hair_3" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Hair_4" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                </e>
+                <e p="Heads" t="Include">
+                  <e p="Head_1" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Head_2" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Head_3" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                </e>
+                <e p="Legs" t="Include">
+                  <e p="Base Legs" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Legs_1" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Legs_2" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Legs_3" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                </e>
+                <e p="Torsos" t="Include">
+                  <e p="Base Torso" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Torso_1" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Torso_2" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                  <e p="Torso_3" t="Include">
+                    <e p="Materials" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Textures" t="Include">
+                <e p="Hairs" t="Include">
+                  <e p="Hair_1" t="Include" />
+                  <e p="Hair_2" t="Include" />
+                  <e p="Hair_3" t="Include" />
+                  <e p="Hair_4" t="Include" />
+                </e>
+                <e p="Heads" t="Include">
+                  <e p="Head_1" t="Include" />
+                  <e p="Head_2" t="Include" />
+                  <e p="Head_3" t="Include" />
+                </e>
+                <e p="Legs" t="Include">
+                  <e p="Base Legs" t="Include" />
+                  <e p="Legs_1" t="Include" />
+                  <e p="Legs_2" t="Include" />
+                  <e p="Legs_3" t="Include" />
+                </e>
+                <e p="Torsos" t="Include">
+                  <e p="Base Torso" t="Include" />
+                  <e p="Torso_1" t="Include" />
+                  <e p="Torso_2" t="Include" />
+                  <e p="Torso_3" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Scenes" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="SetCharacter" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="SetCharacterEditor.cs" t="Include" />
+                </e>
+                <e p="SetCharacter.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Weapons" t="Include">
+              <e p="Sword_1" t="Include">
+                <e p="3D" t="Include">
+                  <e p="Materials" t="Include" />
+                </e>
+                <e p="Textures" t="Include" />
+              </e>
+              <e p="Sword_2" t="Include">
+                <e p="3D" t="Include">
+                  <e p="Materials" t="Include" />
+                </e>
+                <e p="Textures" t="Include" />
+              </e>
+              <e p="Sword_3" t="Include">
+                <e p="3D" t="Include">
+                  <e p="Materials" t="Include" />
+                </e>
+                <e p="Textures" t="Include" />
+              </e>
+              <e p="Sword_4" t="Include">
+                <e p="3D" t="Include">
+                  <e p="Materials" t="Include" />
+                </e>
+                <e p="Textures" t="Include" />
+              </e>
+            </e>
           </e>
+          <e p="Multistory Dungeons" t="Include">
+            <e p="DunGen Presets" t="Include">
+              <e p="Connectors" t="Include" />
+              <e p="Demo" t="Include" />
+              <e p="First-Person Rooms" t="Include">
+                <e p="Nested Prefabs Info.txt" t="Include" />
+              </e>
+              <e p="ReadMe DunGen.txt" t="Include" />
+              <e p="Top-Down Tiles" t="Include">
+                <e p="Nested Prefabs Info.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Dungeon Architect Presets" t="Include">
+              <e p="Prefabs" t="Include">
+                <e p="Modules" t="Include" />
+              </e>
+              <e p="README.txt" t="Include" />
+              <e p="Scenes" t="Include" />
+              <e p="Themes" t="Include" />
+            </e>
+            <e p="Meshes" t="Include">
+              <e p="SRC_Architecture" t="Include" />
+              <e p="SRC_Props" t="Include" />
+            </e>
+            <e p="Prefabs" t="Include">
+              <e p="Base" t="Include" />
+              <e p="Columns" t="Include" />
+              <e p="Doors And Bars" t="Include" />
+              <e p="FIRST-PERSON" t="Include">
+                <e p="FP Base" t="Include">
+                  <e p="Additional" t="Include" />
+                  <e p="Ruined" t="Include" />
+                </e>
+                <e p="FP Columns and Decor" t="Include" />
+                <e p="FP Doors and Bars" t="Include" />
+                <e p="FP ROOMS" t="Include">
+                  <e p="FP Connectors" t="Include" />
+                  <e p="Nested Prefabs Info.txt" t="Include" />
+                </e>
+              </e>
+              <e p="Props" t="Include">
+                <e p="Books And Alchemy" t="Include" />
+                <e p="Furniture" t="Include" />
+              </e>
+              <e p="Railing And Decor" t="Include" />
+              <e p="Stairs" t="Include" />
+              <e p="TD TILES" t="Include">
+                <e p="Nested Prefabs Info.txt" t="Include" />
+                <e p="TD Connectors" t="Include" />
+              </e>
+              <e p="VFX" t="Include">
+                <e p="Light Presets" t="Include" />
+              </e>
+              <e p="Walls And Arches" t="Include" />
+            </e>
+            <e p="Scenes" t="Include">
+              <e p="ReadMe (1-s person demo).txt" t="Include" />
+              <e p="Top-Down Demo 01" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="DisableMeshAtRuntime.cs" t="Include" />
+              <e p="FpsCounter.cs" t="Include" />
+              <e p="PointAndClickManager.cs" t="Include" />
+            </e>
+            <e p="Settings" t="Include" />
+            <e p="Textures" t="Include">
+              <e p="Materials" t="Include" />
+              <e p="SkyBoxes" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Codebase" t="Include">
+          <e p="Constants.cs" t="Include" />
           <e p="Data" t="Include">
             <e p="DataExtensions.cs" t="Include" />
+            <e p="DictionaryData_Base.cs" t="Include" />
             <e p="KillData.cs" t="Include" />
             <e p="Loot.cs" t="Include" />
             <e p="LootData.cs" t="Include" />
+            <e p="LootPieceData.cs" t="Include" />
+            <e p="LootPieceDataDictionary.cs" t="Include" />
             <e p="PlayerProgress.cs" t="Include" />
             <e p="PositionOnLevel.cs" t="Include" />
             <e p="State.cs" t="Include" />
@@ -39,9 +325,11 @@
             <e p="EnemyAnimator.cs" t="Include" />
             <e p="EnemyDeath.cs" t="Include" />
             <e p="EnemyHealth.cs" t="Include" />
+            <e p="Follow.cs" t="Include" />
             <e p="LootPiece.cs" t="Include" />
             <e p="LootSpawner.cs" t="Include" />
             <e p="PhysicsDebug.cs" t="Include" />
+            <e p="RotateToHero.cs" t="Include" />
             <e p="TriggerObserver.cs" t="Include" />
           </e>
           <e p="Hero" t="Include">
@@ -49,14 +337,15 @@
             <e p="HeroAttack.cs" t="Include" />
             <e p="HeroDeath.cs" t="Include" />
             <e p="HeroHealth.cs" t="Include" />
+            <e p="HeroLook.cs" t="Include" />
             <e p="HeroMove.cs" t="Include" />
           </e>
-          <e p="infrastructure" t="Include">
+          <e p="Infrastructure" t="Include">
             <e p="AssetManagement" t="Include">
-              <e p="Asset.cs" t="Include" />
-              <e p="IAssets.cs" t="Include" />
+              <e p="AssetPath.cs" t="Include" />
+              <e p="AssetProvider.cs" t="Include" />
+              <e p="IAssetProvider.cs" t="Include" />
             </e>
-            <e p="AssetPath.cs" t="Include" />
             <e p="Factory" t="Include">
               <e p="GameFactory.cs" t="Include" />
               <e p="IGameFactory.cs" t="Include" />
@@ -66,48 +355,51 @@
             <e p="GameRunner.cs" t="Include" />
             <e p="ICoroutineRunner.cs" t="Include" />
             <e p="SceneLoader.cs" t="Include" />
-            <e p="Services" t="Include">
-              <e p="AllServices.cs" t="Include" />
-              <e p="Input" t="Include">
-                <e p="IInputService.cs" t="Include" />
-                <e p="InputService.cs" t="Include" />
-              </e>
-              <e p="IService.cs" t="Include" />
-              <e p="IStaticDataService.cs" t="Include" />
-              <e p="PersistentProgress" t="Include">
-                <e p="IPersistentProgressService.cs" t="Include" />
-                <e p="ISavedProgress.cs" t="Include" />
-                <e p="ISavedProgressReader.cs" t="Include" />
-                <e p="PersistentProgressService.cs" t="Include" />
-              </e>
-              <e p="Randomizer" t="Include">
-                <e p="IRandomService.cs" t="Include" />
-                <e p="RandomService.cs" t="Include" />
-              </e>
-              <e p="SaveLaod" t="Include">
-                <e p="ISaveLoadService.cs" t="Include" />
-                <e p="SaveLoadService.cs" t="Include" />
-              </e>
-              <e p="StaticDataService.cs" t="Include" />
-            </e>
             <e p="States" t="Include">
               <e p="BootstrapState.cs" t="Include" />
               <e p="GameLoopState.cs" t="Include" />
               <e p="GameStateMachine.cs" t="Include" />
               <e p="IState.cs" t="Include" />
+              <e p="LoadLevelState.cs" t="Include" />
               <e p="LoadProgressState.cs" t="Include" />
-              <e p="LoadSceneState.cs" t="Include" />
             </e>
           </e>
           <e p="Logic" t="Include">
             <e p="AnimatorState.cs" t="Include" />
             <e p="AnimatorStateReporter.cs" t="Include" />
             <e p="EnemySpawner.cs" t="Include" />
-            <e p="IAnimationStateReader'.cs" t="Include" />
+            <e p="IAnimationStateReader.cs" t="Include" />
             <e p="IHealth.cs" t="Include" />
             <e p="LoadingCurtain.cs" t="Include" />
             <e p="SaveTrigger.cs" t="Include" />
             <e p="UniqueId.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include">
+            <e p="AllServices.cs" t="Include" />
+            <e p="Input" t="Include">
+              <e p="IInputService.cs" t="Include" />
+              <e p="InputService.cs" t="Include" />
+              <e p="PlayerInput.cs" t="Include" />
+            </e>
+            <e p="IService.cs" t="Include" />
+            <e p="PersistentProgress" t="Include">
+              <e p="IPersistentProgressService.cs" t="Include" />
+              <e p="ISavedProgress.cs" t="Include" />
+              <e p="ISavedProgressReader.cs" t="Include" />
+              <e p="PersistentProgressService.cs" t="Include" />
+            </e>
+            <e p="Randomizer" t="Include">
+              <e p="IRandomService.cs" t="Include" />
+              <e p="RandomService.cs" t="Include" />
+            </e>
+            <e p="SaveLoad" t="Include">
+              <e p="ISaveLoadService.cs" t="Include" />
+              <e p="SaveLoadService.cs" t="Include" />
+            </e>
+            <e p="StaticData" t="Include">
+              <e p="IStaticDataService.cs" t="Include" />
+              <e p="StaticDataService.cs" t="Include" />
+            </e>
           </e>
           <e p="StaticData" t="Include">
             <e p="MonsterStaticData.cs" t="Include" />
@@ -120,282 +412,12 @@
             <e p="LootCounter.cs" t="Include" />
           </e>
         </e>
-        <e p="Resources" t="Include">
-          <e p="Enemies" t="Include">
-            <e p="Bat Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Bat Lord Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Bee Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Bird Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Bumble Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Chick Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Cute series demo assets" t="Include" />
-            <e p="Egg Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Fledgling Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Flower Pot Monster Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Fungi Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Ghost Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Mushroom Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Phantom Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Seed Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Shade Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Shadow Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Spider Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Spider King Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Spider Toxin Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Spook Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Sprout Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Sting Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Toadstool Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="Vampire Bat Cute Series" t="Include">
-              <e p="FBX" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Read Me" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include" />
           </e>
-          <e p="Environment" t="Include">
-            <e p="Lowpoly_Demos" t="Include">
-              <e p="Environment_Free" t="Include">
-                <e p="Helpers" t="Include">
-                  <e p="Materials" t="Include" />
-                  <e p="MouseLook.cs" t="Include" />
-                  <e p="PlayerMovement.cs" t="Include" />
-                  <e p="Terrain" t="Include" />
-                </e>
-              </e>
-            </e>
-            <e p="Lowpoly_Environments" t="Include">
-              <e p="Prefabs" t="Include">
-                <e p="Flowers" t="Include" />
-                <e p="Mushrooms" t="Include" />
-                <e p="Plants" t="Include" />
-                <e p="Rocks" t="Include" />
-                <e p="Shrubs" t="Include" />
-                <e p="Trees" t="Include" />
-              </e>
-              <e p="Sources" t="Include">
-                <e p="Materials" t="Include" />
-                <e p="Meshes" t="Include">
-                  <e p="Flowers" t="Include" />
-                  <e p="Mushrooms" t="Include" />
-                  <e p="Plants" t="Include" />
-                  <e p="Rocks" t="Include" />
-                  <e p="Shrubs" t="Include" />
-                  <e p="Trees" t="Include" />
-                </e>
-                <e p="Shaders" t="Include">
-                  <e p="PT_Rock_Shader.shader" t="Include" />
-                  <e p="PT_Rock_Shader_VS.shader" t="Include" />
-                  <e p="PT_Vegetation_Flowers_Shader.shader" t="Include" />
-                  <e p="PT_Vegetation_Flowers_Shader_VS.shader" t="Include" />
-                  <e p="PT_Vegetation_Foliage_Shader.shader" t="Include" />
-                  <e p="PT_Vegetation_Foliage_Shader_VS.shader" t="Include" />
-                  <e p="PT_Vegetation_Opaque_Shader.shader" t="Include" />
-                  <e p="PT_Vegetation_Opaque_Shader_VS.shader" t="Include" />
-                  <e p="PT_Vegetation_Plants_Shader.shader" t="Include" />
-                  <e p="PT_Vegetation_Plants_Shader_VS.shader" t="Include" />
-                  <e p="PT_Water_Shader.shader" t="Include" />
-                  <e p="PT_Water_Shader_WebGl.shader" t="Include" />
-                  <e p="VS_indirect.cginc" t="Include" />
-                </e>
-                <e p="Textures" t="Include" />
-              </e>
-              <e p="SRP" t="Include" />
-            </e>
-            <e p="Lowpoly_Village" t="Include">
-              <e p="Prefabs" t="Include" />
-              <e p="Sources" t="Include">
-                <e p="Materials" t="Include" />
-                <e p="Meshes" t="Include" />
-                <e p="Textures" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Heroes" t="Include">
-            <e p="DogKnight" t="Include">
-              <e p="Animations" t="Include" />
-              <e p="Animator" t="Include" />
-              <e p="Material" t="Include" />
-              <e p="Mesh" t="Include" />
-              <e p="Prefab" t="Include" />
-              <e p="Scene" t="Include" />
-              <e p="Texture" t="Include" />
-            </e>
-            <e p="RPGHero" t="Include">
-              <e p="Animations" t="Include" />
-              <e p="Animator" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Meshes" t="Include" />
-              <e p="Prefabs" t="Include" />
-              <e p="Textures" t="Include" />
-            </e>
-          </e>
-          <e p="infrastructure" t="Include" />
           <e p="JMO Assets" t="Include">
-            <e p="Cartoon FX (legacy)" t="Include">
+            <e p="Cartoon FX" t="Include">
               <e p="CartoonFX Free.txt" t="Include" />
               <e p="CFX Prefabs" t="Include">
                 <e p="Electric" t="Include" />
@@ -466,138 +488,118 @@
               </e>
               <e p="Textures" t="Include" />
             </e>
-            <e p="Cartoon FX Remaster" t="Include">
-              <e p="CFXR Assets" t="Include">
-                <e p="Editor" t="Include">
-                  <e p="CFXR Editor.asmdef" t="Include" />
-                  <e p="CFXR_BuildShaderPreprocessor.cs" t="Include" />
-                  <e p="CFXR_ExpressionParser.cs" t="Include" />
-                  <e p="CFXR_MaterialInspector.cs" t="Include" />
-                  <e p="CFXR_Styles.cs" t="Include" />
-                </e>
-                <e p="Graphics" t="Include" />
-                <e p="Meshes" t="Include" />
-                <e p="Misc" t="Include" />
-                <e p="Scripts" t="Include">
-                  <e p="CFXR Runtime.asmdef" t="Include" />
-                  <e p="CFXR_Effect.CameraShake.cs" t="Include" />
-                  <e p="CFXR_Effect.cs" t="Include" />
-                  <e p="CFXR_EmissionBySurface.cs" t="Include" />
-                  <e p="CFXR_ParticleText.cs" t="Include" />
-                  <e p="CFXR_ParticleTextFontAsset.cs" t="Include" />
-                </e>
-                <e p="Shaders" t="Include">
-                  <e p="CFXR Particle Distortion.shader" t="Include" />
-                  <e p="CFXR Particle Glow.shader" t="Include" />
-                  <e p="CFXR Particle Procedural Ring.shader" t="Include" />
-                  <e p="CFXR Particle Ubershader.shader" t="Include" />
-                  <e p="CFXR.cginc" t="Include" />
-                  <e p="CFXR_PASSES.cginc" t="Include" />
-                  <e p="CFXR_SETTINGS.cginc" t="Include" />
-                  <e p="CFXR_URP.cginc" t="Include" />
-                </e>
+            <e p="Cartoon FX Easy Editor" t="Include">
+              <e p="CartoonFX Easy Editor Readme.txt" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="CFXEasyEditor.cs" t="Include" />
               </e>
-              <e p="CFXR Prefabs" t="Include">
-                <e p="Eerie" t="Include" />
-                <e p="Electric" t="Include" />
-                <e p="Explosions" t="Include" />
-                <e p="Fire" t="Include" />
-                <e p="Ice" t="Include" />
-                <e p="Impacts" t="Include" />
-                <e p="Light" t="Include" />
-                <e p="Liquids" t="Include" />
-                <e p="Magic Misc" t="Include" />
-                <e p="Misc" t="Include" />
-                <e p="Nature" t="Include" />
-                <e p="Sword Trails" t="Include">
-                  <e p="Fire" t="Include" />
-                  <e p="Ice" t="Include" />
-                  <e p="Plain" t="Include" />
-                </e>
-                <e p="Texts" t="Include">
-                  <e p="_Make your own text effect.txt" t="Include" />
-                </e>
+            </e>
+            <e p="Editor" t="Include" />
+          </e>
+        </e>
+        <e p="Rendering" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="Controls" t="Include">
+            <e p="Graphics" t="Include">
+              <e p="FlatDark" t="Include">
+                <e p="Joystick" t="Include" />
               </e>
-              <e p="Demo Assets" t="Include">
-                <e p="CFXR Demo.asmdef" t="Include" />
-                <e p="CFXR_Demo.cs" t="Include" />
-                <e p="CFXR_Demo_Rotate.cs" t="Include" />
-                <e p="CFXR_Demo_Translate.cs" t="Include" />
-                <e p="Kino Bloom" t="Include">
-                  <e p="Bloom.cs" t="Include" />
-                  <e p="Editor" t="Include">
-                    <e p="BloomEditor.cs" t="Include" />
-                    <e p="BloomGraphDrawer.cs" t="Include" />
-                    <e p="KinoBloom.Editor.asmdef" t="Include" />
-                  </e>
-                  <e p="Kino Bloom License.txt" t="Include" />
-                  <e p="KinoBloom.Runtime.asmdef" t="Include" />
-                  <e p="Shader" t="Include">
-                    <e p="Bloom.cginc" t="Include" />
-                    <e p="Bloom.shader" t="Include" />
-                  </e>
-                </e>
-                <e p="UI" t="Include" />
-              </e>
-              <e p="Readme Cartoon FX Remaster FREE.txt" t="Include" />
             </e>
           </e>
-          <e p="Loot" t="Include">
-            <e p="BullSkull" t="Include">
+          <e p="Enemies" t="Include">
+            <e p="Golem" t="Include">
+              <e p="Animations" t="Include" />
               <e p="Materials" t="Include" />
-              <e p="Texture" t="Include" />
+              <e p="Meshes" t="Include" />
+              <e p="Prefabs" t="Include" />
+              <e p="Textures" t="Include" />
+            </e>
+            <e p="Lich" t="Include">
+              <e p="Animations" t="Include">
+                <e p="Lich" t="Include" />
+              </e>
+              <e p="Materials" t="Include" />
+              <e p="Meshes" t="Include" />
+              <e p="Prefabs" t="Include" />
+              <e p="Textures" t="Include">
+                <e p="PBR" t="Include" />
+              </e>
             </e>
           </e>
-          <e p="Scene Assets" t="Include" />
-          <e p="StaticData" t="Include">
+          <e p="Hero" t="Include">
+            <e p="Heavy Knight PBR" t="Include">
+              <e p="Animations" t="Include" />
+              <e p="AnimControllers" t="Include" />
+              <e p="Materials" t="Include" />
+              <e p="Meshes" t="Include" />
+              <e p="OriginalFiles" t="Include" />
+              <e p="Scenes" t="Include" />
+              <e p="Textures" t="Include">
+                <e p="knightPBRBlue" t="Include" />
+                <e p="knightPBRGreen" t="Include" />
+                <e p="knightPBRRed" t="Include" />
+                <e p="knightPBRYellow" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Hud" t="Include" />
+          <e p="Infrastructure" t="Include" />
+          <e p="Levels" t="Include">
+            <e p="Graveyard" t="Include">
+              <e p="raw" t="Include">
+                <e p="Demo" t="Include">
+                  <e p="Materials" t="Include" />
+                </e>
+                <e p="Materials" t="Include" />
+                <e p="mobile_models" t="Include">
+                  <e p="Materials" t="Include" />
+                </e>
+                <e p="Textures" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Loot" t="Include" />
+          <e p="Settings" t="Include" />
+          <e p="Static Data" t="Include">
             <e p="Monsters" t="Include" />
           </e>
-          <e p="UI" t="Include">
-            <e p="Curtain" t="Include">
-              <e p="Animations" t="Include" />
+        </e>
+        <e p="SceneAssets" t="Include">
+          <e p="Fx" t="Include">
+            <e p="Ambient" t="Include">
+              <e p="Fog" t="Include" />
             </e>
-            <e p="Hud" t="Include">
-              <e p="HpBar" t="Include" />
-              <e p="Joystick" t="Include">
-                <e p="Sprites" t="Include" />
-              </e>
+            <e p="Beams" t="Include">
+              <e p="RandomizeLightStreak.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="Scenes" t="Include">
-          <e p="Main" t="Include" />
-        </e>
-        <e p="Terrains" t="Include" />
+        <e p="Scenes" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Documentation" t="Include" />
-          <e p="Fonts" t="Include">
-            <e p="LiberationSans - OFL.txt" t="Include" />
-          </e>
           <e p="Resources" t="Include">
             <e p="Fonts &amp; Materials" t="Include" />
             <e p="LineBreaking Following Characters.txt" t="Include" />
             <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile 1.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
             <e p="Sprite Assets" t="Include" />
             <e p="Style Sheets" t="Include" />
-          </e>
-          <e p="Shaders" t="Include">
-            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
-            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
-            <e p="TMP_Bitmap.shader" t="Include" />
-            <e p="TMP_SDF Overlay.shader" t="Include" />
-            <e p="TMP_SDF SSD.shader" t="Include" />
-            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
-            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
-            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
-            <e p="TMP_SDF-Mobile.shader" t="Include" />
-            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
-            <e p="TMP_SDF-Surface.shader" t="Include" />
-            <e p="TMP_SDF.shader" t="Include" />
-            <e p="TMP_Sprite.shader" t="Include" />
-            <e p="TMPro.cginc" t="Include" />
-            <e p="TMPro_Mobile.cginc" t="Include" />
-            <e p="TMPro_Properties.cginc" t="Include" />
-            <e p="TMPro_Surface.cginc" t="Include" />
           </e>
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
@@ -605,14 +607,9 @@
           </e>
         </e>
       </e>
-      <e p="CFXRDemo.csproj" t="IncludeRecursive" />
-      <e p="CFXREditor.csproj" t="IncludeRecursive" />
-      <e p="CFXRRuntime.csproj" t="IncludeRecursive" />
-      <e p="KinoBloom.Runtime.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
-      <e p="ToonyColorsPro.Demo.Editor.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>

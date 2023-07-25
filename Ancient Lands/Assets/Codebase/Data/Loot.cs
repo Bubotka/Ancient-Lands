@@ -2,9 +2,9 @@
 
 namespace CodeBase.Data
 {
-    [Serializable]
-    public class Loot
-    {
-        public int Value;
-    }
+  [Serializable]
+  public class Loot
+  {
+    public int Value;
+  }
 }

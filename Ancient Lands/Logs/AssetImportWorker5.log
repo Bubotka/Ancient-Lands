@@ -1,0 +1,422 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.1f1 (f18e0c1b5784) revision 15830540'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32690 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+A:\Unity\2022.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/Unity репозиторий/Ancient-Lands/Ancient Lands
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+5754
+Successfully changed project path to: D:/Unity репозиторий/Ancient-Lands/Ancient Lands
+D:/Unity репозиторий/Ancient-Lands/Ancient Lands
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20268] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 698262833 [EditorId] 698262833 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20268] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 698262833 [EditorId] 698262833 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 5.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
+[Subsystems] Discovering subsystems at path A:/Unity/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity репозиторий/Ancient-Lands/Ancient Lands/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'A:/Unity/2022.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003233 seconds.
+- Loaded All Assemblies, in  0.228 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 205 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.455 seconds
+Domain Reload Profiling: 683ms
+	BeginReloadAssembly (57ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (102ms)
+		LoadAssemblies (57ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (91ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (455ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (413ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (291ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.518 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.495 seconds
+Domain Reload Profiling: 1012ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (371ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (191ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (495ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (372ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5577 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (420.8 KB). Loaded Objects now: 6054.
+Memory consumption went from 222.9 MB to 222.5 MB.
+Total: 3.751700 ms (FindLiveObjects: 0.367400 ms CreateObjectMapping: 0.352000 ms MarkObjects: 2.864600 ms  DeleteObjects: 0.167000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/PointAndClickManager.cs: ca53010796b4de73fe5b234435c3e078 -> fa32d372a252ee86bcc063642d34517c
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/Move.cs: 73a45274d592f163b9c1ce89ddb016d1 -> 
+  custom:scripting/monoscript/fileName/DisableMeshAtRuntime.cs: cab17774665095244ea56be384dc4693 -> b13d25dcacf5740aa2e5f629bc06acfd
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/SetCharacterEditor.cs: f74b6d9fe8fbca0103564d0889d951da -> 8973c7b2cc141a00270ba0c27360d0cc
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 9b150ee781d2c96881d6021398a5e296 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
+  custom:scripting/monoscript/fileName/FpsCounter.cs: b2a88c3520e04eb3d5c5bb2facecf66a -> f7d292bb0de5814b7cbdb34b921784fc
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 291ab2eb02dfb056a8571d14613b9921 -> 1a1d9a9cba7940fed9939f7306abee3f
+  custom:scripting/monoscript/fileName/SetCharacter.cs: 8e6ac516b7d92d6b7da39bc386506d1a -> 66000bc1a703bb6f10eb1b49c927df39
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11498.826743 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_1/3D/Materials/Sword_1_Yellow.mat
+  artifactKey: Guid(d23d933a5bb042546bab11d145ca9a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_1/3D/Materials/Sword_1_Yellow.mat using Guid(d23d933a5bb042546bab11d145ca9a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af07129fd73039c69638a2a442759756') in 0.005425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.024526 seconds.
+  path: Assets/Resources/Levels/Graveyard/raw/mobile_models/Materials/Tree_BG.mat
+  artifactKey: Guid(aa89ce2c85c53934ea09b357bf7de74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Graveyard/raw/mobile_models/Materials/Tree_BG.mat using Guid(aa89ce2c85c53934ea09b357bf7de74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d84e0c7a76c6c13300deaa904a5ad9') in 0.000857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 373.344831 seconds.
+  path: Assets/Resources/Hero/Heavy Knight PBR/Materials/StagePBR.mat
+  artifactKey: Guid(8dfcc622df4b17c46b799e840dfcd16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Hero/Heavy Knight PBR/Materials/StagePBR.mat using Guid(8dfcc622df4b17c46b799e840dfcd16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def8af90557d0373217e162d963a61d7') in 0.000798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005055 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_2/3D/Materials/Sword_2_Gray.mat
+  artifactKey: Guid(5284465724a051a468950ae23b8e1186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_2/3D/Materials/Sword_2_Gray.mat using Guid(5284465724a051a468950ae23b8e1186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815889bd353dc8fa36f3eabd5c4b836e') in 0.000761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_1/3D/Materials/Sword_1_Gray.mat
+  artifactKey: Guid(17245f7e3705df848b9194a91683de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_1/3D/Materials/Sword_1_Gray.mat using Guid(17245f7e3705df848b9194a91683de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5aae95174a86c255ee2c3dcf936430') in 0.000602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_3/3D/Materials/Sword_3_Gray.mat
+  artifactKey: Guid(5fea74ce992612b4e97c431f78002d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_3/3D/Materials/Sword_3_Gray.mat using Guid(5fea74ce992612b4e97c431f78002d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0941627a19a82ebc89768549f51c59') in 0.000801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_4/3D/Materials/Sword_4_Gray.mat
+  artifactKey: Guid(567546ca9ad72904ba7d62da3ee14235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_4/3D/Materials/Sword_4_Gray.mat using Guid(567546ca9ad72904ba7d62da3ee14235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f332926b8c1b67f2a48b667104dbb232') in 0.000698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005716 seconds.
+  path: Assets/Resources/Levels/Graveyard/raw/mobile_models/Materials/Tree_BG.mat
+  artifactKey: Guid(aa89ce2c85c53934ea09b357bf7de74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Graveyard/raw/mobile_models/Materials/Tree_BG.mat using Guid(aa89ce2c85c53934ea09b357bf7de74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c730a3ec59737ae9c8406258ae0ccb8b') in 0.000641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.444053 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Materials/Male_Hair_3.mat
+  artifactKey: Guid(2df24410c0acf71478ccaedd025142ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Materials/Male_Hair_3.mat using Guid(2df24410c0acf71478ccaedd025142ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441f31a8cbf66e0eec6e49ca4bb3339d') in 0.000797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003025 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_1/Materials/Male_Head_1.mat
+  artifactKey: Guid(25e381a33d04932429a8bd13baaefaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_1/Materials/Male_Head_1.mat using Guid(25e381a33d04932429a8bd13baaefaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebcace426ae3dcf5d6b89dea20c3442') in 0.000903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_2/Materials/Male_Head_2.mat
+  artifactKey: Guid(61a3b559664a8db4cbfdfd415b46ed7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_2/Materials/Male_Head_2.mat using Guid(61a3b559664a8db4cbfdfd415b46ed7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968bd9a98cde277f20fb34abcc4d3e31') in 0.000679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.027297 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_2/Materials/Male_Legs_2_Brown.mat
+  artifactKey: Guid(a8da38c631b457644976e7c700997dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_2/Materials/Male_Legs_2_Brown.mat using Guid(a8da38c631b457644976e7c700997dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db46408d31980aabaa2d61d9e6ce767a') in 0.001092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Skin.mat
+  artifactKey: Guid(08f1732b8a6f2c74e96eb586910d25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Skin.mat using Guid(08f1732b8a6f2c74e96eb586910d25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26704f8f0f5b7655488a1484a90a6160') in 0.000712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_3/Materials/Male_Legs_3_Brown.mat
+  artifactKey: Guid(e769fe3895b984d4a937a936f94e8c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_3/Materials/Male_Legs_3_Brown.mat using Guid(e769fe3895b984d4a937a936f94e8c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d98004fffc9dfb8e52fa0493ab09bb') in 0.000655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.114754 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_3/Materials/Female_Legs_3_Skin_Light.mat
+  artifactKey: Guid(1bd40f27ff5070a40b4b0c304b6f8d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_3/Materials/Female_Legs_3_Skin_Light.mat using Guid(1bd40f27ff5070a40b4b0c304b6f8d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407cdf39a0d9392096ab75dd24a489c4') in 0.000702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_1/Materials/Female_Torso_1_Skin.mat
+  artifactKey: Guid(1f4eb2ee258d00f46b7e2c217f2996eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_1/Materials/Female_Torso_1_Skin.mat using Guid(1f4eb2ee258d00f46b7e2c217f2996eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fdd320e4739258faba65b50e1751bf') in 0.000665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_1/Materials/Female_Torso_1_Skin_Dark.mat
+  artifactKey: Guid(40c80b68cce95f249b8dc8292a209132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_1/Materials/Female_Torso_1_Skin_Dark.mat using Guid(40c80b68cce95f249b8dc8292a209132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40a19141fec274752f6e29cbca20571') in 0.000775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Green.mat
+  artifactKey: Guid(36e85cc99a1790b41a147803cc76eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Green.mat using Guid(36e85cc99a1790b41a147803cc76eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf484e99612523e21e978879303bc07a') in 0.000639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Blue.mat
+  artifactKey: Guid(b51421c6a4ea7ac4895dc01f52a1901c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Blue.mat using Guid(b51421c6a4ea7ac4895dc01f52a1901c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ff2a5e8132a9400ff70e5aedc46c7f') in 0.000597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.449628 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Materials/Male_Hair_3.mat
+  artifactKey: Guid(2df24410c0acf71478ccaedd025142ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Materials/Male_Hair_3.mat using Guid(2df24410c0acf71478ccaedd025142ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017289ba9ec2981350487fb95387719f') in 0.000655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_1/Materials/Male_Head_1.mat
+  artifactKey: Guid(25e381a33d04932429a8bd13baaefaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_1/Materials/Male_Head_1.mat using Guid(25e381a33d04932429a8bd13baaefaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762dd87914ad8e2fac40f49e61b85fe8') in 0.000870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_4/Materials/Male_Hair_4.mat
+  artifactKey: Guid(c721ecac46d6f11499c1291b2761d121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_4/Materials/Male_Hair_4.mat using Guid(c721ecac46d6f11499c1291b2761d121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dc35596aca513907c3fbfe2b3262ed') in 0.000627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_2/Materials/Male_Legs_2_Brown.mat
+  artifactKey: Guid(a8da38c631b457644976e7c700997dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_2/Materials/Male_Legs_2_Brown.mat using Guid(a8da38c631b457644976e7c700997dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94ce26c29a5cf436d74fb2b07d4e133') in 0.000554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_3/Materials/Male_Legs_3_Brown.mat
+  artifactKey: Guid(e769fe3895b984d4a937a936f94e8c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_3/Materials/Male_Legs_3_Brown.mat using Guid(e769fe3895b984d4a937a936f94e8c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0066d2abd0b09137e1fd3c6ae06450d7') in 0.000702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

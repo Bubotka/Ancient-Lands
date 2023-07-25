@@ -1,87 +1,77 @@
 ﻿using CodeBase.Data;
-using Codebase.Infrastructure.Services;
-using Codebase.Infrastructure.Services.Input;
-using Codebase.Infrastructure.Services.PersistentProgress;
+using CodeBase.Infrastructure;
+using CodeBase.Services;
+using CodeBase.Services.Input;
+using CodeBase.Services.PersistentProgress;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace CodeBase.Hero
 {
-    public class HeroMove : MonoBehaviour, ISavedProgress
+  public class HeroMove : MonoBehaviour, ISavedProgress
+  {
+    [SerializeField] private CharacterController _characterController;
+    [SerializeField] private float _turnSmoothTime=0.2f;
+
+    private float _turnSmoothVelocity;
+    private IInputService _inputService;
+    private Camera _camera;
+
+
+    private void Awake() => 
+      _inputService = AllServices.Container.Single<IInputService>();
+
+    private void Start() =>
+      _camera = Camera.main;
+
+    private void Update()
     {
-        public CharacterController _characterController;
-        public float MoveSpeed = 2;
-        public float TurnSmoothTime = 0.2f;
+      Vector3 movementVector = Vector3.zero;
 
-        private float _turnVelocity;
-        private IInputService _inputService;
-        private Camera _camera;
+      if (_inputService.Move.SqrMagnitude() > 0.1)
+      {
+        Vector3 direction = new Vector3(_inputService.Move.x,0,_inputService.Move.y);
 
-        private void Awake()
-        {
-            _camera = Camera.main;
-            _inputService = AllServices.Container.Single<IInputService>();
-        }
+        float targetAngle = GetRotateAngle(direction);
+        float angle = SmoothAngle(targetAngle);
+        transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
-        private void Update()
-        {
-            Vector3 moveDir = Vector3.zero;
+        movementVector = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+      }
 
-            if (_inputService.Player.Move.ReadValue<Vector2>() != Vector2.zero)
-            {
-                Vector3 direction = ReadMoveValue().normalized;
-
-                float targetAngle = CalculateRotateAngle(direction);
-                float angle = SmoothAngle(targetAngle);
-                transform.rotation = Quaternion.Euler(0f, angle, 0f);
-
-                moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-            }
-
-            moveDir += Physics.gravity;
-
-            _characterController.Move(moveDir.normalized * MoveSpeed * Time.deltaTime);
-        }
-
-        public void LoadProgress(PlayerProgress progress)
-        {
-            if (CurrentLevel() == progress.WorldData.PositionOnLevel.Level)
-            {
-                Vector3Data savedPosition = progress.WorldData.PositionOnLevel.Position;
-                
-                if (savedPosition != null)
-                    Warp(to: savedPosition);
-            }
-        }
-
-        public void UpdateProgress(PlayerProgress progress) =>
-            progress.WorldData.PositionOnLevel =
-                new PositionOnLevel(CurrentLevel(), transform.position.AsVectorData());
-
-        private Vector3 ReadMoveValue() =>
-            new Vector3(GetValueX(), 0, GetValueZ());
-
-        private float SmoothAngle(float targetAngle) =>
-            Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref _turnVelocity, TurnSmoothTime);
-
-        private float CalculateRotateAngle(Vector3 directionNormalized) =>
-            Mathf.Atan2(directionNormalized.x, directionNormalized.z) * Mathf.Rad2Deg + _camera.transform.eulerAngles.y;
-
-        private float GetValueZ() =>
-            _inputService.Player.Move.ReadValue<Vector2>().y;
-
-        private float GetValueX() =>
-            _inputService.Player.Move.ReadValue<Vector2>().x;
-
-
-        private void Warp(Vector3Data to)
-        {
-            _characterController.enabled = false;
-            transform.position = to.AsUnityVector();
-            _characterController.enabled = true;
-        }
-
-        private static string CurrentLevel() =>
-            SceneManager.GetActiveScene().name;
+      movementVector += Physics.gravity;
+            
+      _characterController.Move(movementVector * Time.deltaTime);
     }
+
+    public void UpdateProgress(PlayerProgress progress)
+    {
+      progress.WorldData.PositionOnLevel = new PositionOnLevel(CurrentLevel(), transform.position.AsVectorData());
+    }
+
+    public void LoadProgress(PlayerProgress progress)
+    {
+      if (CurrentLevel() != progress.WorldData.PositionOnLevel.Level) return;
+
+      Vector3Data savedPosition = progress.WorldData.PositionOnLevel.Position;
+      if (savedPosition != null) 
+        Warp(to: savedPosition);
+    }
+    
+    private float SmoothAngle(in float targetAngle) => 
+      Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref _turnSmoothVelocity, _turnSmoothTime);
+
+    private float GetRotateAngle(Vector3 direction) => 
+      Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + _camera.transform.eulerAngles.y;
+
+    private static string CurrentLevel() => 
+      SceneManager.GetActiveScene().name;
+
+    private void Warp(Vector3Data to)
+    {
+      _characterController.enabled = false;
+      transform.position = to.AsUnityVector().AddY(_characterController.height);
+      _characterController.enabled = true;
+    }
+  }
 }

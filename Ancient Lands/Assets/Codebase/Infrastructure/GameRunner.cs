@@ -1,16 +1,17 @@
-﻿using UnityEngine;
+using UnityEngine;
 
-namespace Codebase.Infrastructure
+namespace CodeBase.Infrastructure
 {
-    public class GameRunner : MonoBehaviour
+  public class GameRunner : MonoBehaviour
+  {
+    public GameBootstrapper BootstrapperPrefab;
+    private void Awake()
     {
-        public GameBootstrapper BootstrapperPrefab;
-        private void Awake()
-        {
-            var bootstrapper = FindObjectOfType<GameBootstrapper>();
+      var bootstrapper = FindObjectOfType<GameBootstrapper>();
+      
+      if(bootstrapper != null) return;
 
-            if (bootstrapper == null) 
-                Instantiate(BootstrapperPrefab);
-        }
+      Instantiate(BootstrapperPrefab);
     }
+  }
 }

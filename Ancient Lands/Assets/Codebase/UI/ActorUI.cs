@@ -1,37 +1,40 @@
-﻿using System;
-using Codebase.Hero;
-using Codebase.Logic;
+using System;
+using CodeBase.Hero;
+using CodeBase.Logic;
 using UnityEngine;
 
-namespace Codebase.UI
+namespace CodeBase.UI
 {
-    public class ActorUI : MonoBehaviour
+  public class ActorUI : MonoBehaviour
+  {
+    public HpBar HpBar;
+
+    private IHealth _health;
+
+    public void Construct(IHealth health)
     {
-        public HpBar HpBar;
-
-        private IHealth _heroHealth;
-
-        public void Construct(IHealth health)
-        {
-            _heroHealth = health;
-            
-            _heroHealth.HealthChanged += UpdateHpBar;
-        }
-
-        private void Start()
-        {
-            IHealth health = GetComponent<IHealth>();
-            
-            if(health!=null)
-                Construct(health);
-        }
-
-        private void OnDestroy() => 
-            _heroHealth.HealthChanged -= UpdateHpBar;
-
-        private void UpdateHpBar() => 
-            HpBar.SetValue(_heroHealth.Current,_heroHealth.Max);
+      _health = health;
+      _health.HealthChanged += UpdateHpBar;
     }
-     
-    
+
+    private void Start()
+    {
+      IHealth health = GetComponent<IHealth>();
+      
+      if(health != null)
+        Construct(health);
+    }
+
+    private void OnDestroy()
+    {
+      if (_health != null)
+        _health.HealthChanged -= UpdateHpBar;
+    }
+
+    private void UpdateHpBar()
+    {
+      HpBar.SetValue(_health.Current, _health.Max);
+    }
+
+  }
 }
