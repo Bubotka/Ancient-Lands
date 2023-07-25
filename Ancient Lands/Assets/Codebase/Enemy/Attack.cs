@@ -1,6 +1,7 @@
 using System.Linq;
 using CodeBase.Logic;
 using UnityEngine;
+using UnityEngine.AI;
 
 namespace CodeBase.Enemy
 {
@@ -8,6 +9,7 @@ namespace CodeBase.Enemy
   public class Attack : MonoBehaviour
   {
     public EnemyAnimator Animator;
+    public NavMeshAgent Agent;
 
     public float AttackCooldown = 3.0f;
     public float Cleavage = 0.5f;
@@ -20,13 +22,17 @@ namespace CodeBase.Enemy
     private float _attackCooldown;
     private bool _isAttacking;
     private bool _attackIsActive;
+    private float _enemySpeed;
 
 
     public void Construct(Transform heroTransform) => 
       _heroTransform = heroTransform;
 
-    private void Awake() => 
+    private void Awake()
+    {
+      _enemySpeed = Agent.speed;
       _layerMask = 1 << LayerMask.NameToLayer("Player");
+    }
 
     private void Update()
     {
@@ -38,9 +44,9 @@ namespace CodeBase.Enemy
 
     private void OnAttack()
     {
+      Agent.speed = 0;
       if (Hit(out Collider hit))
       {
-        //PhysicsDebug.DrawDebug(StartPoint(), Cleavage, 1.0f);
         hit.transform.GetComponent<IHealth>().TakeDamage(Damage);
       }
     }
@@ -49,6 +55,7 @@ namespace CodeBase.Enemy
     {
       _attackCooldown = AttackCooldown;
       _isAttacking = false;
+      Agent.speed = _enemySpeed;
     }
 
     public void DisableAttack() => 

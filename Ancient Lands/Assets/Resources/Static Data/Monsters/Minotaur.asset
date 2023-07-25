@@ -17,7 +17,7 @@ MonoBehaviour:
   Damage: 12.6
   MaxLootValue: 25
   MinLootValue: 5
-  EffectiveDistance: 0.5
-  Cleavage: 0.5
+  EffectiveDistance: 0.637
+  Cleavage: 0.711
   MoveSpeed: 3
   Prefab: {fileID: 6555104835153501862, guid: 35f7bebbb137e0340959ad74ca432b5f, type: 3}
