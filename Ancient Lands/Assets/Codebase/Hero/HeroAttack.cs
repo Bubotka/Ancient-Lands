@@ -65,6 +65,6 @@ namespace CodeBase.Hero
       Physics.OverlapSphereNonAlloc(StartPoint() + transform.forward, _stats.DamageRadius, _hits, _layerMask);
 
     private Vector3 StartPoint() =>
-      new Vector3(transform.position.x, _characterController.center.y / 2, transform.position.z);
+      new Vector3(transform.position.x, transform.position.y+_characterController.center.y, transform.position.z);
   }
 }

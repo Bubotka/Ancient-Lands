@@ -541,6 +541,7 @@
           <e p="Loot" t="Include" />
           <e p="Settings" t="Include" />
           <e p="Static Data" t="Include">
+            <e p="Levels" t="Include" />
             <e p="Monsters" t="Include" />
           </e>
         </e>

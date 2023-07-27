@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e91fc53aa0eb4f4791f73a12e99346d4, type: 3}
   m_Name: Minotaur
   m_EditorClassIdentifier: 
-  MonsterTypeId: 20
+  MonsterTypeId: 0
   Hp: 11
   Damage: 10.4
   MaxLootValue: 25
