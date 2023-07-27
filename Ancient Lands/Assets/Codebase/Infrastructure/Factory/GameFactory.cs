@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using CodeBase.Enemy;
 using CodeBase.Infrastructure.AssetManagement;
 using CodeBase.Logic;
+using CodeBase.Logic.EnemySpawners;
 using CodeBase.Services.PersistentProgress;
 using CodeBase.Services.Randomizer;
-using CodeBase.Services.StaticData;
 using CodeBase.StaticData;
 using CodeBase.UI;
 using UnityEngine;
@@ -81,6 +81,16 @@ namespace CodeBase.Infrastructure.Factory
       lootSpawner.SetLootValue(monsterData.MinLootValue, monsterData.MaxLootValue);
 
       return monster;
+    }
+
+    public void CreateSpawner(Vector3 at, string spawnerId, MonsterTypeId monsterTypeId)
+    {
+      SpawnPoint spawner = InstantiateRegistered(AssetPath.Spawner,at)
+        .GetComponent<SpawnPoint>();
+
+      spawner.Construct(this);
+      spawner.Id = spawnerId;
+      spawner.MonsterTypeId = monsterTypeId;
     }
 
     public void Register(ISavedProgressReader progressReader)

@@ -15,7 +15,7 @@ namespace CodeBase.Infrastructure.Factory
     GameObject CreateHud();
     GameObject CreateMonster(MonsterTypeId typeId, Transform parent);
     LootPiece CreateLoot();
+    void CreateSpawner(Vector3 at, string spawnerId, MonsterTypeId monsterTypeId);
     void Cleanup();
-    void Register(ISavedProgressReader savedProgress);
   }
-}
+} 

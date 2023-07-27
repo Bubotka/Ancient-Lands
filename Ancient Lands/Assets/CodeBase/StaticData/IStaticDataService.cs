@@ -1,10 +1,11 @@
-﻿using CodeBase.StaticData;
+﻿using CodeBase.Services;
 
-namespace CodeBase.Services.StaticData
+namespace CodeBase.StaticData
 {
   public interface IStaticDataService : IService
   {
     void LoadMonsters();
     MonsterStaticData ForMonster(MonsterTypeId typeId);
+    LevelStaticData ForLevel(string sceneKey);
   }
 }

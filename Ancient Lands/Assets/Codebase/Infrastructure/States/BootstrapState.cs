@@ -5,7 +5,7 @@ using CodeBase.Services.Input;
 using CodeBase.Services.PersistentProgress;
 using CodeBase.Services.Randomizer;
 using CodeBase.Services.SaveLoad;
-using CodeBase.Services.StaticData;
+using CodeBase.StaticData;
 using UnityEngine;
 
 namespace CodeBase.Infrastructure.States

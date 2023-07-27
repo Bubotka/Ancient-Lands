@@ -41,17 +41,32 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Input/IInputService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/BootstrapState.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/LoadLevelState.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroLook.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/AssetManagement/AssetPath.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/MonsterTypeId.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/LoadProgressState.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/EnemyDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/RotateToHero.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/Follow.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/Attack.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Services/StaticData/IStaticDataService.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Services/StaticData/MonsterStaticData.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/LoadLevelState.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/IGameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/AssetManagement/AssetPath.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Logic/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/StaticDataService.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/GameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Logic/SpawnPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Logic/EnemySpawners/SpawnMarker.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Editor/EnemySpawnerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/MonsterTypeId.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/LevelStaticData.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/MonsterStaticData.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Editor/SpawnMarkerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/EnemySpawnerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Editor/LevelStaticDataEditor.cs" />
       </list>
     </option>
   </component>
@@ -98,6 +113,7 @@
       <updated>1690268342210</updated>
       <workItem from="1690268347613" duration="1770000" />
       <workItem from="1690270210711" duration="9989000" />
+      <workItem from="1690439373512" duration="5139000" />
     </task>
     <servers />
   </component>
@@ -122,9 +138,13 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1690290593385">
+    <state x="670" y="198" key="RiderGenerateDialog" timestamp="1690444665437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690290593385" />
+    <state x="670" y="198" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690444665437" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1690444222169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690444222169" />
   </component>
 </project>
