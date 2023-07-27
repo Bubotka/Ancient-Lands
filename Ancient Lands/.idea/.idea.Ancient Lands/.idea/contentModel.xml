@@ -222,6 +222,10 @@
               </e>
             </e>
           </e>
+          <e p="GUI_Parts" t="Include">
+            <e p="GUI_Parts" t="Include" />
+            <e p="Icons" t="Include" />
+          </e>
           <e p="Multistory Dungeons" t="Include">
             <e p="DunGen Presets" t="Include">
               <e p="Connectors" t="Include" />
@@ -291,6 +295,10 @@
               <e p="Materials" t="Include" />
               <e p="SkyBoxes" t="Include" />
             </e>
+          </e>
+          <e p="RPG icons" t="Include">
+            <e p="512X512" t="Include" />
+            <e p="64X64" t="Include" />
           </e>
         </e>
         <e p="Codebase" t="Include">
