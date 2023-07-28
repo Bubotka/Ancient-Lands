@@ -296,10 +296,6 @@
               <e p="SkyBoxes" t="Include" />
             </e>
           </e>
-          <e p="RPG icons" t="Include">
-            <e p="512X512" t="Include" />
-            <e p="64X64" t="Include" />
-          </e>
         </e>
         <e p="Codebase" t="Include">
           <e p="Constants.cs" t="Include" />
@@ -416,12 +412,34 @@
             <e p="MonsterStaticData.cs" t="Include" />
             <e p="MonsterTypeID.cs" t="Include" />
             <e p="StaticDataService.cs" t="Include" />
+            <e p="Windows" t="Include">
+              <e p="WindowConfig.cs" t="Include" />
+              <e p="WindowStaticData.cs" t="Include" />
+            </e>
           </e>
           <e p="UI" t="Include">
-            <e p="ActorUI.cs" t="Include" />
-            <e p="HpBar.cs" t="Include" />
-            <e p="LookAtCamera.cs" t="Include" />
-            <e p="LootCounter.cs" t="Include" />
+            <e p="Elements" t="Include">
+              <e p="ActorUI.cs" t="Include" />
+              <e p="HpBar.cs" t="Include" />
+              <e p="LookAtCamera.cs" t="Include" />
+              <e p="LootCounter.cs" t="Include" />
+              <e p="OpenWindowButton.cs" t="Include" />
+            </e>
+            <e p="Services" t="Include">
+              <e p="Factory" t="Include">
+                <e p="IUIFactory.cs" t="Include" />
+                <e p="UIFactory.cs" t="Include" />
+              </e>
+              <e p="Windows" t="Include">
+                <e p="IWindowService.cs" t="Include" />
+                <e p="WindowId.cs" t="Include" />
+                <e p="WindowService.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Windows" t="Include">
+              <e p="ShopWindow.cs" t="Include" />
+              <e p="WindowBase.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Plugins" t="Include">
@@ -551,7 +569,9 @@
           <e p="Static Data" t="Include">
             <e p="Levels" t="Include" />
             <e p="Monsters" t="Include" />
+            <e p="UI" t="Include" />
           </e>
+          <e p="UI" t="Include" />
         </e>
         <e p="SceneAssets" t="Include">
           <e p="Fx" t="Include">
