@@ -912,8 +912,13 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
-    Build: 1
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
     UNet: 1
+    Unity Ads: 1
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -933,11 +938,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 679d389d-2ccb-4383-bf53-ed47851e305d
+  cloudProjectId: 62601ae2-f6dc-403d-8dda-22e5e6173c32
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: KnowledgeIsPower
-  organizationId: kate-3755722
+  projectName: AncientLands
+  organizationId: husadsy
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

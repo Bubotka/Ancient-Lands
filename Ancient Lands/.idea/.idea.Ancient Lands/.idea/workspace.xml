@@ -33,13 +33,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DA4980BE-16EF-46FC-8876-152CAD08AFD4/cd/8d100a2c/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CodeBase/Services/Ads/AdsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ads@4.4.2/Runtime/Advertisement/Platform/Editor/EditorPlatform.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Input/InputService.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Input/IInputService.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroLook.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroMove.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/EnemyDeath.cs" />
@@ -78,10 +77,19 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/GameFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/LoadLevelState.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/WindowBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/AdsInitialize.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/AdsInitializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/RewardedAdsButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/RewardedAd.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/ShopWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Data/LootData.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/IAdsService.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/Shop/RewardedAdItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/Shop/ShopWindow.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Services/Factory/UIFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/BootstrapState.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/WindowBase.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/ShopWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/AdsService.cs" />
       </list>
     </option>
   </component>
@@ -129,7 +137,11 @@
       <workItem from="1690268347613" duration="1770000" />
       <workItem from="1690270210711" duration="9989000" />
       <workItem from="1690439373512" duration="8511000" />
-      <workItem from="1690527903884" duration="9785000" />
+      <workItem from="1690527903884" duration="12751000" />
+      <workItem from="1690614047520" duration="729000" />
+      <workItem from="1690616174368" duration="79000" />
+      <workItem from="1690616302773" duration="5020000" />
+      <workItem from="1690627095666" duration="3832000" />
     </task>
     <servers />
   </component>
@@ -154,13 +166,21 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="670" y="198" key="RiderGenerateDialog" timestamp="1690444665437">
+    <state x="834" y="435" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.ChooseSilentCodeCleanupProfileDialog" timestamp="1690629388086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="670" y="198" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690444665437" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1690543826881">
+    <state x="834" y="435" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.ChooseSilentCodeCleanupProfileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690629388086" />
+    <state x="670" y="198" key="RiderGenerateDialog" timestamp="1690624403964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690543826881" />
+    <state x="670" y="198" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690624403964" />
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1690627009816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690627009816" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1690629716627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690629716627" />
   </component>
 </project>
