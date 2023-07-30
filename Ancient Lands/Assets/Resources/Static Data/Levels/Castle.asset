@@ -17,3 +17,4 @@ MonoBehaviour:
   - Id: Main_0472722d-ce35-4e52-a220-bddbcbba6505
     MonsterTypeId: 0
     Position: {x: -101.05179, y: -5.0000033, z: -62.71448}
+  InititalHeroPosition: {x: -100.61, y: -8.000002, z: -85.554436}

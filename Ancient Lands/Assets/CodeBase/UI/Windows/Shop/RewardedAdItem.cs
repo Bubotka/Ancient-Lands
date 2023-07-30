@@ -33,8 +33,12 @@ namespace CodeBase.UI.Windows.Shop
         public void CleanUp() => 
             _adsService.RewardedVideoReady -= RefreshAvailableAd;
 
-        private void OnShowAdClicked() => 
+        private void OnShowAdClicked()
+        {
             _adsService.ShowAd(OnVideoFineshed);
+            
+            RefreshAvailableAd();
+        }
 
         private void OnVideoFineshed() => 
             _progressService.Progress.WorldData.LootData.Add(_adsService.Reward);
@@ -42,12 +46,14 @@ namespace CodeBase.UI.Windows.Shop
         private void RefreshAvailableAd()
         {
             bool videoReady = _adsService.IsRewardedVideoReady;
+            
+            Debug.Log(videoReady);
 
             foreach (GameObject adActiveObject in AdActiveObjects) 
                 adActiveObject.SetActive(videoReady);
             
-            foreach (GameObject adActiveObject in AdInactiveObjects) 
-                adActiveObject.SetActive(!videoReady);
+            foreach (GameObject adInactive in AdInactiveObjects) 
+                adInactive.SetActive(!videoReady);
         }
     }
 }

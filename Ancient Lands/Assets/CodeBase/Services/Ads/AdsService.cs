@@ -120,7 +120,7 @@ namespace CodeBase.Services.Ads
             }
 
             _onVideoFineshed = null;
-            LoadAd();
+    
         }
     }
 }

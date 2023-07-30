@@ -14,8 +14,6 @@ namespace CodeBase.Infrastructure.States
 {
   public class LoadLevelState : IPayloadedState<string>
   {
-    private const string InitialPointTag = "InitialPoint";
-
     private readonly GameStateMachine _stateMachine;
     private readonly SceneLoader _sceneLoader;
     private readonly LoadingCurtain _loadingCurtain;
@@ -66,16 +64,16 @@ namespace CodeBase.Infrastructure.States
 
     private void InitGameWorld()
     {
-      InitSpawners();
-      InitLootPieces();
-      GameObject hero = _gameFactory.CreateHero(GameObject.FindWithTag(InitialPointTag));
+      LevelStaticData levelData = LevelStaticData();
+
+      InitSpawners(levelData);
+      InitLootPieces(); 
+      GameObject hero = _gameFactory.CreateHero(levelData.InititalHeroPosition);
       InitHud(hero);
     }
 
-    private void InitSpawners()
+    private void InitSpawners(LevelStaticData levelData)
     {
-      string sceneKey = SceneManager.GetActiveScene().name;
-      LevelStaticData levelData = _staticData.ForLevel(sceneKey);
       foreach (EnemySpawnerData spawnerData in levelData.EnemySpawners)
       {
         _gameFactory.CreateSpawner(spawnerData.Position, spawnerData.Id, spawnerData.MonsterTypeId);
@@ -96,6 +94,13 @@ namespace CodeBase.Infrastructure.States
       GameObject hud = _gameFactory.CreateHud();
       
       hud.GetComponentInChildren<ActorUI>().Construct(hero.GetComponent<HeroHealth>());
+    }
+
+    private LevelStaticData LevelStaticData()
+    {
+      string sceneKey = SceneManager.GetActiveScene().name;
+      LevelStaticData levelData = _staticData.ForLevel(sceneKey);
+      return levelData;
     }
   }
 }

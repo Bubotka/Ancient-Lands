@@ -47,18 +47,14 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/Attack.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/StaticData/IStaticDataService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/StaticData/MonsterStaticData.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/IGameFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Logic/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Logic/SpawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Logic/EnemySpawners/SpawnMarker.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Editor/EnemySpawnerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/MonsterTypeId.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/LevelStaticData.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/MonsterStaticData.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Editor/SpawnMarkerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/EnemySpawnerData.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Editor/LevelStaticDataEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/LoadProgressState.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Elements/ActorUI.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/WindowBase.cs" />
@@ -74,8 +70,6 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/Windows/WindowStaticData.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/StaticDataService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Elements/OpenWindowButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/GameFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/LoadLevelState.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/GameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/WindowBase.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/AdsInitialize.cs" />
@@ -85,11 +79,17 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/ShopWindow.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Data/LootData.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/IAdsService.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/Shop/RewardedAdItem.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/Shop/ShopWindow.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Services/Factory/UIFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/BootstrapState.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/AdsService.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/Shop/RewardedAdItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/LevelStaticData.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Editor/LevelStaticDataEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/IGameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/GameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/LoadLevelState.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/LoadProgressState.cs" />
       </list>
     </option>
   </component>
@@ -141,7 +141,8 @@
       <workItem from="1690614047520" duration="729000" />
       <workItem from="1690616174368" duration="79000" />
       <workItem from="1690616302773" duration="5020000" />
-      <workItem from="1690627095666" duration="3832000" />
+      <workItem from="1690627095666" duration="5082000" />
+      <workItem from="1690715444818" duration="1632000" />
     </task>
     <servers />
   </component>
@@ -178,9 +179,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690627009816" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1690629716627">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1690717151434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690629716627" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690717151434" />
   </component>
 </project>

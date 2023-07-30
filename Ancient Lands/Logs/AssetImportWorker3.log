@@ -15,7 +15,7 @@ D:/Unity репозиторий/Ancient-Lands/Ancient Lands
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-2505
+1434
 Successfully changed project path to: D:/Unity репозиторий/Ancient-Lands/Ancient Lands
 D:/Unity репозиторий/Ancient-Lands/Ancient Lands
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Unity репозиторий/Ancient-Lands/Ancient Lands
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3952] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 1221455568 [EditorId] 1221455568 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18512] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 1798122873 [EditorId] 1798122873 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3952] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 1221455568 [EditorId] 1221455568 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18512] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 1798122873 [EditorId] 1798122873 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 8.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
 [Subsystems] Discovering subsystems at path A:/Unity/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -69,47 +69,47 @@ Initialize mono
 Mono path[0] = 'A:/Unity/2022.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003055 seconds.
-- Loaded All Assemblies, in  0.208 seconds
+Registered in 0.003136 seconds.
+- Loaded All Assemblies, in  0.216 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 176 ms
+Android Extension - Scanning For ADB Devices 185 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.389 seconds
-Domain Reload Profiling: 598ms
-	BeginReloadAssembly (53ms)
+- Finished resetting the current domain, in  0.403 seconds
+Domain Reload Profiling: 619ms
+	BeginReloadAssembly (57ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (23ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (91ms)
-		LoadAssemblies (53ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (57ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (89ms)
-			TypeCache.Refresh (88ms)
-				TypeCache.ScanAssembly (81ms)
+		AnalyzeDomain (90ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (82ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (389ms)
+	FinalizeReload (403ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (352ms)
+		SetupLoadedEditorAssemblies (365ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (250ms)
+			InitializePlatformSupportModulesInManaged (259ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (67ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,59 +119,57 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.536 seconds
-Refreshing native plugins compatible for Editor in 3.37 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.551 seconds
+Refreshing native plugins compatible for Editor in 4.18 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.510 seconds
-Domain Reload Profiling: 1046ms
+- Finished resetting the current domain, in  0.522 seconds
+Domain Reload Profiling: 1072ms
 	BeginReloadAssembly (84ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (21ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (394ms)
-		LoadAssemblies (198ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (403ms)
+		LoadAssemblies (199ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (237ms)
-			TypeCache.Refresh (205ms)
-				TypeCache.ScanAssembly (195ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (510ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (200ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (522ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (390ms)
+		SetupLoadedEditorAssemblies (399ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (252ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6387 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 119 unused Assets / (154.6 KB). Loaded Objects now: 6859.
-Memory consumption went from 247.1 MB to 246.9 MB.
-Total: 3.001600 ms (FindLiveObjects: 0.349900 ms CreateObjectMapping: 0.142500 ms MarkObjects: 2.353500 ms  DeleteObjects: 0.155000 ms)
+Unloading 6388 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 119 unused Assets / (154.7 KB). Loaded Objects now: 6860.
+Memory consumption went from 247.2 MB to 247.0 MB.
+Total: 3.213900 ms (FindLiveObjects: 0.359900 ms CreateObjectMapping: 0.290900 ms MarkObjects: 2.404100 ms  DeleteObjects: 0.158100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/AdsInitialize.cs: 97c8b783985960af3d278e6075c3dc24 -> 
-  custom:scripting/monoscript/fileName/AdsService.cs: 97c8b783985960af3d278e6075c3dc24 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -179,6 +177,213 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.564 seconds
+Refreshing native plugins compatible for Editor in 3.33 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.924 seconds
+Domain Reload Profiling: 1488ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (207ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (925ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (395ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (125.1 KB). Loaded Objects now: 6875.
+Memory consumption went from 214.7 MB to 214.6 MB.
+Total: 3.467000 ms (FindLiveObjects: 0.433300 ms CreateObjectMapping: 0.308700 ms MarkObjects: 2.640400 ms  DeleteObjects: 0.083900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19260.185011 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/Textures/Atlas_Furniture_01.psd
+  artifactKey: Guid(6bb141450ca141dda58e257cb9ed61df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/Textures/Atlas_Furniture_01.psd using Guid(6bb141450ca141dda58e257cb9ed61df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88750bec10afff03fdf4545895a0d987') in 0.047887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/Textures/Door_01_Metallic.psd
+  artifactKey: Guid(9d62796d47564dd88373e3fdd3e9dd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/Textures/Door_01_Metallic.psd using Guid(9d62796d47564dd88373e3fdd3e9dd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc218e98c3e37535430bfaa1ed7c08d3') in 0.011901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/Textures/Atlas_Props_01_Emission.psd
+  artifactKey: Guid(f72c851730284549a28937da858ba501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/Textures/Atlas_Props_01_Emission.psd using Guid(f72c851730284549a28937da858ba501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce02eb71f8de2e05568f9d7f06a41d4') in 0.002513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/Textures/Atlas_Props_02_Normal.psd
+  artifactKey: Guid(031998b9a91d4ceb9ef8aa85d4a1e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/Textures/Atlas_Props_02_Normal.psd using Guid(031998b9a91d4ceb9ef8aa85d4a1e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159a95cafd16b160cfecc9203e9dbda3') in 0.013209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/Textures/Atlas_Props_01_Specular.psd
+  artifactKey: Guid(4338fee117284677837ee007a11ed407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/Textures/Atlas_Props_01_Specular.psd using Guid(4338fee117284677837ee007a11ed407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8afa24651e4f89c236c3e3307678db') in 0.015022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.296988 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Demo/First-Person Demo Dungeon Flow.asset
+  artifactKey: Guid(f4a1f4b61c6a4e46bc3009bd7e9c4102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Demo/First-Person Demo Dungeon Flow.asset using Guid(f4a1f4b61c6a4e46bc3009bd7e9c4102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b56e779abb585db3b6e68c4c25663e') in 0.000776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Demo/First-Person Demo Tileset.asset
+  artifactKey: Guid(de8e03502e1041f3a751f8ca7d343198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Demo/First-Person Demo Tileset.asset using Guid(de8e03502e1041f3a751f8ca7d343198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c83cbcf1f43b5f580cd7a23114818be') in 0.001187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.624492 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Connectors/Exit_Blocker_04.prefab
+  artifactKey: Guid(3663c90f97e6493aa27146967b1ad6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Connectors/Exit_Blocker_04.prefab using Guid(3663c90f97e6493aa27146967b1ad6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd3aa663be95e67302c20f2d7adc886') in 0.002530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Connectors/Railing_Connection_Open_01.prefab
+  artifactKey: Guid(a6cd6cb55d6d4db1901dd2276374e64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Connectors/Railing_Connection_Open_01.prefab using Guid(a6cd6cb55d6d4db1901dd2276374e64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beac573478066dd00b9425827273bb8c') in 0.001200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Connectors/Top-Down Doorway.prefab
+  artifactKey: Guid(289c5bb44e6447b480abdccd23341ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Connectors/Top-Down Doorway.prefab using Guid(289c5bb44e6447b480abdccd23341ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b727782235e4766354284c9663b0ad6c') in 0.001179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Connectors/Exit_Blocker_05.prefab
+  artifactKey: Guid(02431cfb817e45e2ac3837dae3699907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Connectors/Exit_Blocker_05.prefab using Guid(02431cfb817e45e2ac3837dae3699907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d521bcc8e8a1876fe80d7e80cb5057') in 0.001768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 17.710339 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/First-Person Rooms/FP_Room_04.prefab
+  artifactKey: Guid(083741f56594464ebbf341733fad7cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/First-Person Rooms/FP_Room_04.prefab using Guid(083741f56594464ebbf341733fad7cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290de3fe0530217beb9baa718fbc3200') in 0.007030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 421
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/First-Person Rooms/FP_Room_16.prefab
+  artifactKey: Guid(7f04fc495c0b438fa1a1c0c085d72a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/First-Person Rooms/FP_Room_16.prefab using Guid(7f04fc495c0b438fa1a1c0c085d72a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f77042eb372ec5db19a44c612658e5') in 0.040874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4368
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/First-Person Rooms/FP_Room_13.prefab
+  artifactKey: Guid(1ca17f45f73e4428bb52bd46acaa6518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/First-Person Rooms/FP_Room_13.prefab using Guid(1ca17f45f73e4428bb52bd46acaa6518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f0deaf4096bed4e6846d6c20026041') in 0.016915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1141
+========================================================================
+Received Import Request.
+  Time since last request: 4.649307 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Top-Down Tiles/TD_Tile_02_A.prefab
+  artifactKey: Guid(b7b888deef514fe38f2c8369c29f95fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Top-Down Tiles/TD_Tile_02_A.prefab using Guid(b7b888deef514fe38f2c8369c29f95fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada7aa6cc883c0f3928fe72619f847ac') in 0.009248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 829
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Top-Down Tiles/TD_Tile_09_A.prefab
+  artifactKey: Guid(d1f934b9b2324c2ab5852cb76f8a8b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Top-Down Tiles/TD_Tile_09_A.prefab using Guid(d1f934b9b2324c2ab5852cb76f8a8b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7329ded739926b96ba30e170a57e99') in 0.012027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1125
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Top-Down Tiles/TD_Tile_04_A.prefab
+  artifactKey: Guid(ef13e70a67c542068b37cf937547a026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Top-Down Tiles/TD_Tile_04_A.prefab using Guid(ef13e70a67c542068b37cf937547a026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4b76b52dd290bab14801470f17d12f') in 0.007819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 708
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Top-Down Tiles/TD_Tile_06.prefab
+  artifactKey: Guid(eb5f32eee5b24e9286cd9a4d819c2d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Multistory Dungeons/DunGen Presets/Top-Down Tiles/TD_Tile_06.prefab using Guid(eb5f32eee5b24e9286cd9a4d819c2d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627ec081707a4ec54688beae2d73f316') in 0.009544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 730
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
