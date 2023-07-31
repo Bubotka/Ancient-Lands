@@ -39,9 +39,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroLook.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/EnemyDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/RotateToHero.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/Follow.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/Attack.cs" />
@@ -70,7 +67,6 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/Windows/WindowStaticData.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/StaticDataService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Elements/OpenWindowButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/GameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/WindowBase.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/AdsInitialize.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/AdsInitializer.cs" />
@@ -81,7 +77,6 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/IAdsService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/Shop/ShopWindow.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Services/Factory/UIFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/BootstrapState.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/AdsService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/Shop/RewardedAdItem.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/LevelStaticData.cs" />
@@ -90,6 +85,11 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/GameFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/LoadLevelState.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/LoadProgressState.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Logic/LevelTranferTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/IGameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/BootstrapState.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Logic/LevelTransferTrigger.cs" />
       </list>
     </option>
   </component>
@@ -142,7 +142,8 @@
       <workItem from="1690616174368" duration="79000" />
       <workItem from="1690616302773" duration="5020000" />
       <workItem from="1690627095666" duration="5082000" />
-      <workItem from="1690715444818" duration="1632000" />
+      <workItem from="1690715444818" duration="2228000" />
+      <workItem from="1690721310978" duration="621000" />
     </task>
     <servers />
   </component>
@@ -179,9 +180,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690627009816" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1690717151434">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1690721492326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690717151434" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690721492326" />
   </component>
 </project>

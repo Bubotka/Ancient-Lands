@@ -186,7 +186,6 @@
                 </e>
               </e>
             </e>
-            <e p="Scenes" t="Include" />
             <e p="Scripts" t="Include">
               <e p="SetCharacter" t="Include">
                 <e p="Editor" t="Include">
@@ -225,76 +224,6 @@
           <e p="GUI_Parts" t="Include">
             <e p="GUI_Parts" t="Include" />
             <e p="Icons" t="Include" />
-          </e>
-          <e p="Multistory Dungeons" t="Include">
-            <e p="DunGen Presets" t="Include">
-              <e p="Connectors" t="Include" />
-              <e p="Demo" t="Include" />
-              <e p="First-Person Rooms" t="Include">
-                <e p="Nested Prefabs Info.txt" t="Include" />
-              </e>
-              <e p="ReadMe DunGen.txt" t="Include" />
-              <e p="Top-Down Tiles" t="Include">
-                <e p="Nested Prefabs Info.txt" t="Include" />
-              </e>
-            </e>
-            <e p="Dungeon Architect Presets" t="Include">
-              <e p="Prefabs" t="Include">
-                <e p="Modules" t="Include" />
-              </e>
-              <e p="README.txt" t="Include" />
-              <e p="Scenes" t="Include" />
-              <e p="Themes" t="Include" />
-            </e>
-            <e p="Meshes" t="Include">
-              <e p="SRC_Architecture" t="Include" />
-              <e p="SRC_Props" t="Include" />
-            </e>
-            <e p="Prefabs" t="Include">
-              <e p="Base" t="Include" />
-              <e p="Columns" t="Include" />
-              <e p="Doors And Bars" t="Include" />
-              <e p="FIRST-PERSON" t="Include">
-                <e p="FP Base" t="Include">
-                  <e p="Additional" t="Include" />
-                  <e p="Ruined" t="Include" />
-                </e>
-                <e p="FP Columns and Decor" t="Include" />
-                <e p="FP Doors and Bars" t="Include" />
-                <e p="FP ROOMS" t="Include">
-                  <e p="FP Connectors" t="Include" />
-                  <e p="Nested Prefabs Info.txt" t="Include" />
-                </e>
-              </e>
-              <e p="Props" t="Include">
-                <e p="Books And Alchemy" t="Include" />
-                <e p="Furniture" t="Include" />
-              </e>
-              <e p="Railing And Decor" t="Include" />
-              <e p="Stairs" t="Include" />
-              <e p="TD TILES" t="Include">
-                <e p="Nested Prefabs Info.txt" t="Include" />
-                <e p="TD Connectors" t="Include" />
-              </e>
-              <e p="VFX" t="Include">
-                <e p="Light Presets" t="Include" />
-              </e>
-              <e p="Walls And Arches" t="Include" />
-            </e>
-            <e p="Scenes" t="Include">
-              <e p="ReadMe (1-s person demo).txt" t="Include" />
-              <e p="Top-Down Demo 01" t="Include" />
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="DisableMeshAtRuntime.cs" t="Include" />
-              <e p="FpsCounter.cs" t="Include" />
-              <e p="PointAndClickManager.cs" t="Include" />
-            </e>
-            <e p="Settings" t="Include" />
-            <e p="Textures" t="Include">
-              <e p="Materials" t="Include" />
-              <e p="SkyBoxes" t="Include" />
-            </e>
           </e>
         </e>
         <e p="Codebase" t="Include">
@@ -364,6 +293,7 @@
               <e p="BootstrapState.cs" t="Include" />
               <e p="GameLoopState.cs" t="Include" />
               <e p="GameStateMachine.cs" t="Include" />
+              <e p="IGameStateMachine.cs" t="Include" />
               <e p="IState.cs" t="Include" />
               <e p="LoadLevelState.cs" t="Include" />
               <e p="LoadProgressState.cs" t="Include" />
@@ -378,6 +308,7 @@
             </e>
             <e p="IAnimationStateReader.cs" t="Include" />
             <e p="IHealth.cs" t="Include" />
+            <e p="LevelTransferTrigger.cs" t="Include" />
             <e p="LoadingCurtain.cs" t="Include" />
             <e p="SaveTrigger.cs" t="Include" />
             <e p="UniqueId.cs" t="Include" />
@@ -536,13 +467,6 @@
         </e>
         <e p="Rendering" t="Include" />
         <e p="Resources" t="Include">
-          <e p="Controls" t="Include">
-            <e p="Graphics" t="Include">
-              <e p="FlatDark" t="Include">
-                <e p="Joystick" t="Include" />
-              </e>
-            </e>
-          </e>
           <e p="Enemies" t="Include">
             <e p="Minotaur" t="Include">
               <e p="Animations" t="Include" />
@@ -558,16 +482,63 @@
           </e>
           <e p="Infrastructure" t="Include" />
           <e p="Levels" t="Include">
-            <e p="Graveyard" t="Include">
-              <e p="raw" t="Include">
-                <e p="Demo" t="Include">
-                  <e p="Materials" t="Include" />
+            <e p="Multistory Dungeons" t="Include">
+              <e p="DunGen Presets" t="Include">
+                <e p="Connectors" t="Include" />
+                <e p="First-Person Rooms" t="Include">
+                  <e p="Nested Prefabs Info.txt" t="Include" />
                 </e>
+                <e p="ReadMe DunGen.txt" t="Include" />
+                <e p="Top-Down Tiles" t="Include">
+                  <e p="Nested Prefabs Info.txt" t="Include" />
+                </e>
+              </e>
+              <e p="Dungeon Architect Presets" t="Include">
+                <e p="Prefabs" t="Include">
+                  <e p="Modules" t="Include" />
+                </e>
+                <e p="README.txt" t="Include" />
+                <e p="Scenes" t="Include" />
+                <e p="Themes" t="Include" />
+              </e>
+              <e p="Meshes" t="Include">
+                <e p="SRC_Architecture" t="Include" />
+                <e p="SRC_Props" t="Include" />
+              </e>
+              <e p="Prefabs" t="Include">
+                <e p="Base" t="Include" />
+                <e p="Columns" t="Include" />
+                <e p="Doors And Bars" t="Include" />
+                <e p="FIRST-PERSON" t="Include">
+                  <e p="FP Base" t="Include">
+                    <e p="Additional" t="Include" />
+                    <e p="Ruined" t="Include" />
+                  </e>
+                  <e p="FP Columns and Decor" t="Include" />
+                  <e p="FP Doors and Bars" t="Include" />
+                  <e p="FP ROOMS" t="Include">
+                    <e p="FP Connectors" t="Include" />
+                    <e p="Nested Prefabs Info.txt" t="Include" />
+                  </e>
+                </e>
+                <e p="Props" t="Include">
+                  <e p="Books And Alchemy" t="Include" />
+                  <e p="Furniture" t="Include" />
+                </e>
+                <e p="Railing And Decor" t="Include" />
+                <e p="Stairs" t="Include" />
+                <e p="TD TILES" t="Include">
+                  <e p="Nested Prefabs Info.txt" t="Include" />
+                  <e p="TD Connectors" t="Include" />
+                </e>
+                <e p="VFX" t="Include">
+                  <e p="Light Presets" t="Include" />
+                </e>
+                <e p="Walls And Arches" t="Include" />
+              </e>
+              <e p="Textures" t="Include">
                 <e p="Materials" t="Include" />
-                <e p="mobile_models" t="Include">
-                  <e p="Materials" t="Include" />
-                </e>
-                <e p="Textures" t="Include" />
+                <e p="SkyBoxes" t="Include" />
               </e>
             </e>
           </e>
@@ -591,6 +562,7 @@
           </e>
         </e>
         <e p="Scenes" t="Include">
+          <e p="Castle" t="Include" />
           <e p="Main" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

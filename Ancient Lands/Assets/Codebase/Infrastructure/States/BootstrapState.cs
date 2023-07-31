@@ -42,6 +42,7 @@ namespace CodeBase.Infrastructure.States
       
       RegisterAdsService();
 
+      _services.RegisterSingle<IGameStateMachine>(_stateMachine);
       _services.RegisterSingle<IInputService>(new InputService());
       _services.RegisterSingle<IRandomService>(new RandomService());
       _services.RegisterSingle<IAssetProvider>(new AssetProvider());
