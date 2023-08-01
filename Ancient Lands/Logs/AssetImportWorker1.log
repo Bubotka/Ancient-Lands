@@ -1173,3 +1173,8 @@ Received Import Request.
 Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Window_Tall_Bars_02.fbx using Guid(d86102de10cb47fc860a6dd321d4cac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fead52c12cd9040b865f20e324d845a9') in 0.000752 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 6
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

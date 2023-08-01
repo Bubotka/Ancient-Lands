@@ -48,15 +48,15 @@ namespace CodeBase.Infrastructure.States
 
     private async void OnLoaded()
     {
-      InitUIRoot();
+      await InitUIRoot();
       await InitGameWorld();
       InformProgressReaders();
 
       _stateMachine.Enter<GameLoopState>();
     }
 
-    private void InitUIRoot() => 
-      _uiFactory.CreateUIRoot();
+    private async Task InitUIRoot() => 
+     await _uiFactory.CreateUIRoot();
 
     private void InformProgressReaders()
     {
@@ -70,7 +70,7 @@ namespace CodeBase.Infrastructure.States
 
       await InitSpawners(levelData);
       await InitLootPieces(); 
-      GameObject hero = _gameFactory.CreateHero(levelData.InititalHeroPosition);
+      GameObject hero = await _gameFactory.CreateHero(levelData.InititalHeroPosition);
       InitHud(hero);
     }
 
@@ -89,9 +89,9 @@ namespace CodeBase.Infrastructure.States
       }
     }
 
-    private void InitHud(GameObject hero)
+    private async Task InitHud(GameObject hero)
     {
-      GameObject hud = _gameFactory.CreateHud();
+      GameObject hud = await _gameFactory.CreateHud();
       
       hud.GetComponentInChildren<ActorUI>().Construct(hero.GetComponent<HeroHealth>());
     }

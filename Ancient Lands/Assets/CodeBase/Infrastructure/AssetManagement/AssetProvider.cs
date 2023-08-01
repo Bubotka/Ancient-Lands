@@ -38,17 +38,11 @@ namespace CodeBase.Infrastructure.AssetManagement
                 address);
         }
 
-        public GameObject Instantiate(string path, Vector3 at)
-        {
-            var prefab = Resources.Load<GameObject>(path);
-            return Object.Instantiate(prefab, at, Quaternion.identity);
-        }
+        public Task<GameObject> Instantiate(string address, Vector3 at) => 
+            Addressables.InstantiateAsync(address, at, Quaternion.identity).Task;
 
-        public GameObject Instantiate(string path)
-        {
-            var prefab = Resources.Load<GameObject>(path);
-            return Object.Instantiate(prefab);
-        }
+        public Task<GameObject> Instantiate(string address) => 
+            Addressables.InstantiateAsync(address).Task;
 
         public void CleanUp()
         {

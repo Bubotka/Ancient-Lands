@@ -67,7 +67,6 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/Data/LootData.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/IAdsService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/Shop/ShopWindow.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Services/Factory/UIFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/Ads/AdsService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/Shop/RewardedAdItem.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/LevelStaticData.cs" />
@@ -82,13 +81,14 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/MonsterStaticData.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Logic/EnemySpawners/SpawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/AssetManagement/AssetPath.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/AssetManagement/AssetsAddress.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/AssetManagement/IAssetProvider.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/GameBootstrapper.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/AssetManagement/AssetProvider.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/BootstrapState.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/GameFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/LootSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/AssetManagement/AssetsAddress.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/AssetManagement/AssetProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/GameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Services/Factory/UIFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/LoadLevelState.cs" />
       </list>
     </option>
@@ -145,7 +145,7 @@
       <workItem from="1690715444818" duration="2228000" />
       <workItem from="1690721310978" duration="621000" />
       <workItem from="1690888437307" duration="4908000" />
-      <workItem from="1690897556155" duration="1625000" />
+      <workItem from="1690897556155" duration="3029000" />
     </task>
     <servers />
   </component>
@@ -182,10 +182,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690627009816" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1690899017252">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1690900507510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1690890182812" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690899017252" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690900507510" />
   </component>
 </project>
