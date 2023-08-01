@@ -10,6 +10,13 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AddressableAssetsData" t="Include">
+          <e p="AssetGroups" t="Include">
+            <e p="Schemas" t="Include" />
+          </e>
+          <e p="AssetGroupTemplates" t="Include" />
+          <e p="DataBuilders" t="Include" />
+        </e>
         <e p="AssetsThirdParty" t="Include">
           <e p="Cartoon Heroes" t="Include">
             <e p="Character Prefabs" t="Include">
@@ -468,6 +475,27 @@
         <e p="Rendering" t="Include" />
         <e p="Resources" t="Include">
           <e p="Enemies" t="Include">
+            <e p="Dragon" t="Include">
+              <e p="Animations" t="Include">
+                <e p="DragonSoulEater" t="Include" />
+              </e>
+              <e p="Animators" t="Include" />
+              <e p="Materials" t="Include">
+                <e p="DragonSoulEater" t="Include" />
+              </e>
+              <e p="Mesh" t="Include" />
+              <e p="Prefab" t="Include">
+                <e p="DragonSoulEater" t="Include" />
+              </e>
+              <e p="Texture" t="Include">
+                <e p="DragonSoulEater" t="Include">
+                  <e p="Blue" t="Include" />
+                  <e p="green" t="Include" />
+                  <e p="purple" t="Include" />
+                  <e p="Red" t="Include" />
+                </e>
+              </e>
+            </e>
             <e p="Minotaur" t="Include">
               <e p="Animations" t="Include" />
               <e p="Base mesh" t="Include" />

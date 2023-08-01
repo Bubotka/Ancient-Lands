@@ -15,7 +15,7 @@ D:/Unity репозиторий/Ancient-Lands/Ancient Lands
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-2188
+5502
 Successfully changed project path to: D:/Unity репозиторий/Ancient-Lands/Ancient Lands
 D:/Unity репозиторий/Ancient-Lands/Ancient Lands
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Unity репозиторий/Ancient-Lands/Ancient Lands
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14440] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 1704828988 [EditorId] 1704828988 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2784] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 3882926962 [EditorId] 3882926962 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14440] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 1704828988 [EditorId] 1704828988 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2784] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 3882926962 [EditorId] 3882926962 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 8.02 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
 [Subsystems] Discovering subsystems at path A:/Unity/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -69,47 +69,47 @@ Initialize mono
 Mono path[0] = 'A:/Unity/2022.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003576 seconds.
-- Loaded All Assemblies, in  0.215 seconds
+Registered in 0.003702 seconds.
+- Loaded All Assemblies, in  0.246 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 183 ms
+Android Extension - Scanning For ADB Devices 1752 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.404 seconds
-Domain Reload Profiling: 619ms
-	BeginReloadAssembly (56ms)
+- Finished resetting the current domain, in  1.996 seconds
+Domain Reload Profiling: 2241ms
+	BeginReloadAssembly (63ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (23ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (92ms)
-		LoadAssemblies (56ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (62ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (90ms)
-			TypeCache.Refresh (89ms)
-				TypeCache.ScanAssembly (82ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (103ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (405ms)
+	FinalizeReload (1996ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (364ms)
+		SetupLoadedEditorAssemblies (1948ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (257ms)
+			InitializePlatformSupportModulesInManaged (1833ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (68ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,52 +119,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.561 seconds
-Refreshing native plugins compatible for Editor in 3.65 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.639 seconds
+Refreshing native plugins compatible for Editor in 3.91 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.540 seconds
-Domain Reload Profiling: 1100ms
-	BeginReloadAssembly (88ms)
+- Finished resetting the current domain, in  0.636 seconds
+Domain Reload Profiling: 1275ms
+	BeginReloadAssembly (99ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (414ms)
-		LoadAssemblies (211ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (478ms)
+		LoadAssemblies (248ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (244ms)
-			TypeCache.Refresh (214ms)
-				TypeCache.ScanAssembly (203ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (232ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (540ms)
+	FinalizeReload (636ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (420ms)
+		SetupLoadedEditorAssemblies (500ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (255ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.88 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.72 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7008 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 119 unused Assets / (155.5 KB). Loaded Objects now: 7484.
-Memory consumption went from 261.3 MB to 261.2 MB.
-Total: 3.825500 ms (FindLiveObjects: 0.398200 ms CreateObjectMapping: 0.337200 ms MarkObjects: 2.929800 ms  DeleteObjects: 0.159700 ms)
+Unloading 119 unused Assets / (430.6 KB). Loaded Objects now: 7464.
+Memory consumption went from 259.4 MB to 259.0 MB.
+Total: 5.519600 ms (FindLiveObjects: 0.416700 ms CreateObjectMapping: 0.513800 ms MarkObjects: 4.324400 ms  DeleteObjects: 0.263800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,9 +179,222 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 15339.018381 seconds.
-  path: Assets/AddressableAssetsData/AddressableAssetSettings.asset
-  artifactKey: Guid(ab32f3990e250a34b8c408c75d0e52f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddressableAssetsData/AddressableAssetSettings.asset using Guid(ab32f3990e250a34b8c408c75d0e52f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2debec1b40c35cff4bbefcdda1f85712') in 0.002282 seconds
+  Time since last request: 17593.466151 seconds.
+  path: Assets/Resources/UI/Shop.prefab
+  artifactKey: Guid(bbc474cdb9352724ba6f64686de13c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Shop.prefab using Guid(bbc474cdb9352724ba6f64686de13c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28489c4cbb4fedfbb4576f68cd89279') in 0.061823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/UI/Window.prefab
+  artifactKey: Guid(98419e56e78eeb04993c70d8a9dd2f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Window.prefab using Guid(98419e56e78eeb04993c70d8a9dd2f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3b0734bc25a846bb944fb0683b39f4') in 0.015050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 216.477251 seconds.
+  path: Assets/Rendering/Mobile_Renderer.asset
+  artifactKey: Guid(07e4347f58764ed409a478e2a62d7813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/Mobile_Renderer.asset using Guid(07e4347f58764ed409a478e2a62d7813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad78fe0f433c4dcb1df8edecebd5805') in 0.000604 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.521162 seconds.
+  path: Assets/AddressableAssetsData/DefaultObject.asset
+  artifactKey: Guid(5461ce364c73fa64d936f8b2a0586478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddressableAssetsData/DefaultObject.asset using Guid(5461ce364c73fa64d936f8b2a0586478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213dc656487d0f74a38cda8812ab8396') in 0.000507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.743953 seconds.
+  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonSoulEater/Green.prefab
+  artifactKey: Guid(88e480c990c9d6a458b5fc85fe1da2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonSoulEater/Green.prefab using Guid(88e480c990c9d6a458b5fc85fe1da2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953c50c72f15233d11471f13ecdc2e33') in 0.002515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 130
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonSoulEater/Purple.prefab
+  artifactKey: Guid(36c38a65d57de7d4a9a582f9ee857701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonSoulEater/Purple.prefab using Guid(36c38a65d57de7d4a9a582f9ee857701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2421e3dcfeffacd38f6c1b18b105269') in 0.002210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 130
+========================================================================
+Received Import Request.
+  Time since last request: 16.043218 seconds.
+  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Materials/DragonTerrorBringer/AlbinoPBR.mat
+  artifactKey: Guid(2cc3d51c3b46bec4a95b1cf2d2488afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Materials/DragonTerrorBringer/AlbinoPBR.mat using Guid(2cc3d51c3b46bec4a95b1cf2d2488afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600aa3d6eda7b8c767018053d5053668') in 0.002241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Textures/Materials/Atlas_Base_01.mat
+  artifactKey: Guid(09a6bdff84cd47dabeaff92fe0467301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Textures/Materials/Atlas_Base_01.mat using Guid(09a6bdff84cd47dabeaff92fe0467301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6f530ef311fddc6cbdc6497dedeb29') in 0.001054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Staircase_Round_01_Mesh.fbx
+  artifactKey: Guid(59e00d125b3a4c02b53d31aed498fa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Staircase_Round_01_Mesh.fbx using Guid(59e00d125b3a4c02b53d31aed498fa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087694135655fc0688166588477cc719') in 0.001891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Materials/DragonUsurper/AlbinoPBR.mat
+  artifactKey: Guid(acd197acde96c544b8d8fd85cc2e8b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Materials/DragonUsurper/AlbinoPBR.mat using Guid(acd197acde96c544b8d8fd85cc2e8b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2e9f7827b80c97aa4d3deb8a5385ab') in 0.000743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.688710 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Textures/Materials/Candle_Fire_Material_01.mat
+  artifactKey: Guid(a45f4884a50afbc44bad37be3541ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Textures/Materials/Candle_Fire_Material_01.mat using Guid(a45f4884a50afbc44bad37be3541ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9ea14631ee7467f5fe481946da23eb') in 0.000789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002038 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Blood/CFX2_Blood AB.mat
+  artifactKey: Guid(cfeb0e44c6f4bc34086102e1a7ace033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Blood/CFX2_Blood AB.mat using Guid(cfeb0e44c6f4bc34086102e1a7ace033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1069f5d60031885b830c8fc4ad15bf8c') in 0.001263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_BrokenHeart Add.mat
+  artifactKey: Guid(53d0980ae6a0d2f4290706eb595fa872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_BrokenHeart Add.mat using Guid(53d0980ae6a0d2f4290706eb595fa872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0a7de63d5171be4821ec718a5b2dd3') in 0.001079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_Diamond Outline Add.mat
+  artifactKey: Guid(116dd40afacd54e45a3e276d2c361ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_Diamond Outline Add.mat using Guid(116dd40afacd54e45a3e276d2c361ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0900823606bd5b3d63c48d2e28f9ba6') in 0.000909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.108110 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX2_Glow Soft.mat
+  artifactKey: Guid(b6a4ebddb006a4a4bb0bea6365c7512a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX2_Glow Soft.mat using Guid(b6a4ebddb006a4a4bb0bea6365c7512a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a48e917ad0e1749d52f48dfd3962cd') in 0.000825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.001365 seconds.
+  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonNightmare/Green.prefab
+  artifactKey: Guid(281a986484325de459dc1b3709335bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonNightmare/Green.prefab using Guid(281a986484325de459dc1b3709335bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4c5eb72f1fde0d29004b21d5ad0b7e') in 0.002139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 12.804760 seconds.
+  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Grey.prefab
+  artifactKey: Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Grey.prefab using Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e6f9421b75a1caec8fa4c4294df059') in 0.002243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 174
+========================================================================
+Received Import Request.
+  Time since last request: 1.790119 seconds.
+  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonUsurper/Blue.prefab
+  artifactKey: Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonUsurper/Blue.prefab using Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f94ef5796d3be8cfbc466b4a698d6c1') in 0.002396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 246
+========================================================================
+Received Import Request.
+  Time since last request: 45.527813 seconds.
+  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Mesh/DragonTheNightmareMesh.fbx
+  artifactKey: Guid(2f4e6492f506bbb4a8aeba850e3bb52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Mesh/DragonTheNightmareMesh.fbx using Guid(2f4e6492f506bbb4a8aeba850e3bb52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3173e29974709b545d0698976d91dac') in 0.002355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 153
+========================================================================
+Received Import Request.
+  Time since last request: 37.674201 seconds.
+  path: Assets/Resources/Enemies/SpawnPoint.prefab
+  artifactKey: Guid(5e5802878ea01e74bb78e12ba0632731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/SpawnPoint.prefab using Guid(5e5802878ea01e74bb78e12ba0632731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee66462fb5ce3ef82a517f29b234b803') in 0.000888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.882846 seconds.
+  path: Assets/Resources/Hero/Hero.prefab
+  artifactKey: Guid(b24fda9bb9eb08d49992ffb57951c158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Hero/Hero.prefab using Guid(b24fda9bb9eb08d49992ffb57951c158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca036bd42ac7d5e7e1a22b6ff931b42b') in 0.008886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 289
+========================================================================
+Received Import Request.
+  Time since last request: 36.276679 seconds.
+  path: Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Die.fbx
+  artifactKey: Guid(6f83b9d81f8c7854baeca6ff691bb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Die.fbx using Guid(6f83b9d81f8c7854baeca6ff691bb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de1e773f40fdd031afbbd26995080ce') in 0.003047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Fly Float.fbx
+  artifactKey: Guid(e02bdaca3b0c3284ab993c4eba862036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Fly Float.fbx using Guid(e02bdaca3b0c3284ab993c4eba862036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003038cbf5fee518368ebbd9169e47df') in 0.002763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Get Hit.fbx
+  artifactKey: Guid(34cbf41484d0da24e9a24545c9d5a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Get Hit.fbx using Guid(34cbf41484d0da24e9a24545c9d5a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e861f5487b0f7ffd7554eafe6ba0fc') in 0.003742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Run.fbx
+  artifactKey: Guid(93048e03d4dc597468fce555d02e9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Run.fbx using Guid(93048e03d4dc597468fce555d02e9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cccb3525876783d4abe1a751ed40593') in 0.002747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Fly Fireball Shoot.fbx
+  artifactKey: Guid(37760f0079ba2124cb0198d37570b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Fly Fireball Shoot.fbx using Guid(37760f0079ba2124cb0198d37570b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65314f7c246f29f7b23b2fbe200efe80') in 0.002419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Walk.fbx
+  artifactKey: Guid(555c2f8b240202a4c8f3c3f412587e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Walk.fbx using Guid(555c2f8b240202a4c8f3c3f412587e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ebc6d4247ae9df88cf4a42f0f3d2c9') in 0.002515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

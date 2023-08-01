@@ -39,8 +39,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/RotateToHero.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/Follow.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/Attack.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/StaticData/IStaticDataService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/StaticData/MonsterStaticData.cs" />
@@ -49,7 +47,6 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/Logic/EnemySpawners/SpawnMarker.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Editor/EnemySpawnerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/MonsterTypeId.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/MonsterStaticData.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Editor/SpawnMarkerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/EnemySpawnerData.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroAttack.cs" />
@@ -90,6 +87,9 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/IGameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/BootstrapState.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Logic/LevelTransferTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/MonsterTypeID.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Logic/EnemySpawners/SpawnPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/MonsterStaticData.cs" />
       </list>
     </option>
   </component>
@@ -144,6 +144,7 @@
       <workItem from="1690627095666" duration="5082000" />
       <workItem from="1690715444818" duration="2228000" />
       <workItem from="1690721310978" duration="621000" />
+      <workItem from="1690888437307" duration="2428000" />
     </task>
     <servers />
   </component>
@@ -180,9 +181,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690627009816" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1690721492326">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1690890182812">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1690890182812" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690721492326" />
   </component>
 </project>

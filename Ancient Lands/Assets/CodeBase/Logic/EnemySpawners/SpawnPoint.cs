@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using CodeBase.Data;
 using CodeBase.Enemy;
 using CodeBase.Infrastructure.Factory;
@@ -44,9 +45,9 @@ namespace CodeBase.Logic.EnemySpawners
         slainSpawnersList.Add(Id);
     }
 
-    private void Spawn()
+    private async void Spawn()
     {
-      GameObject monster = _factory.CreateMonster(MonsterTypeId, transform);
+      GameObject monster = await _factory.CreateMonster(MonsterTypeId, transform);
       _enemyDeath = monster.GetComponent<EnemyDeath>();
       _enemyDeath.Happened += Slay;
     }

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91fc53aa0eb4f4791f73a12e99346d4, type: 3}
+  m_Name: Dragon
+  m_EditorClassIdentifier: 
+  MonsterTypeId: 10
+  Hp: 50
+  Damage: 10
+  MaxLootValue: 100
+  MinLootValue: 40
+  EffectiveDistance: 3
+  Cleavage: 3
+  MoveSpeed: 1.96
+  Prefab: {fileID: 5190998871038103500, guid: d7a4695cfc0416d43b10f5a819d31f24, type: 3}
