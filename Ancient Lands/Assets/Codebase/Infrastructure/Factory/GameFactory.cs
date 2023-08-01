@@ -11,7 +11,9 @@ using CodeBase.UI;
 using CodeBase.UI.Elements;
 using CodeBase.UI.Services.Windows;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.AI;
+using UnityEngine.ResourceManagement.AsyncOperations;
 using Object = UnityEngine.Object;
 
 namespace CodeBase.Infrastructure.Factory
@@ -67,8 +69,8 @@ namespace CodeBase.Infrastructure.Factory
     {
       MonsterStaticData monsterData = _staticData.ForMonster(typeId);
 
-      GameObject prefab =await monsterData.PrefabReference.LoadAssetAsync().Task;
 
+      GameObject prefab =await _assets.Load<GameObject>(monsterData.PrefabReference);
       GameObject monster = Object.Instantiate(prefab, parent.position, Quaternion.identity, parent);
 
       IHealth health = monster.GetComponent<IHealth>();
@@ -116,6 +118,7 @@ namespace CodeBase.Infrastructure.Factory
     {
       ProgressReaders.Clear();
       ProgressWriters.Clear();
+      _assets.CleanUp();
     }
 
     private GameObject InstantiateRegistered(string prefabPath, Vector3 at)
