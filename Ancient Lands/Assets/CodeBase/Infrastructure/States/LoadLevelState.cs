@@ -1,4 +1,5 @@
-﻿using CodeBase.Enemy;
+﻿using System.Threading.Tasks;
+using CodeBase.Enemy;
 using CodeBase.Hero;
 using CodeBase.Infrastructure.Factory;
 using CodeBase.Logic;
@@ -38,16 +39,17 @@ namespace CodeBase.Infrastructure.States
     {
       _loadingCurtain.Show();
       _gameFactory.Cleanup();
+      _gameFactory.WarmUp();
       _sceneLoader.Load(sceneName, OnLoaded);
     }
 
     public void Exit() =>
       _loadingCurtain.Hide();
 
-    private void OnLoaded()
+    private async void OnLoaded()
     {
       InitUIRoot();
-      InitGameWorld();
+      await InitGameWorld();
       InformProgressReaders();
 
       _stateMachine.Enter<GameLoopState>();
@@ -62,29 +64,27 @@ namespace CodeBase.Infrastructure.States
         progressReader.LoadProgress(_progressService.Progress);
     }
 
-    private void InitGameWorld()
+    private async Task InitGameWorld()
     {
       LevelStaticData levelData = LevelStaticData();
 
-      InitSpawners(levelData);
-      InitLootPieces(); 
+      await InitSpawners(levelData);
+      await InitLootPieces(); 
       GameObject hero = _gameFactory.CreateHero(levelData.InititalHeroPosition);
       InitHud(hero);
     }
 
-    private void InitSpawners(LevelStaticData levelData)
+    private async Task InitSpawners(LevelStaticData levelData)
     {
       foreach (EnemySpawnerData spawnerData in levelData.EnemySpawners)
-      {
-        _gameFactory.CreateSpawner(spawnerData.Position, spawnerData.Id, spawnerData.MonsterTypeId);
-      }
+        await _gameFactory.CreateSpawner(spawnerData.Position, spawnerData.Id, spawnerData.MonsterTypeId);
     }
 
-    private void InitLootPieces()
+    private async Task InitLootPieces()
     {
       foreach (string key in _progressService.Progress.WorldData.LootData.LootPiecesOnScene.Dictionary.Keys)
       {
-        LootPiece lootPiece = _gameFactory.CreateLoot();
+        LootPiece lootPiece = await _gameFactory.CreateLoot();
         lootPiece.GetComponent<UniqueId>().Id = key;
       }
     }

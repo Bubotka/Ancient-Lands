@@ -35,6 +35,6 @@ namespace CodeBase.UI.Services.Factory
         }
 
         public void CreateUIRoot() => 
-            _uiRoot= _assets.Instantiate(AssetPath.UIRootPath).transform;
+            _uiRoot= _assets.Instantiate(AssetsAddress.UIRootPath).transform;
     }
 }

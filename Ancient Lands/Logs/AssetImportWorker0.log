@@ -15,7 +15,7 @@ D:/Unity репозиторий/Ancient-Lands/Ancient Lands
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-5502
+1744
 Successfully changed project path to: D:/Unity репозиторий/Ancient-Lands/Ancient Lands
 D:/Unity репозиторий/Ancient-Lands/Ancient Lands
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Unity репозиторий/Ancient-Lands/Ancient Lands
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2784] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 3882926962 [EditorId] 3882926962 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12664] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 3247749265 [EditorId] 3247749265 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2784] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 3882926962 [EditorId] 3882926962 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12664] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 3247749265 [EditorId] 3247749265 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 7.65 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
 [Subsystems] Discovering subsystems at path A:/Unity/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -69,47 +69,47 @@ Initialize mono
 Mono path[0] = 'A:/Unity/2022.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003702 seconds.
-- Loaded All Assemblies, in  0.246 seconds
+Registered in 0.003626 seconds.
+- Loaded All Assemblies, in  0.214 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1752 ms
+Android Extension - Scanning For ADB Devices 192 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.996 seconds
-Domain Reload Profiling: 2241ms
-	BeginReloadAssembly (63ms)
+- Finished resetting the current domain, in  0.418 seconds
+Domain Reload Profiling: 632ms
+	BeginReloadAssembly (54ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
+	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (62ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (54ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (112ms)
-			TypeCache.Refresh (111ms)
-				TypeCache.ScanAssembly (103ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (83ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (1996ms)
+	FinalizeReload (418ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1948ms)
+		SetupLoadedEditorAssemblies (378ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1833ms)
+			InitializePlatformSupportModulesInManaged (271ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (74ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,52 +119,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.639 seconds
-Refreshing native plugins compatible for Editor in 3.91 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.570 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.636 seconds
-Domain Reload Profiling: 1275ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.583 seconds
+Domain Reload Profiling: 1152ms
+	BeginReloadAssembly (97ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (478ms)
-		LoadAssemblies (248ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (215ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (277ms)
-			TypeCache.Refresh (244ms)
-				TypeCache.ScanAssembly (232ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (209ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (636ms)
+	FinalizeReload (583ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (500ms)
+		SetupLoadedEditorAssemblies (454ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (299ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.72 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7008 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 119 unused Assets / (430.6 KB). Loaded Objects now: 7464.
-Memory consumption went from 259.4 MB to 259.0 MB.
-Total: 5.519600 ms (FindLiveObjects: 0.416700 ms CreateObjectMapping: 0.513800 ms MarkObjects: 4.324400 ms  DeleteObjects: 0.263800 ms)
+Unloading 119 unused Assets / (429.5 KB). Loaded Objects now: 7476.
+Memory consumption went from 261.0 MB to 260.5 MB.
+Total: 4.138700 ms (FindLiveObjects: 0.487800 ms CreateObjectMapping: 0.386000 ms MarkObjects: 3.079300 ms  DeleteObjects: 0.184700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,222 +179,1541 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 17593.466151 seconds.
-  path: Assets/Resources/UI/Shop.prefab
-  artifactKey: Guid(bbc474cdb9352724ba6f64686de13c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Shop.prefab using Guid(bbc474cdb9352724ba6f64686de13c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28489c4cbb4fedfbb4576f68cd89279') in 0.061823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 180
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Resources/UI/Window.prefab
-  artifactKey: Guid(98419e56e78eeb04993c70d8a9dd2f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Window.prefab using Guid(98419e56e78eeb04993c70d8a9dd2f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3b0734bc25a846bb944fb0683b39f4') in 0.015050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 216.477251 seconds.
-  path: Assets/Rendering/Mobile_Renderer.asset
-  artifactKey: Guid(07e4347f58764ed409a478e2a62d7813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rendering/Mobile_Renderer.asset using Guid(07e4347f58764ed409a478e2a62d7813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad78fe0f433c4dcb1df8edecebd5805') in 0.000604 seconds
+  Time since last request: 837.731239 seconds.
+  path: Assets/Resources/Levels
+  artifactKey: Guid(c545cc35e6a949e4ba3fde51ce64656c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels using Guid(c545cc35e6a949e4ba3fde51ce64656c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b953aa696328bf74f76126df0f946d2') in 0.001599 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.521162 seconds.
-  path: Assets/AddressableAssetsData/DefaultObject.asset
-  artifactKey: Guid(5461ce364c73fa64d936f8b2a0586478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddressableAssetsData/DefaultObject.asset using Guid(5461ce364c73fa64d936f8b2a0586478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213dc656487d0f74a38cda8812ab8396') in 0.000507 seconds
+  Time since last request: 38.974930 seconds.
+  path: Assets/CodeBase/Infrastructure
+  artifactKey: Guid(a4b0a44288e946b399f770de6f705c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodeBase/Infrastructure using Guid(a4b0a44288e946b399f770de6f705c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc377c9e504341c38b2b000962a789b') in 0.000378 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 12.743953 seconds.
-  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonSoulEater/Green.prefab
-  artifactKey: Guid(88e480c990c9d6a458b5fc85fe1da2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonSoulEater/Green.prefab using Guid(88e480c990c9d6a458b5fc85fe1da2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953c50c72f15233d11471f13ecdc2e33') in 0.002515 seconds
+  Time since last request: 0.861302 seconds.
+  path: Assets/CodeBase/Infrastructure/GameBootstrapper.cs
+  artifactKey: Guid(6aba90ad3e2054559b75afaa4a09b14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodeBase/Infrastructure/GameBootstrapper.cs using Guid(6aba90ad3e2054559b75afaa4a09b14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1eacec90ebd7a43de07d969e0934d4b') in 0.000340 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 130
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.582 seconds
+Refreshing native plugins compatible for Editor in 4.68 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.923 seconds
+Domain Reload Profiling: 1504ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (201ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (923ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6830 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (399.1 KB). Loaded Objects now: 7494.
+Memory consumption went from 228.5 MB to 228.1 MB.
+Total: 3.329700 ms (FindLiveObjects: 0.398700 ms CreateObjectMapping: 0.181200 ms MarkObjects: 2.629600 ms  DeleteObjects: 0.119400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.542 seconds
+Refreshing native plugins compatible for Editor in 3.29 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.846 seconds
+Domain Reload Profiling: 1387ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (373ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (197ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (847ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (387ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6830 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (399.4 KB). Loaded Objects now: 7511.
+Memory consumption went from 228.5 MB to 228.1 MB.
+Total: 4.048900 ms (FindLiveObjects: 0.397800 ms CreateObjectMapping: 0.344700 ms MarkObjects: 3.184000 ms  DeleteObjects: 0.122000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.556 seconds
+Refreshing native plugins compatible for Editor in 3.35 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.879 seconds
+Domain Reload Profiling: 1434ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (382ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (203ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (879ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6830 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (399.3 KB). Loaded Objects now: 7528.
+Memory consumption went from 228.5 MB to 228.2 MB.
+Total: 3.186600 ms (FindLiveObjects: 0.371000 ms CreateObjectMapping: 0.176400 ms MarkObjects: 2.530200 ms  DeleteObjects: 0.108300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.537 seconds
+Refreshing native plugins compatible for Editor in 3.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.877 seconds
+Domain Reload Profiling: 1413ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (360ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (193ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (877ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6830 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (399.3 KB). Loaded Objects now: 7545.
+Memory consumption went from 228.6 MB to 228.2 MB.
+Total: 3.671400 ms (FindLiveObjects: 0.427300 ms CreateObjectMapping: 0.203400 ms MarkObjects: 2.915200 ms  DeleteObjects: 0.124600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2027.496381 seconds.
+  path: Assets/Resources_moved/Loot
+  artifactKey: Guid(a33c1078bc432b740805447fbbab70c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources_moved/Loot using Guid(a33c1078bc432b740805447fbbab70c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106a831781980172e531e7c0de5c2502') in 0.001137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.611541 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arcade_01.fbx
+  artifactKey: Guid(8c3ca8f009a94158b02a1d6b35bbcee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arcade_01.fbx using Guid(8c3ca8f009a94158b02a1d6b35bbcee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d1237f3261cc1d1b526f48eba4661c') in 0.003078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.018791 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_01.fbx
+  artifactKey: Guid(56324ba2ab7140eba4493fc80317a520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_01.fbx using Guid(56324ba2ab7140eba4493fc80317a520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d23fedc31339a7404a84cf007b13e8') in 0.001854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.003914 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_02.fbx
+  artifactKey: Guid(ff8c25a9e48b474c8489f140b6b25da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_02.fbx using Guid(ff8c25a9e48b474c8489f140b6b25da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40248f8601ec55c49c4530299ab3e4fd') in 0.001410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_04.fbx
+  artifactKey: Guid(cdd4ca8fe7ec4af5b56bf1caae5373d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_04.fbx using Guid(cdd4ca8fe7ec4af5b56bf1caae5373d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2921e28b2fcb7a46fb1d3f1a7eb47c') in 0.001131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.003276 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_06.fbx
+  artifactKey: Guid(d96c4ed9f77f493f95e67a07a163b15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_06.fbx using Guid(d96c4ed9f77f493f95e67a07a163b15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7240bb881872d4433dfb068a44f86f83') in 0.001553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.005985 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Alley_01.fbx
+  artifactKey: Guid(5851d4d576eb498593c3044efcb2d3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Alley_01.fbx using Guid(5851d4d576eb498593c3044efcb2d3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f432aad2c642cef08f161f2b5f4b652') in 0.001488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.005662 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Alley_Corner_01.fbx
+  artifactKey: Guid(ca4ee083630b4ab592d0701d39900135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Alley_Corner_01.fbx using Guid(ca4ee083630b4ab592d0701d39900135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c2236d61957dcac8e58c405eed40ed') in 0.001262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.151105 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Big_01.fbx
+  artifactKey: Guid(46d6f21a864442a99bd1e6e206f92b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Big_01.fbx using Guid(46d6f21a864442a99bd1e6e206f92b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c34a6af3be40e84b56cca92ceb8341b') in 0.001662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Big_03.fbx
+  artifactKey: Guid(c1536d3b1e8149189bbeb8916b7be566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Big_03.fbx using Guid(c1536d3b1e8149189bbeb8916b7be566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8422fe045a9709fc2493c46d30c916c9') in 0.001614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.010065 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Big_Half_01.fbx
+  artifactKey: Guid(649c98aabf954d9ba6fe9bb4fc2cbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Big_Half_01.fbx using Guid(649c98aabf954d9ba6fe9bb4fc2cbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8ed37653e6f3f387b86a19a1a4a9f3') in 0.001163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.027489 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Big_Half_02.fbx
+  artifactKey: Guid(1644678593594603aac594ce542486a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Big_Half_02.fbx using Guid(1644678593594603aac594ce542486a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675c13e63ca18852a9660f250ca98aab') in 0.001647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.002773 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Half_03.fbx
+  artifactKey: Guid(4d25a9fc6a4a48efa67eb3481bc589c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Half_03.fbx using Guid(4d25a9fc6a4a48efa67eb3481bc589c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f1619355109a483af9e56ff81910c6') in 0.001010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Half_Ruined_01.fbx
+  artifactKey: Guid(ba9b36e4a5264764806b6793fc7cb3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Half_Ruined_01.fbx using Guid(ba9b36e4a5264764806b6793fc7cb3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f1e3c2e7f09a98121af9c8c2f2c847') in 0.001002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Small_01.fbx
+  artifactKey: Guid(2abfc08cc29e4443ba3b6748e1da0d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Small_01.fbx using Guid(2abfc08cc29e4443ba3b6748e1da0d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5179e0a1303ec67e6083cc98408684a') in 0.001202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.003121 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Small_02.fbx
+  artifactKey: Guid(c269689723fa498f94a3fb26a0356190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Small_02.fbx using Guid(c269689723fa498f94a3fb26a0356190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17eab758f7139260603b1338e035746d') in 0.001065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.003429 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Tall_01.fbx
+  artifactKey: Guid(39aadafca92642909791719cc89199ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Tall_01.fbx using Guid(39aadafca92642909791719cc89199ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82e40c986dcc4ad990958668a666637') in 0.001676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.006534 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Tall_Bars_01.fbx
+  artifactKey: Guid(807fb5746af14ad7b80d4b535cfbe381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Tall_Bars_01.fbx using Guid(807fb5746af14ad7b80d4b535cfbe381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f46cac0d5f77d9a53973b29572ce25') in 0.000690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.010663 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Top_03.fbx
+  artifactKey: Guid(02c5f09b14ca44168e338fcc83c67f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Top_03.fbx using Guid(02c5f09b14ca44168e338fcc83c67f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689488c8bb9d8c9886922b91afe95cad') in 0.001636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 2.865045 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_02.fbx
+  artifactKey: Guid(15de7392b09748be8d484b1d90eb38f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_02.fbx using Guid(15de7392b09748be8d484b1d90eb38f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60d017dfb9260ff7b072e70ea54b923') in 0.001831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.005880 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_03.fbx
+  artifactKey: Guid(8b42c69f2851477ebab73b1dfaac5949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_03.fbx using Guid(8b42c69f2851477ebab73b1dfaac5949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c69407811e55d8e60f3a2fb4e35998f') in 0.001902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.003862 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_05.fbx
+  artifactKey: Guid(6367c0ad8ef043f09bf263ad9f5ed8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_05.fbx using Guid(6367c0ad8ef043f09bf263ad9f5ed8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22db3fc43826f35d6b2a5ee5eea2e211') in 0.001846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_08.fbx
+  artifactKey: Guid(3ef70aa55f65494bb91a7c79d9b7518c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_08.fbx using Guid(3ef70aa55f65494bb91a7c79d9b7518c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb0f4868f9307316551bbaa2d8a4979') in 0.001463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.001109 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_09.fbx
+  artifactKey: Guid(8ee48ca5706d420b8f18bf794f974146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_09.fbx using Guid(8ee48ca5706d420b8f18bf794f974146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f36b4fd0ec18934f2774f22849642a') in 0.003734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_10.fbx
+  artifactKey: Guid(7c41dc55880c45c2aa4f3cea77b964f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_10.fbx using Guid(7c41dc55880c45c2aa4f3cea77b964f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5598f8394f79d9a65bc71cf6b98321b5') in 0.002336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.006839 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Niche_03.fbx
+  artifactKey: Guid(c3220e9da905485cbb0b26c25bdf157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Niche_03.fbx using Guid(c3220e9da905485cbb0b26c25bdf157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a372d461c4870b70516da933cebb57') in 0.017356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.007784 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Ruined_02.fbx
+  artifactKey: Guid(4af85b31bca24f3b9122ab82c1f908af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Ruined_02.fbx using Guid(4af85b31bca24f3b9122ab82c1f908af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72ab0fe084364e067baab2fc333cf4c') in 0.001297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.005182 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Ruined_03.fbx
+  artifactKey: Guid(3fb1307666d44b07aa36ce40e2acced9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Ruined_03.fbx using Guid(3fb1307666d44b07aa36ce40e2acced9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb90104cb3337cc32d1033a6ab3b5190') in 0.001638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.001136 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Ruined_04.fbx
+  artifactKey: Guid(57642784ccb74fae8892bc08a4e91b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Ruined_04.fbx using Guid(57642784ccb74fae8892bc08a4e91b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822fbd77ed8c576ff2ce756940dbb9d8') in 0.001027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.002624 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Ruined_05.fbx
+  artifactKey: Guid(e4ff42d941ee438eb3f1ca6f911d4df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Ruined_05.fbx using Guid(e4ff42d941ee438eb3f1ca6f911d4df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8296bf875ee92ec0baa8e3403090d9') in 0.001211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.007255 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Tall_01.fbx
+  artifactKey: Guid(4457323e031f4d29ac23a97da1775f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Tall_01.fbx using Guid(4457323e031f4d29ac23a97da1775f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10021a6ebfc77472723a6122b654a167') in 0.002112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Tall_Ruined_01.fbx
+  artifactKey: Guid(2b4422eabb644c3684dd5d4afb38c462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Tall_Ruined_01.fbx using Guid(2b4422eabb644c3684dd5d4afb38c462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1677b1b548ff8ff1bc5441177b827919') in 0.001335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.006302 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Tall_Ruined_02.fbx
+  artifactKey: Guid(22913a23a9cf43adbbc1ae6c9d38f922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Tall_Ruined_02.fbx using Guid(22913a23a9cf43adbbc1ae6c9d38f922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2b2155f956c46c51bec20dcdb22d9a') in 0.000990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Barrels_Preset_04.fbx
+  artifactKey: Guid(d69c8ca65f6b405caaa1fb39a1ade5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Barrels_Preset_04.fbx using Guid(d69c8ca65f6b405caaa1fb39a1ade5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d76edda594bbc4f1f7b4f1c9e359b4') in 0.001075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_02.fbx
+  artifactKey: Guid(39e90a2d9eb4491587994522640f496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_02.fbx using Guid(39e90a2d9eb4491587994522640f496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074a9cc52d265a9381f4f63f1fc68b38') in 0.000869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonSoulEater/Purple.prefab
-  artifactKey: Guid(36c38a65d57de7d4a9a582f9ee857701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonSoulEater/Purple.prefab using Guid(36c38a65d57de7d4a9a582f9ee857701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2421e3dcfeffacd38f6c1b18b105269') in 0.002210 seconds
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_03.fbx
+  artifactKey: Guid(d662524210df4f74957d97a692277981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_03.fbx using Guid(d662524210df4f74957d97a692277981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d837c94c562a32a97bf63c5545e44dd') in 0.000675 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 130
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 16.043218 seconds.
-  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Materials/DragonTerrorBringer/AlbinoPBR.mat
-  artifactKey: Guid(2cc3d51c3b46bec4a95b1cf2d2488afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Materials/DragonTerrorBringer/AlbinoPBR.mat using Guid(2cc3d51c3b46bec4a95b1cf2d2488afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600aa3d6eda7b8c767018053d5053668') in 0.002241 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_04.fbx
+  artifactKey: Guid(e50bf8474172479c9f018430da0a5e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_04.fbx using Guid(e50bf8474172479c9f018430da0a5e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d17649506f439b518fb81d24d534af') in 0.000645 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Textures/Materials/Atlas_Base_01.mat
-  artifactKey: Guid(09a6bdff84cd47dabeaff92fe0467301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Textures/Materials/Atlas_Base_01.mat using Guid(09a6bdff84cd47dabeaff92fe0467301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6f530ef311fddc6cbdc6497dedeb29') in 0.001054 seconds
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_05.fbx
+  artifactKey: Guid(5852bb5ae1a84a0bbabed08d023f9576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_05.fbx using Guid(5852bb5ae1a84a0bbabed08d023f9576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dc425325fcf8dc8dc3b4a776672fb9') in 0.000714 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Staircase_Round_01_Mesh.fbx
-  artifactKey: Guid(59e00d125b3a4c02b53d31aed498fa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Staircase_Round_01_Mesh.fbx using Guid(59e00d125b3a4c02b53d31aed498fa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087694135655fc0688166588477cc719') in 0.001891 seconds
+  Time since last request: 0.016717 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_08.fbx
+  artifactKey: Guid(21b5ac49596f4cd7a0d9fa6417c3a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_08.fbx using Guid(21b5ac49596f4cd7a0d9fa6417c3a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4300de960a33739bdb1f87da1bd3115') in 0.000922 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Materials/DragonUsurper/AlbinoPBR.mat
-  artifactKey: Guid(acd197acde96c544b8d8fd85cc2e8b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Materials/DragonUsurper/AlbinoPBR.mat using Guid(acd197acde96c544b8d8fd85cc2e8b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2e9f7827b80c97aa4d3deb8a5385ab') in 0.000743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.688710 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Textures/Materials/Candle_Fire_Material_01.mat
-  artifactKey: Guid(a45f4884a50afbc44bad37be3541ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Textures/Materials/Candle_Fire_Material_01.mat using Guid(a45f4884a50afbc44bad37be3541ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9ea14631ee7467f5fe481946da23eb') in 0.000789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.002038 seconds.
-  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Blood/CFX2_Blood AB.mat
-  artifactKey: Guid(cfeb0e44c6f4bc34086102e1a7ace033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Blood/CFX2_Blood AB.mat using Guid(cfeb0e44c6f4bc34086102e1a7ace033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1069f5d60031885b830c8fc4ad15bf8c') in 0.001263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_BrokenHeart Add.mat
-  artifactKey: Guid(53d0980ae6a0d2f4290706eb595fa872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_BrokenHeart Add.mat using Guid(53d0980ae6a0d2f4290706eb595fa872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0a7de63d5171be4821ec718a5b2dd3') in 0.001079 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_Diamond Outline Add.mat
-  artifactKey: Guid(116dd40afacd54e45a3e276d2c361ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_Diamond Outline Add.mat using Guid(116dd40afacd54e45a3e276d2c361ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0900823606bd5b3d63c48d2e28f9ba6') in 0.000909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.108110 seconds.
-  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX2_Glow Soft.mat
-  artifactKey: Guid(b6a4ebddb006a4a4bb0bea6365c7512a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX2_Glow Soft.mat using Guid(b6a4ebddb006a4a4bb0bea6365c7512a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a48e917ad0e1749d52f48dfd3962cd') in 0.000825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 31.001365 seconds.
-  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonNightmare/Green.prefab
-  artifactKey: Guid(281a986484325de459dc1b3709335bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonNightmare/Green.prefab using Guid(281a986484325de459dc1b3709335bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4c5eb72f1fde0d29004b21d5ad0b7e') in 0.002139 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 152
-========================================================================
-Received Import Request.
-  Time since last request: 12.804760 seconds.
-  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Grey.prefab
-  artifactKey: Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Grey.prefab using Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e6f9421b75a1caec8fa4c4294df059') in 0.002243 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 174
-========================================================================
-Received Import Request.
-  Time since last request: 1.790119 seconds.
-  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonUsurper/Blue.prefab
-  artifactKey: Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Prefab/DragonUsurper/Blue.prefab using Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f94ef5796d3be8cfbc466b4a698d6c1') in 0.002396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 246
-========================================================================
-Received Import Request.
-  Time since last request: 45.527813 seconds.
-  path: Assets/AssetsThirdParty/FourEvilDragonsPBR/Mesh/DragonTheNightmareMesh.fbx
-  artifactKey: Guid(2f4e6492f506bbb4a8aeba850e3bb52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsThirdParty/FourEvilDragonsPBR/Mesh/DragonTheNightmareMesh.fbx using Guid(2f4e6492f506bbb4a8aeba850e3bb52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3173e29974709b545d0698976d91dac') in 0.002355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 153
-========================================================================
-Received Import Request.
-  Time since last request: 37.674201 seconds.
-  path: Assets/Resources/Enemies/SpawnPoint.prefab
-  artifactKey: Guid(5e5802878ea01e74bb78e12ba0632731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Enemies/SpawnPoint.prefab using Guid(5e5802878ea01e74bb78e12ba0632731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee66462fb5ce3ef82a517f29b234b803') in 0.000888 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 2.882846 seconds.
-  path: Assets/Resources/Hero/Hero.prefab
-  artifactKey: Guid(b24fda9bb9eb08d49992ffb57951c158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Hero/Hero.prefab using Guid(b24fda9bb9eb08d49992ffb57951c158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca036bd42ac7d5e7e1a22b6ff931b42b') in 0.008886 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 289
-========================================================================
-Received Import Request.
-  Time since last request: 36.276679 seconds.
-  path: Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Die.fbx
-  artifactKey: Guid(6f83b9d81f8c7854baeca6ff691bb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Die.fbx using Guid(6f83b9d81f8c7854baeca6ff691bb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de1e773f40fdd031afbbd26995080ce') in 0.003047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 132
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Fly Float.fbx
-  artifactKey: Guid(e02bdaca3b0c3284ab993c4eba862036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Fly Float.fbx using Guid(e02bdaca3b0c3284ab993c4eba862036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003038cbf5fee518368ebbd9169e47df') in 0.002763 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 132
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
   Time since last request: 0.000009 seconds.
-  path: Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Get Hit.fbx
-  artifactKey: Guid(34cbf41484d0da24e9a24545c9d5a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Get Hit.fbx using Guid(34cbf41484d0da24e9a24545c9d5a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e861f5487b0f7ffd7554eafe6ba0fc') in 0.003742 seconds
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_02.fbx
+  artifactKey: Guid(d3dd1cd36feb41d8b45bdd5e7757a984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_02.fbx using Guid(d3dd1cd36feb41d8b45bdd5e7757a984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e8db1ac9b075ac5a4c1e7ec0b3ed70') in 0.000823 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 132
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_03.fbx
+  artifactKey: Guid(29f0f2c41420473ba3bb93cc06e545d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_03.fbx using Guid(29f0f2c41420473ba3bb93cc06e545d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed7898c51606348e9a0fb1e9a9199bc') in 0.000712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.602421 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Flask_01.fbx
+  artifactKey: Guid(f9c74410e5e34fe8b5706cd37bdfcfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Flask_01.fbx using Guid(f9c74410e5e34fe8b5706cd37bdfcfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a2ad42e2a8c356f41479fbf5e696c6') in 0.001037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.004505 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Flask_02.fbx
+  artifactKey: Guid(4a11217608894381b8c1faacb7051942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Flask_02.fbx using Guid(4a11217608894381b8c1faacb7051942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72c8b04da1d2de05179083c6fc319cf') in 0.000754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.001285 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Flask_03.fbx
+  artifactKey: Guid(eef146212cbc4786ba61b7dbbaee384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Flask_03.fbx using Guid(eef146212cbc4786ba61b7dbbaee384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66daa33bc90734ef716d3cd02379a5d5') in 0.000639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.005316 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Flask_04.fbx
+  artifactKey: Guid(dc0443a2060940edb8574e707f1c6a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Flask_04.fbx using Guid(dc0443a2060940edb8574e707f1c6a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74edbf039ba78f55acc2dc8719bcc875') in 0.000688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.008421 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Flask_05.fbx
+  artifactKey: Guid(0402e84af23f43bb83c4175687f72556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Flask_05.fbx using Guid(0402e84af23f43bb83c4175687f72556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b6f27e0ab5418d3017aa1768a6c747') in 0.000719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 11.633556 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Barrel_02.fbx
+  artifactKey: Guid(4f67e3351bc748e7bda31b4baf06beda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Barrel_02.fbx using Guid(4f67e3351bc748e7bda31b4baf06beda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0cc3af8f13a255250c47424b7c1666') in 0.001081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.333419 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Arch_04.fbx
+  artifactKey: Guid(1a44288d462a490f936d80ab41bfdcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Arch_04.fbx using Guid(1a44288d462a490f936d80ab41bfdcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be3d17e0beb2d170f1ce3e03f8d206b') in 0.001900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.042591 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Arch_Big_01.fbx
+  artifactKey: Guid(eccb6697827d4d0f97efc4866b446c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Arch_Big_01.fbx using Guid(eccb6697827d4d0f97efc4866b446c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35de2005316f4e16bde7a4aa780fc79') in 0.001679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.050582 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Doorway_02.fbx
+  artifactKey: Guid(85d4d13d571d4192a558234bd60d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Doorway_02.fbx using Guid(85d4d13d571d4192a558234bd60d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc87fa98b98989596a8b6612b1e5d65') in 0.003798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 0.614409 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Ruined_01.fbx
+  artifactKey: Guid(595e47b45ea64537b0f2cad45892c897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Ruined_01.fbx using Guid(595e47b45ea64537b0f2cad45892c897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc0071ebfad8e60b377089aa89af63c') in 0.001081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.016690 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Ruined_04.fbx
+  artifactKey: Guid(dbc91bdae06942d99b7149438f86cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Ruined_04.fbx using Guid(dbc91bdae06942d99b7149438f86cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b152105a6db9048ca1b955cd6d897cf') in 0.001336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.014228 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Bench_Wooden_01.fbx
+  artifactKey: Guid(8dee37a21a8c41ce95e83999b8e45bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Bench_Wooden_01.fbx using Guid(8dee37a21a8c41ce95e83999b8e45bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b4468020dc0826b9ef0212c85aa63d') in 0.001118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.029810 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Book_03.fbx
+  artifactKey: Guid(394a144e9fdd4aa6a9fe7b3991d9a43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Book_03.fbx using Guid(394a144e9fdd4aa6a9fe7b3991d9a43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7384e5cf2812d92b4eef50860e3c8c7f') in 0.000915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.028204 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Books_Preset_01.fbx
+  artifactKey: Guid(6a894affd811495e918ce32fe90d12dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Books_Preset_01.fbx using Guid(6a894affd811495e918ce32fe90d12dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89eb4aa5a538698c7f66b91e08ecf13e') in 0.000835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.028112 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Books_Preset_06.fbx
+  artifactKey: Guid(52f18bb9affa40319dc60a840f31a449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Books_Preset_06.fbx using Guid(52f18bb9affa40319dc60a840f31a449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9452eade985094f1c58c67fc204c327') in 0.000902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.013510 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Brick_02.fbx
+  artifactKey: Guid(0533e21991ea411d985204fb79a8e0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Brick_02.fbx using Guid(0533e21991ea411d985204fb79a8e0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06ec162edf3e9aa98cd2e99a0b18799') in 0.000831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
   Time since last request: 0.000009 seconds.
-  path: Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Run.fbx
-  artifactKey: Guid(93048e03d4dc597468fce555d02e9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Run.fbx using Guid(93048e03d4dc597468fce555d02e9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cccb3525876783d4abe1a751ed40593') in 0.002747 seconds
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bricks_02.fbx
+  artifactKey: Guid(e49b04aeb73c42078d5b399276f8b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bricks_02.fbx using Guid(e49b04aeb73c42078d5b399276f8b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18318a78bfa21508448a2aee672086b3') in 0.001151 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 132
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.019373 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Bucket_01.fbx
+  artifactKey: Guid(48981368e2e74a6f8c4e3a52d8c40ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Bucket_01.fbx using Guid(48981368e2e74a6f8c4e3a52d8c40ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b461a8458ebfe7aa16664881f71b1b4a') in 0.000925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Buttress_02.fbx
+  artifactKey: Guid(66346651507a48e9a76be8bd603ff9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Buttress_02.fbx using Guid(66346651507a48e9a76be8bd603ff9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed5b9b3aa6ade1c8c243bc225a3cf75') in 0.000930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.090346 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Candlestick_01.fbx
+  artifactKey: Guid(a813f7e7422f4290abbc769984ff3835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Candlestick_01.fbx using Guid(a813f7e7422f4290abbc769984ff3835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56bd60badf0c9da5e6692197dfbeb06') in 0.001187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Ceiling_04.fbx
+  artifactKey: Guid(4a76a0c7fbd14ee6b834c70b971741ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Ceiling_04.fbx using Guid(4a76a0c7fbd14ee6b834c70b971741ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372b131566423bdf48ef9f8debcc662e') in 0.001986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.055897 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Ceiling_07.fbx
+  artifactKey: Guid(9732fc67ba97431b873c37f70e356cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Ceiling_07.fbx using Guid(9732fc67ba97431b873c37f70e356cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152ad8acdfbd5b19e776a9620109a308') in 0.001708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.055398 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Ceiling_Intersection_Column_01.fbx
+  artifactKey: Guid(0dcfcc0216b24f13baaf4a828ad4f360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Ceiling_Intersection_Column_01.fbx using Guid(0dcfcc0216b24f13baaf4a828ad4f360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48690432b4cc94a484b590a631d72082') in 0.000884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.013353 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Mesh/CFX_Mesh_Circular1.5.asset
+  artifactKey: Guid(885d6c99746f9db4a83145e1d01a84e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Mesh/CFX_Mesh_Circular1.5.asset using Guid(885d6c99746f9db4a83145e1d01a84e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e376f961952f30c2aa854c976915a31d') in 0.000950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002145 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_4/Male_Hair_4.FBX
+  artifactKey: Guid(790f4551bb671cc43bea7a0943c1162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_4/Male_Hair_4.FBX using Guid(790f4551bb671cc43bea7a0943c1162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3b6c451b8b44dcf6144f88c5657f9d') in 0.000916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.014433 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_02.fbx
+  artifactKey: Guid(05ca6fd9e8a343508c6d8b53d6f0da4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_02.fbx using Guid(05ca6fd9e8a343508c6d8b53d6f0da4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f317b2f3bdc24cc72f9728c6abb566c') in 0.000956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.001992 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_08.fbx
+  artifactKey: Guid(ca222ae4ed674e109002744443f00d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_08.fbx using Guid(ca222ae4ed674e109002744443f00d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0f76ac6b66fd5a8d484ddc8740e206') in 0.001283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_05.fbx
+  artifactKey: Guid(ee5d991cb578461b8634b1b99051cc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_05.fbx using Guid(ee5d991cb578461b8634b1b99051cc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65636cb546256aaddcc9b638530b890d') in 0.001042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Fly Fireball Shoot.fbx
-  artifactKey: Guid(37760f0079ba2124cb0198d37570b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Fly Fireball Shoot.fbx using Guid(37760f0079ba2124cb0198d37570b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65314f7c246f29f7b23b2fbe200efe80') in 0.002419 seconds
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_13.fbx
+  artifactKey: Guid(271c95fd02cb4b1b887e51f7a4ee02f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_13.fbx using Guid(271c95fd02cb4b1b887e51f7a4ee02f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bac46d9e91142d320348aca55fff9e8') in 0.001283 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 132
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_Arcade_01.fbx
+  artifactKey: Guid(c8d226d626e94bd5959979657f4b716d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_Arcade_01.fbx using Guid(c8d226d626e94bd5959979657f4b716d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7717e3ab69d5acef37f10e2213d68d6') in 0.000887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.004908 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_Ruined_01.fbx
+  artifactKey: Guid(65cf1c31193f468f95453471a6ac7ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_Ruined_01.fbx using Guid(65cf1c31193f468f95453471a6ac7ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558e42a746390f7b26bf9d2c94098781') in 0.000789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.019655 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Cornice_01.fbx
+  artifactKey: Guid(036e7d5a6176451bb666b170a443efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Cornice_01.fbx using Guid(036e7d5a6176451bb666b170a443efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3ea9ae737d437eebd70ec4e7e7dd44') in 0.000754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.169191 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Cornice_Corner_01.fbx
+  artifactKey: Guid(cd7de47ee2964a5b9ecc8b993797738c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Cornice_Corner_01.fbx using Guid(cd7de47ee2964a5b9ecc8b993797738c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7a21b21c6802749d83466a9fb4183f') in 0.000875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.016274 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Cornice_Curved_01.fbx
+  artifactKey: Guid(aaf24c5d8b134db7ad99b58a14ec8007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Cornice_Curved_01.fbx using Guid(aaf24c5d8b134db7ad99b58a14ec8007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0abfc0e5e92e00abebe1cfc7fa7062d') in 0.001383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.017716 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Cornice_Ruined_03.fbx
+  artifactKey: Guid(bdf98f0aaac943ad828210d0c515a7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Cornice_Ruined_03.fbx using Guid(bdf98f0aaac943ad828210d0c515a7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13b0df175c3393dd3bef8fa5e2426c4') in 0.000973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.020020 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_01.fbx
+  artifactKey: Guid(435375199b064ea2a25f79a9596a593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_01.fbx using Guid(435375199b064ea2a25f79a9596a593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2564b527ac54a4bf210838826217e91f') in 0.001079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
   Time since last request: 0.000010 seconds.
-  path: Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Walk.fbx
-  artifactKey: Guid(555c2f8b240202a4c8f3c3f412587e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Enemies/Dragon/Animations/DragonSoulEater/Walk.fbx using Guid(555c2f8b240202a4c8f3c3f412587e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ebc6d4247ae9df88cf4a42f0f3d2c9') in 0.002515 seconds
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_03.fbx
+  artifactKey: Guid(b3963507da3a446d92940ed66527ad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_03.fbx using Guid(b3963507da3a446d92940ed66527ad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb74ba0a78d5fa4a57da8bea19ee2bfa') in 0.000882 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 132
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_Big_Preset_02.fbx
+  artifactKey: Guid(5b4a8c6b57f549888a3369b0fefb9a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_Big_Preset_02.fbx using Guid(5b4a8c6b57f549888a3369b0fefb9a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2675170f9bcb355b695a58e7b308bc49') in 0.000856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_Preset_02.fbx
+  artifactKey: Guid(cd5f096c22fb4f3297f3699c9cf5cdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_Preset_02.fbx using Guid(cd5f096c22fb4f3297f3699c9cf5cdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8ed745a9ad08a0bd1508fd81f6c63a') in 0.000983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.016180 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_Preset_06.fbx
+  artifactKey: Guid(dec4eedc0224494ebbc9c81f812a5878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_Preset_06.fbx using Guid(dec4eedc0224494ebbc9c81f812a5878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0858db677af958d196bde3ddb6afae') in 0.000862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.017091 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Arch_Alley_02.fbx
+  artifactKey: Guid(87579dd731a34e29b225c9eb736e9699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Arch_Alley_02.fbx using Guid(87579dd731a34e29b225c9eb736e9699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e57ca9be1054e9d95885aa9685a3c4d') in 0.001594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Arch_Alley_Corner_03.fbx
+  artifactKey: Guid(b32400d896214b64926bc64b97160a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Arch_Alley_Corner_03.fbx using Guid(b32400d896214b64926bc64b97160a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0fe90ea7afc75d5159a094315f1611') in 0.001157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Bars_01.fbx
+  artifactKey: Guid(868984c1d0bb4d6c9adf3d4cd20f1261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Bars_01.fbx using Guid(868984c1d0bb4d6c9adf3d4cd20f1261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e976cf0e5992063d0ed36c9634e6b4fd') in 0.000816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.060300 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Column_01.fbx
+  artifactKey: Guid(2350626d8bae4bb58bcda0e7ba03fef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Column_01.fbx using Guid(2350626d8bae4bb58bcda0e7ba03fef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e4923b661c3c27658990ac7c20d8ee') in 0.001192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Railing_02.fbx
+  artifactKey: Guid(e361e56882df4bcd856d6cd86984f311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Railing_02.fbx using Guid(e361e56882df4bcd856d6cd86984f311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a5e254a5dae35e9702885d4ee744ac') in 0.001298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Column_03.fbx
+  artifactKey: Guid(1a337ebe1a254d0f9810171735ddf18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Column_03.fbx using Guid(1a337ebe1a254d0f9810171735ddf18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d589cb713e358bcbe417f693e9f9b75') in 0.000812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.230208 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Railing_10.fbx
+  artifactKey: Guid(15005ddeaa584d31ab56bb74c4cd6dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Railing_10.fbx using Guid(15005ddeaa584d31ab56bb74c4cd6dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c82202ff00ee81ba024b2ee4102428') in 0.000891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Wall_Left_02.fbx
+  artifactKey: Guid(4244603bf020400f951e486bbd020be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Wall_Left_02.fbx using Guid(4244603bf020400f951e486bbd020be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33b55266e042dfa7c97e6e0e67998cc') in 0.000946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.030805 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Wall_Right_01.fbx
+  artifactKey: Guid(969603bb954f48398c7b4b7521b37812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Wall_Right_01.fbx using Guid(969603bb954f48398c7b4b7521b37812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d9d79fbf9baa0c7ccdc1171e8e16b1') in 0.001200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.015788 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Door_02.fbx
+  artifactKey: Guid(2ca9ec6f8b074493ba885f1cec23016e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Door_02.fbx using Guid(2ca9ec6f8b074493ba885f1cec23016e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2907ebc6843428d310eb77052bd27657') in 0.002255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.686947 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Doorway_02.fbx
+  artifactKey: Guid(94f28df526b14a76ae4cf69d860d0680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Doorway_02.fbx using Guid(94f28df526b14a76ae4cf69d860d0680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a0baa1b909cbe9402dcb52af2d1f83') in 0.001606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.252252 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Drawer_Preset_02.fbx
+  artifactKey: Guid(478a7af3419844da98433fce6ce8f684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Drawer_Preset_02.fbx using Guid(478a7af3419844da98433fce6ce8f684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee160fba0ebf1c92a7d04a1b3830a59e') in 0.001020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.271019 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Fence_02.fbx
+  artifactKey: Guid(89c483ec5ead468396ac4b397f7dbbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Fence_02.fbx using Guid(89c483ec5ead468396ac4b397f7dbbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9983799a80042b34ce18ec78312abeda') in 0.001286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.006068 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_01.fbx
+  artifactKey: Guid(79fa4a075a4a4f2fad3b0e11a02e920a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_01.fbx using Guid(79fa4a075a4a4f2fad3b0e11a02e920a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963da63619dc2a8067975bf4c9c441ed') in 0.000844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.008400 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_Detailed_01.fbx
+  artifactKey: Guid(30d4d78feb8c41a5879fe735b0ead0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_Detailed_01.fbx using Guid(30d4d78feb8c41a5879fe735b0ead0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae621470ea60087843b985026dd460f') in 0.000960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.089108 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_Rounded_07.fbx
+  artifactKey: Guid(578eb2be735f46caa9215d3aa4623a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_Rounded_07.fbx using Guid(578eb2be735f46caa9215d3aa4623a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a057951aab41d03a4d253c13b966542') in 0.001464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.004886 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_Ruined_02.fbx
+  artifactKey: Guid(42b58eea71124d71a9f1bc2bda4c20c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_Ruined_02.fbx using Guid(42b58eea71124d71a9f1bc2bda4c20c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95abb8467cb0c8924541d617172e7b3') in 0.001185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.993334 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_Ruined_05.fbx
+  artifactKey: Guid(3d29cfcf56c44af09455e3a00d04c69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_Ruined_05.fbx using Guid(3d29cfcf56c44af09455e3a00d04c69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1199879d1ca8dc6f6f5bae885ece66d') in 0.001149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.005682 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_Ruined_Corner_02.fbx
+  artifactKey: Guid(ffc5844b62384231b24aff9c4dae09f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_Ruined_Corner_02.fbx using Guid(ffc5844b62384231b24aff9c4dae09f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4e9cec5966b9421d34e0be2fd36bb4') in 0.001001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.023596 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Flying_Buttress_01.fbx
+  artifactKey: Guid(d1faf0d4d7864ad3b623886ee2fa419a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Flying_Buttress_01.fbx using Guid(d1faf0d4d7864ad3b623886ee2fa419a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab5af9501c381f6b14ed214fac1e196') in 0.001390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/FP_Wall_04.fbx
+  artifactKey: Guid(fafe94cc505444ce90b06005bb5a0f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/FP_Wall_04.fbx using Guid(fafe94cc505444ce90b06005bb5a0f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8891dbfa0779010c01a540ef8e54dcf5') in 0.000873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.018894 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/FP_Wall_Half_02.fbx
+  artifactKey: Guid(cc66ac76a01f4265a145acc254d18d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/FP_Wall_Half_02.fbx using Guid(cc66ac76a01f4265a145acc254d18d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4836bc61a6c4dbd723ea07174ea7c51b') in 0.000819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.009265 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/FP_Wall_Ruined_02.fbx
+  artifactKey: Guid(cb2f910b9c1b4a8db0b0cbe7a6f46506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/FP_Wall_Ruined_02.fbx using Guid(cb2f910b9c1b4a8db0b0cbe7a6f46506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c39b56dcb6d721e1cf86e94a3ccdb0') in 0.000888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.034221 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/FP_Wall_Ruined_06.fbx
+  artifactKey: Guid(4fda54e811954036b2181df785adabf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/FP_Wall_Ruined_06.fbx using Guid(4fda54e811954036b2181df785adabf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c913a639611fa5ccb005b02c20bc525f') in 0.000947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.007001 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Glass_Jar_02.fbx
+  artifactKey: Guid(d7617a2e4d6842ada4020c0e7ae9de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Glass_Jar_02.fbx using Guid(d7617a2e4d6842ada4020c0e7ae9de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6110634aee044ccfae95a9483e90470b') in 0.000933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.003825 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Hallway_02.fbx
+  artifactKey: Guid(2fbac931879e4c2b9c3ced9fc886be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Hallway_02.fbx using Guid(2fbac931879e4c2b9c3ced9fc886be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e80c4d494617caf260d3ca228dfb9c') in 0.001279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.050413 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Jug_01.fbx
+  artifactKey: Guid(f5cdd3ff716a4dfcbd14104d703672f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Jug_01.fbx using Guid(f5cdd3ff716a4dfcbd14104d703672f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1caef65a6c7125e9bf4909304c08938') in 0.000878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.009430 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Jugs_Preset_01.fbx
+  artifactKey: Guid(16f03af913724dfd80186c5d0ffa31e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Jugs_Preset_01.fbx using Guid(16f03af913724dfd80186c5d0ffa31e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b25d1baed84052ad3bffa4cc2653e0') in 0.001094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.093255 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Paper_05.fbx
+  artifactKey: Guid(64acf2bb8cf143aeb1dee7245e05a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Paper_05.fbx using Guid(64acf2bb8cf143aeb1dee7245e05a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67d545951adb5297770b823429a8a37') in 0.000892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.024521 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Pedestal_02.fbx
+  artifactKey: Guid(3d1f87972533415b8fbf8560e8bf3e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Pedestal_02.fbx using Guid(3d1f87972533415b8fbf8560e8bf3e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d56178edf9532e045541cc95bdc6d7') in 0.000927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.241239 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Platform_02.fbx
+  artifactKey: Guid(7b55791ae33a4b6cb2087cdefd24f39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Platform_02.fbx using Guid(7b55791ae33a4b6cb2087cdefd24f39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c000108f59920b8079f232d257d408b') in 0.001391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.835489 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Platform_10.fbx
+  artifactKey: Guid(87e2dd06dd094a5d829e0bcfddf00926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Platform_10.fbx using Guid(87e2dd06dd094a5d829e0bcfddf00926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fd5233523f17e536542a024068cc52') in 0.001417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.023317 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Plinth_01.fbx
+  artifactKey: Guid(66852d9bb06c4839af950566a53d2924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Plinth_01.fbx using Guid(66852d9bb06c4839af950566a53d2924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef508946162fc39d2f9bc62f51a1ad5') in 0.000889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.005648 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Plinth_Corner_01.fbx
+  artifactKey: Guid(954bba16b9b14f89ba9ee1637d264ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Plinth_Corner_01.fbx using Guid(954bba16b9b14f89ba9ee1637d264ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65827afcb1ac11738dcecef696791ceb') in 0.000745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.001573 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Plinth_Curved_02.fbx
+  artifactKey: Guid(b5aa10934f0c46a0b5fb9cd5d1bef763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Plinth_Curved_02.fbx using Guid(b5aa10934f0c46a0b5fb9cd5d1bef763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d33f30b05f264cbc683db2425f3f4b') in 0.001461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.019706 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Plinth_Square_01.fbx
+  artifactKey: Guid(54bc658134a2405fa170613ae1be6e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Plinth_Square_01.fbx using Guid(54bc658134a2405fa170613ae1be6e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ccc989025afd27c789dedaeaca0e11') in 0.000740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.032589 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Potion_04.fbx
+  artifactKey: Guid(3516956dad1a44b88ff5d9ae1a1b838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Potion_04.fbx using Guid(3516956dad1a44b88ff5d9ae1a1b838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64e95fb7c1df117fb6333f664115393') in 0.001020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.635159 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Half_01.fbx
+  artifactKey: Guid(ce4d3ed4151042b19e50df70643acdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Half_01.fbx using Guid(ce4d3ed4151042b19e50df70643acdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ae8b328d0ff709044f0468755b0ce5') in 0.000914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.042840 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Stair_01.fbx
+  artifactKey: Guid(9ea8a545f6d348f7829b90787e458c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Stair_01.fbx using Guid(9ea8a545f6d348f7829b90787e458c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acca4f1f74969f808af30c7f74cace9') in 0.001105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.037898 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Stair_05.fbx
+  artifactKey: Guid(6095ec3774064cb89a0fc8304e59c4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Stair_05.fbx using Guid(6095ec3774064cb89a0fc8304e59c4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a0dfa4cf47ce38c26564781fe3251a') in 0.001354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.042910 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Stair_Big_02_Mirrored.fbx
+  artifactKey: Guid(360feb44f73d44a482864d1c414ded6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Stair_Big_02_Mirrored.fbx using Guid(360feb44f73d44a482864d1c414ded6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303337c408ffe751143822a0cb9484d0') in 0.002085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.867503 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Stair_Big_Flat_01_Mirrored.fbx
+  artifactKey: Guid(eb07a36732b4485ba5399dd557e775e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Stair_Big_Flat_01_Mirrored.fbx using Guid(eb07a36732b4485ba5399dd557e775e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161973192fdb5002463f3761d8e30f2a') in 0.001296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.025410 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Stair_Flat_01.fbx
+  artifactKey: Guid(86c1c36b7fc34d97aa5d105c79bba64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Stair_Flat_01.fbx using Guid(86c1c36b7fc34d97aa5d105c79bba64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4ca33f9484485d64a6cb8025fa2292') in 0.001263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.036383 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Retort_Preset_01.fbx
+  artifactKey: Guid(36b9832a97a046e7abd8687a7b340e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Retort_Preset_01.fbx using Guid(36b9832a97a046e7abd8687a7b340e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7913c5ec54d1e71a739e1dd02cd767b3') in 0.001175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.036733 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Rostrum_Preset_01.fbx
+  artifactKey: Guid(323ecdb37cae45a295637dab9aff065f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Rostrum_Preset_01.fbx using Guid(323ecdb37cae45a295637dab9aff065f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cdab5af798471eb6b6e9cfc49561f5') in 0.000995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.017381 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Scroll_01.fbx
+  artifactKey: Guid(cefbb95f4617418798e0b828cfb0593e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Scroll_01.fbx using Guid(cefbb95f4617418798e0b828cfb0593e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe445785ca8ae1fdc080b08bd84d61a') in 0.001094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Shelf_Preset_02.fbx
+  artifactKey: Guid(f7bb2cdb104848ccac8af3c30f305370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Shelf_Preset_02.fbx using Guid(f7bb2cdb104848ccac8af3c30f305370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1d4d75a9afa4df34648a2733a2b9f9') in 0.000798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.025651 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Stair_01.fbx
+  artifactKey: Guid(cffda212f2854fd780310309ba69fe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Stair_01.fbx using Guid(cffda212f2854fd780310309ba69fe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6761fc47b1621520812145f27fed9b53') in 0.001183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.008652 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Stair_Bottom_Decor_01_Mirrored.fbx
+  artifactKey: Guid(e2cee7a7d49f45e39e42a2d534a1c1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Stair_Bottom_Decor_01_Mirrored.fbx using Guid(e2cee7a7d49f45e39e42a2d534a1c1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2022441c64cb93c7309ad875d23a56f5') in 0.001272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.044361 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Stair_Bottom_Decor_04.fbx
+  artifactKey: Guid(9d31db9602f54a1aa602f5fdf2bf9b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Stair_Bottom_Decor_04.fbx using Guid(9d31db9602f54a1aa602f5fdf2bf9b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233c0c16edbd3d5f361ced62a7527bda') in 0.001401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.025559 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Stair_Pool_01.fbx
+  artifactKey: Guid(c9869118bbfa41dca19c30f038939bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Stair_Pool_01.fbx using Guid(c9869118bbfa41dca19c30f038939bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c458a817ec6b55be22191b8350a1856c') in 0.001165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.636902 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Stand_01.fbx
+  artifactKey: Guid(3a84031f4d1d48a289586eafc0ecd53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Stand_01.fbx using Guid(3a84031f4d1d48a289586eafc0ecd53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc27298a1b73c416a218c64b8f61226a') in 0.000873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.011590 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_2/3D/Sword_2.FBX
+  artifactKey: Guid(c529fabf72b012c4d9a881e4e3a22ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_2/3D/Sword_2.FBX using Guid(c529fabf72b012c4d9a881e4e3a22ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb234507f75c2f39205ef43529c8671c') in 0.000861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.020533 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_3/3D/Sword_3_Short.FBX
+  artifactKey: Guid(da3980952f463b448b0d5c4aae46f1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_3/3D/Sword_3_Short.FBX using Guid(da3980952f463b448b0d5c4aae46f1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc6a60a003546bc7b8f28a1d3825814') in 0.000758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.025477 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Table_01.fbx
+  artifactKey: Guid(c77e93927a994db29897bf81338ed5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Table_01.fbx using Guid(c77e93927a994db29897bf81338ed5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4aa97283da7363f93914adfd9088ca3') in 0.000845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.003098 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Table_Preset_04.fbx
+  artifactKey: Guid(a3ef493fc8ac45d78a30cdf937a54c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Table_Preset_04.fbx using Guid(a3ef493fc8ac45d78a30cdf937a54c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa63187611baec28ed3b5343d2bbe9ca') in 0.001311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.001759 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Table_Preset_06.fbx
+  artifactKey: Guid(0491d618285a47f890392f40b4c1c94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Table_Preset_06.fbx using Guid(0491d618285a47f890392f40b4c1c94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffce6ba0418acb35de814d0b7db7d4d4') in 0.000739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.015353 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Torch_01.fbx
+  artifactKey: Guid(a54981d7cf674ce3b01c077bb15df713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Torch_01.fbx using Guid(a54981d7cf674ce3b01c077bb15df713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8404e03160f38209a97b936ef7ca93d1') in 0.000926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.006033 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Treasure_Chest_Base_01.fbx
+  artifactKey: Guid(ac649b21d0c149349a3b76773e51cb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Treasure_Chest_Base_01.fbx using Guid(ac649b21d0c149349a3b76773e51cb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89445c09698f8e1f9091ba857722bad5') in 0.000823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.004859 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Treasure_Chest_lid_01.fbx
+  artifactKey: Guid(cf6b3584a9ef4f97a612bc162be903cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Treasure_Chest_lid_01.fbx using Guid(cf6b3584a9ef4f97a612bc162be903cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fa6395b336591aa20023aa1f28c1ba') in 0.000722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.004888 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_03.fbx
+  artifactKey: Guid(86106d8a1a764baba3f6842d8db3cad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_03.fbx using Guid(86106d8a1a764baba3f6842d8db3cad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8625c840cc31eaffa2d6da240c5c6bdf') in 0.000791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.027061 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Arch_Preset_01.fbx
+  artifactKey: Guid(88896c01c93e486cafae83dee01b8699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Arch_Preset_01.fbx using Guid(88896c01c93e486cafae83dee01b8699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdfa140b7a417ac36d0ba1123228a55') in 0.001747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.047482 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Bottom_Decor_02.fbx
+  artifactKey: Guid(a9200e9c684c4737a5a3a02261ae88ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Bottom_Decor_02.fbx using Guid(a9200e9c684c4737a5a3a02261ae88ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbd0948557f117648351b566895112b') in 0.001068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Bottom_Decor_Corner_03.fbx
+  artifactKey: Guid(ab07e037570345f38a25251d57382fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Bottom_Decor_Corner_03.fbx using Guid(ab07e037570345f38a25251d57382fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75f452d3b22589cb01552612ba19fca') in 0.000760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.034560 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Bottom_Decor_Rounded_01.fbx
+  artifactKey: Guid(dbab5760b30c486da6049301c8981369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Bottom_Decor_Rounded_01.fbx using Guid(dbab5760b30c486da6049301c8981369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbdfd7dbf76643b5cb720c09efbc036') in 0.001368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.039747 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Curved_02.fbx
+  artifactKey: Guid(61bad164b41e4d569f71e82634004635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Curved_02.fbx using Guid(61bad164b41e4d569f71e82634004635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f74c6b6e2d07415d1deb1c4bd60c87') in 0.001775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.018191 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Curved_06.fbx
+  artifactKey: Guid(98d0bef8d7ce41079eae737e1ed2d868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Curved_06.fbx using Guid(98d0bef8d7ce41079eae737e1ed2d868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3cfc4e544d0f25fbec01fe937c5c4b') in 0.001818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.120377 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Filler_01.fbx
+  artifactKey: Guid(dcde1f3e3490438b82a8b0be6864866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Filler_01.fbx using Guid(dcde1f3e3490438b82a8b0be6864866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f0311abcc0be03208f9442e2a2b9b6') in 0.000884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.025280 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Inner_Corner_04.fbx
+  artifactKey: Guid(a8023af7859f4e95ab6e4632d9f39d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Inner_Corner_04.fbx using Guid(a8023af7859f4e95ab6e4632d9f39d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd61787cd378841687ff016c58fb61e') in 0.001399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.064306 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Niche_02.fbx
+  artifactKey: Guid(999d7e3b63634709b9406a679f3e60d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Niche_02.fbx using Guid(999d7e3b63634709b9406a679f3e60d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020077513b2f5584ed54e98d00f1fff6') in 0.001874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.412787 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Preset_02.fbx
+  artifactKey: Guid(ecec9434e2224bdb90e8edbad4dbd424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Preset_02.fbx using Guid(ecec9434e2224bdb90e8edbad4dbd424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7c045b16fa26ed38ce187bb1dbb750') in 0.000942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.045662 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Upper_Decor_Corner_01.fbx
+  artifactKey: Guid(e426ba9d5da44a859dfe056593c24e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Upper_Decor_Corner_01.fbx using Guid(e426ba9d5da44a859dfe056593c24e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c8a2dfc856fa146f35b50c3f0c639f') in 0.000894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.003982 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Window_03.fbx
+  artifactKey: Guid(711b156312de4b8b972d6e559b9dc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Window_03.fbx using Guid(711b156312de4b8b972d6e559b9dc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a31c1c44074c4bdb9985fda8d0b1c93') in 0.001474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.017940 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Window_Filler_01.fbx
+  artifactKey: Guid(0a4e42d4400e4edfbe5dff4c53fe12bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Window_Filler_01.fbx using Guid(0a4e42d4400e4edfbe5dff4c53fe12bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec00481feec1f791b232744661a7fd84') in 0.000806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.021729 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Window_Hallway_03.fbx
+  artifactKey: Guid(b9b4e139e1944146910df94bd07eb117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Window_Hallway_03.fbx using Guid(b9b4e139e1944146910df94bd07eb117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10f80a9baef4fa1d0191feefb777e5b') in 0.001592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.163152 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Window_Tall_01.fbx
+  artifactKey: Guid(07e40a938aae49309e16314bde09cf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Window_Tall_01.fbx using Guid(07e40a938aae49309e16314bde09cf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a77038ff580f2c476275cd2891e4a26') in 0.001682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.019883 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Windows_01.fbx
+  artifactKey: Guid(d413c1a9791d4a5f839a6c44179be581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Windows_01.fbx using Guid(d413c1a9791d4a5f839a6c44179be581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b39d8b158bdf18c7fc932f728c1a075') in 0.002371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
