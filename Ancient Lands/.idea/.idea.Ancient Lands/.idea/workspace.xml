@@ -32,6 +32,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.9.3/Runtime/Purchasing/ProductType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DA4980BE-16EF-46FC-8876-152CAD08AFD4/cd/8d100a2c/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CodeBase/Services/Ads/AdsService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ads@4.4.2/Runtime/Advertisement/Platform/Editor/EditorPlatform.cs" root0="SKIP_HIGHLIGHTING" />
@@ -87,9 +88,9 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/Shop/ShopWindow.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/Shop/ShopItemsContainer.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/States/BootstrapState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/IAP/products.json" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/Shop/ShopItem.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/IAP/ProductConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/IAP/products.json" />
       </list>
     </option>
   </component>
@@ -147,7 +148,7 @@
       <workItem from="1690888437307" duration="4908000" />
       <workItem from="1690897556155" duration="3963000" />
       <workItem from="1690968181082" duration="8156000" />
-      <workItem from="1691046693227" duration="7237000" />
+      <workItem from="1691046693227" duration="7941000" />
     </task>
     <servers />
   </component>
@@ -184,10 +185,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1690627009816" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1691056556877">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1691063485501">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1690890182812" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1691056556877" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1691063485501" />
   </component>
 </project>
