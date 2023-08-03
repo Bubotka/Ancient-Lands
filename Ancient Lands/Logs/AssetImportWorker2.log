@@ -1,0 +1,1591 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.1f1 (f18e0c1b5784) revision 15830540'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32690 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+A:\Unity\2022.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity репозиторий/Ancient-Lands/Ancient Lands
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+2057
+Successfully changed project path to: D:/Unity репозиторий/Ancient-Lands/Ancient Lands
+D:/Unity репозиторий/Ancient-Lands/Ancient Lands
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21424] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 2024252444 [EditorId] 2024252444 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21424] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 2024252444 [EditorId] 2024252444 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 160.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
+[Subsystems] Discovering subsystems at path A:/Unity/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity репозиторий/Ancient-Lands/Ancient Lands/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'A:/Unity/2022.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004105 seconds.
+- Loaded All Assemblies, in  0.214 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 218 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.441 seconds
+Domain Reload Profiling: 656ms
+	BeginReloadAssembly (56ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (90ms)
+		LoadAssemblies (55ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (87ms)
+				TypeCache.ScanAssembly (80ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (442ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (292ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.588 seconds
+Refreshing native plugins compatible for Editor in 4.95 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.726 seconds
+Domain Reload Profiling: 1313ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (436ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (210ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (591ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7691 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 130 unused Assets / (438.5 KB). Loaded Objects now: 8148.
+Memory consumption went from 274.7 MB to 274.2 MB.
+Total: 6.790700 ms (FindLiveObjects: 0.494600 ms CreateObjectMapping: 0.475300 ms MarkObjects: 5.610000 ms  DeleteObjects: 0.209600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22581.359110 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Textures/CFX2_T_Bat.png
+  artifactKey: Guid(32e27c4d7b392d448928e914fbf9b2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Textures/CFX2_T_Bat.png using Guid(32e27c4d7b392d448928e914fbf9b2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d7a0884ec3cc6e1d761f56c80d5b61') in 0.026231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.738521 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Textures/CFX2_T_Blood_AB.tga
+  artifactKey: Guid(9c8240b5c6ffd404dadb82f7b6f2cbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Textures/CFX2_T_Blood_AB.tga using Guid(9c8240b5c6ffd404dadb82f7b6f2cbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f12d5dbd0eaac42029c58ff13089fb9') in 0.001707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.789031 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_Smiley Add.mat
+  artifactKey: Guid(ca6271d0f0946624484298cc419a1a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_Smiley Add.mat using Guid(ca6271d0f0946624484298cc419a1a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80343da008549bba5967764a93d3eefd') in 0.000705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_Star Outline Add.mat
+  artifactKey: Guid(b125e76401a407444b8a9c9491a660eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_Star Outline Add.mat using Guid(b125e76401a407444b8a9c9491a660eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2f16fbae1802b8b1df3c6356fafc73') in 0.000693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.525868 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX2_WhiteCircle AB.mat
+  artifactKey: Guid(7c9d6983f275678479ebf019a670f9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX2_WhiteCircle AB.mat using Guid(7c9d6983f275678479ebf019a670f9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3586f4a15b32ba1cb80d326c7362d5') in 0.000653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001586 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX2_WWSmoke ABP.mat
+  artifactKey: Guid(c2b6d89793f7f774ca8040eb59feb250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX2_WWSmoke ABP.mat using Guid(c2b6d89793f7f774ca8040eb59feb250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad12e740a06efcce5316b21952b09b0') in 0.000832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.076330 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_AuraRays MULT.mat
+  artifactKey: Guid(63729df9e952c1f4b8fe34b9cd435a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_AuraRays MULT.mat using Guid(63729df9e952c1f4b8fe34b9cd435a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e472830e970478d35e365b4508e14cc') in 0.000853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.059617 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Fire/CFX3_FireSparkle ADD.mat
+  artifactKey: Guid(c9386fd37103dcb479f09e942849a1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Fire/CFX3_FireSparkle ADD.mat using Guid(c9386fd37103dcb479f09e942849a1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db401131d8789bf3ea749330c5add72') in 0.000944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001796 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowDot ADDSOFT.mat
+  artifactKey: Guid(b692d0ba979c41946bbe57f2baba17eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowDot ADDSOFT.mat using Guid(b692d0ba979c41946bbe57f2baba17eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ce0211c922fa4b04aef3894da04793') in 0.000587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011110 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowDot MULT.mat
+  artifactKey: Guid(0e9094c1cb53cc44595d77cdcf14b8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowDot MULT.mat using Guid(0e9094c1cb53cc44595d77cdcf14b8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa386ea4004396916fdb4e89f8d4058') in 0.000668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.013727 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowSpike ADD.mat
+  artifactKey: Guid(1de66e5f4e86e2e4cb564890916f7a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowSpike ADD.mat using Guid(1de66e5f4e86e2e4cb564890916f7a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a27eb3f297e237c435fe396a9889a55') in 0.000629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001135 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowStar ADD.mat
+  artifactKey: Guid(6b22999712355474795091cef25021b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowStar ADD.mat using Guid(6b22999712355474795091cef25021b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94928ee5e84b38a66db88c435c2134e') in 0.000518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.022941 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_HollowCircle ADD.mat
+  artifactKey: Guid(0438adcdefc12d349a285d0ec6295fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_HollowCircle ADD.mat using Guid(0438adcdefc12d349a285d0ec6295fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a91907d6695d8a02d050e1d1b67af2') in 0.000584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009837 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Stretched/CFX3_Ray MULT.mat
+  artifactKey: Guid(118c317da13d42a458832f85960e9081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Stretched/CFX3_Ray MULT.mat using Guid(118c317da13d42a458832f85960e9081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21ba91a720454e12a8963ce94083372') in 0.000606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.013674 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_RayStraight ADD.mat
+  artifactKey: Guid(695873166113ab64997efed81c2426c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX3_RayStraight ADD.mat using Guid(695873166113ab64997efed81c2426c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248cae41b8caed471798f38fe79a9468') in 0.000748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.581718 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX3_SmokePuff ADDSOFT.mat
+  artifactKey: Guid(f12d680b3c37c3c4fae5c220798d9977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX3_SmokePuff ADDSOFT.mat using Guid(f12d680b3c37c3c4fae5c220798d9977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d87cb43864ce2559edc21e221d38d24') in 0.000748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001811 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX4_Anim_WiggleLine Add.mat
+  artifactKey: Guid(399e2b3ed7a51a34aa2171ddcc535cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX4_Anim_WiggleLine Add.mat using Guid(399e2b3ed7a51a34aa2171ddcc535cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec104d02707f379eb6cd8688dbcefeaa') in 0.000632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.019617 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX4_AuraBubble ADD.mat
+  artifactKey: Guid(b701c416ffd5db94eab6dbfe25b8247e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Light/CFX4_AuraBubble ADD.mat using Guid(b701c416ffd5db94eab6dbfe25b8247e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b5768bec912c71f227b99ae0af70d7') in 0.000608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.091687 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Fire/CFX4_FireBulk AddSoft.mat
+  artifactKey: Guid(53e601bdd2cb5434e96ec915a4e30792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Fire/CFX4_FireBulk AddSoft.mat using Guid(53e601bdd2cb5434e96ec915a4e30792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72849c45c309a0bff80dc112db049283') in 0.000745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX4_PaintHit AB.mat
+  artifactKey: Guid(27dd61234320b5449a30b298b41751ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX4_PaintHit AB.mat using Guid(27dd61234320b5449a30b298b41751ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7226aca06d7012eebbfef521f9730ad') in 0.000554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.026529 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX4_SmokePuff AB.mat
+  artifactKey: Guid(4948758f8ede2fb4aa764ecac592172d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX4_SmokePuff AB.mat using Guid(4948758f8ede2fb4aa764ecac592172d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ab717045c767c23ae71dfe0aab7709') in 0.000619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.074221 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX4_SparksHit AddSoft.mat
+  artifactKey: Guid(35db7f8fdfbb7fe4eae9054b84300460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX4_SparksHit AddSoft.mat using Guid(35db7f8fdfbb7fe4eae9054b84300460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4f3929e0653044d0523be252572446') in 0.000761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.694023 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Textures/CFX4_T_AuraBubble.png
+  artifactKey: Guid(f233a7a5a2c3777498cc5c62b506633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Textures/CFX4_T_AuraBubble.png using Guid(f233a7a5a2c3777498cc5c62b506633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74877490818f0f2ffc4c65697a94145d') in 0.001628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.895159 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Animated/CFX_Anim_Bubble_Add.mat
+  artifactKey: Guid(503ba37627ac18c4ebe9bbe73d6ea9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Animated/CFX_Anim_Bubble_Add.mat using Guid(503ba37627ac18c4ebe9bbe73d6ea9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a50094634f914e7b22025d5bd2fc59') in 0.000775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Animated/CFX_Anim_Poof_AddSoft.mat
+  artifactKey: Guid(74a6f6cd13c058a43858627e5383715e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Animated/CFX_Anim_Poof_AddSoft.mat using Guid(74a6f6cd13c058a43858627e5383715e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe63652dfd14d2346b19774f9ddd6ee') in 0.000746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.090075 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Water/CFX_Anim_Splash_4frms.mat
+  artifactKey: Guid(58969c660eb4a0e4889bcccbd47e8752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Water/CFX_Anim_Splash_4frms.mat using Guid(58969c660eb4a0e4889bcccbd47e8752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab92d4e840f3b0e74b28998c18229cb3') in 0.000746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002530 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Animated/CFX_Anim_Triangle3_Mult.mat
+  artifactKey: Guid(b80f90b03c314184d815078631addca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Animated/CFX_Anim_Triangle3_Mult.mat using Guid(b80f90b03c314184d815078631addca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb8f1b178bc10cd714e82656ec1176e') in 0.000578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.018116 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Animated/CFX_Anim_Triangle_AddSoft.mat
+  artifactKey: Guid(944bc1016f6ac38439ec1bf04fab9550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Animated/CFX_Anim_Triangle_AddSoft.mat using Guid(944bc1016f6ac38439ec1bf04fab9550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac23ad498beb096c9f450e3c93faa53') in 0.000603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.015947 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX_Bubble.mat
+  artifactKey: Guid(2656ffd617a68d949a7600cc66478917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX_Bubble.mat using Guid(2656ffd617a68d949a7600cc66478917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31aa7c0f1d9b45f0b372fe3856511d74') in 0.000778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.012979 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Electric/CFX_ElectricBolt_Add.mat
+  artifactKey: Guid(9c36c09a0f6dd93458248f001ebce5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Electric/CFX_ElectricBolt_Add.mat using Guid(9c36c09a0f6dd93458248f001ebce5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f00d91fe53564ef939931cfe551aff5') in 0.000712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.042813 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Water/CFX_Foam_AddSoft.mat
+  artifactKey: Guid(4923e9063b9c1c44ca2b442ca26bee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Water/CFX_Foam_AddSoft.mat using Guid(4923e9063b9c1c44ca2b442ca26bee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6aa6e92fc3f2c8f5f7ed458d850af5') in 0.000660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.391367 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX_Smoke_4frms.mat
+  artifactKey: Guid(3217b570b11b257469c5461f0457e5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX_Smoke_4frms.mat using Guid(3217b570b11b257469c5461f0457e5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a2e3f69dfe51f66ab99cd364d6240e') in 0.000969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.080860 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX_Star Add.mat
+  artifactKey: Guid(28bd8c3c14d3f214da37557b91e0fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX_Star Add.mat using Guid(28bd8c3c14d3f214da37557b91e0fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3536d123f6a0390f12d183a28d796248') in 0.000647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004944 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Texts/CFX_Text_Boom.mat
+  artifactKey: Guid(d1c965e3a9110b94db515cf6edd67b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Texts/CFX_Text_Boom.mat using Guid(d1c965e3a9110b94db515cf6edd67b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a26a24d2ad769b7961879f4e0a2c80f') in 0.000475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011328 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Texts/CFX_Text_Hit_Random.mat
+  artifactKey: Guid(fb611baba0c0bec45b460e1cc30fddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Texts/CFX_Text_Hit_Random.mat using Guid(fb611baba0c0bec45b460e1cc30fddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7560c3adba9e316450cf44c0e7115f') in 0.000722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.018826 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX_Tornado.mat
+  artifactKey: Guid(d31773cd67ef98d44a63900e5bf368e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX_Tornado.mat using Guid(d31773cd67ef98d44a63900e5bf368e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12c5edaa34c1591c2ee7178461c0c08') in 0.000658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.062780 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX_WhiteCircle.mat
+  artifactKey: Guid(1fdeac39b28b45742b821b6c8acff998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX/Materials/Misc/CFX_WhiteCircle.mat using Guid(1fdeac39b28b45742b821b6c8acff998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e72ea93b89188d3e0b4901dfe0ed45') in 0.000681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.014179 seconds.
+  path: Assets/SceneAssets/Fx/Ambient/Fog/Cloud.mat
+  artifactKey: Guid(85dcd390c238f824682d614031e4bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneAssets/Fx/Ambient/Fog/Cloud.mat using Guid(85dcd390c238f824682d614031e4bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8631d582beef42c215fd776a88a928e1') in 0.000810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.114088 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat
+  artifactKey: Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat using Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40882634bd4c3f4b8ebabdf6bec82fd') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.034898 seconds.
+  path: Assets/SceneAssets/Fx/Ambient/dust.mat
+  artifactKey: Guid(cfd315281d5254b2b8a4fc5991518acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneAssets/Fx/Ambient/dust.mat using Guid(cfd315281d5254b2b8a4fc5991518acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b78a50bcf88658899835c411fe612a2') in 0.001092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.028909 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Base Legs/Materials/Female_Base_Legs.mat
+  artifactKey: Guid(2b846df07d6cd7f419c6ad82c537ddaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Base Legs/Materials/Female_Base_Legs.mat using Guid(2b846df07d6cd7f419c6ad82c537ddaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e16b603bd63465db5013718ab868a62') in 0.000693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011643 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Base Legs/Materials/Female_Base_Legs_Dark.mat
+  artifactKey: Guid(4ff161389303f114eae07b08a39e436a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Base Legs/Materials/Female_Base_Legs_Dark.mat using Guid(4ff161389303f114eae07b08a39e436a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485132c5d1fe7379e8046aff5066140b') in 0.000667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.443924 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Base Legs/Materials/Female_Base_Legs_Light.mat
+  artifactKey: Guid(42af98c4eab02d744af65586ae07bb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Base Legs/Materials/Female_Base_Legs_Light.mat using Guid(42af98c4eab02d744af65586ae07bb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0108fcea0e58eaba20582a1cacf95b83') in 0.000792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.069252 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Base Torso/Materials/Female_Base_Torso.mat
+  artifactKey: Guid(2be6e5be44236bb47bc7dace0bebf82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Base Torso/Materials/Female_Base_Torso.mat using Guid(2be6e5be44236bb47bc7dace0bebf82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b5b9577f683df4ba4ec613c2c81aa8') in 0.000772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.163168 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Hairs/Hair_1/Materials/Female_Hair_1_Black.mat
+  artifactKey: Guid(faf5825e9adafa5408b7ea38d15dad7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Hairs/Hair_1/Materials/Female_Hair_1_Black.mat using Guid(faf5825e9adafa5408b7ea38d15dad7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3185b4365ba37cc8710a7b8e8606d901') in 0.000784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.015136 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Hairs/Hair_3/Materials/Female_Hair_3.mat
+  artifactKey: Guid(d4a665c1b451f914d96aef2217d8fbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Hairs/Hair_3/Materials/Female_Hair_3.mat using Guid(d4a665c1b451f914d96aef2217d8fbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b828f03de52bbeae54a2cebb1630243') in 0.001020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.009483 seconds.
+  path: Assets/SceneAssets/Fx/Ambient/smoke.png
+  artifactKey: Guid(912b3a7371b26489a9cbc513acffe122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneAssets/Fx/Ambient/smoke.png using Guid(912b3a7371b26489a9cbc513acffe122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788d4e53f4a53ef9b5ae224db2952a27') in 0.006768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.714535 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Hairs/Hair_3/Materials/Female_Hair_3_Black.mat
+  artifactKey: Guid(59961c0bf1dbbef4796d0dafb4ee32cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Hairs/Hair_3/Materials/Female_Hair_3_Black.mat using Guid(59961c0bf1dbbef4796d0dafb4ee32cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e8017500391254280a1b824c3b78df') in 0.000811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008815 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Hairs/Hair_4/Materials/Female_Hair_4_Black.mat
+  artifactKey: Guid(6164e9094bb262044b435a6b01d50c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Hairs/Hair_4/Materials/Female_Hair_4_Black.mat using Guid(6164e9094bb262044b435a6b01d50c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df5e85aef94b1654f7000f4543479a5') in 0.001658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.167994 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Hairs/Hair_4/Materials/Female_Hair_4_Blond.mat
+  artifactKey: Guid(ce2dee04e0edffb40a17c020f2f36611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Hairs/Hair_4/Materials/Female_Hair_4_Blond.mat using Guid(ce2dee04e0edffb40a17c020f2f36611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9c2d06a75616a360097c3dbfee1a62') in 0.000698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008575 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Heads/Head 3/Materials/Female_Head_3.mat
+  artifactKey: Guid(ebfbf2cc34f268047a75db150f7ce610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Heads/Head 3/Materials/Female_Head_3.mat using Guid(ebfbf2cc34f268047a75db150f7ce610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8cc2f6042b25f73a93667634b98a68') in 0.000734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.197356 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_1/Materials/Female_Legs_1_Black.mat
+  artifactKey: Guid(ea5518aa8998669448e0248a6e42eb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_1/Materials/Female_Legs_1_Black.mat using Guid(ea5518aa8998669448e0248a6e42eb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077001e2077d565d51eb165c931305f3') in 0.000877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000729 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_1/Materials/Female_Legs_1_Skin.mat
+  artifactKey: Guid(a20e7510e6cff0e45be7939a3f97c96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_1/Materials/Female_Legs_1_Skin.mat using Guid(a20e7510e6cff0e45be7939a3f97c96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5594371c69689775b5be1e97f68091bc') in 0.014872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.056651 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_1/Materials/Female_Legs_1_Skin_Covered.mat
+  artifactKey: Guid(4e8cbb08ff4e44f4892a0f2976b73f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_1/Materials/Female_Legs_1_Skin_Covered.mat using Guid(4e8cbb08ff4e44f4892a0f2976b73f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff5b73bb89d4c1855a0c95108813f10') in 0.000760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.119017 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_1/Materials/Female_Legs_1_Skin_Dark.mat
+  artifactKey: Guid(d669654d82295e441b8e1e47a8658068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_1/Materials/Female_Legs_1_Skin_Dark.mat using Guid(d669654d82295e441b8e1e47a8658068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a113ad57a709893340caac5789f45b11') in 0.000711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008485 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_2/Materials/Female_Legs_2_Black.mat
+  artifactKey: Guid(49d03cf711496d8419fb8ac3845b77df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_2/Materials/Female_Legs_2_Black.mat using Guid(49d03cf711496d8419fb8ac3845b77df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf25dc7a2f553757dcd7900fb4e0880') in 0.000558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.014167 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_2/Materials/Female_Legs_2_Brown.mat
+  artifactKey: Guid(f7a7e64aed780514a91d38782fd2bbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_2/Materials/Female_Legs_2_Brown.mat using Guid(f7a7e64aed780514a91d38782fd2bbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f95ec97c95efe72654417e5ac5a5ad') in 0.000682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.459065 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_3/Materials/Female_Legs_3_Brown.mat
+  artifactKey: Guid(3b179c814ee420f408a2e55464b8b3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_3/Materials/Female_Legs_3_Brown.mat using Guid(3b179c814ee420f408a2e55464b8b3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7279a391e719aab567cf5d403cdb4a8') in 0.000767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007162 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_3/Materials/Female_Legs_3_Skin.mat
+  artifactKey: Guid(601140f306d677c4486cd3e4217c2ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_3/Materials/Female_Legs_3_Skin.mat using Guid(601140f306d677c4486cd3e4217c2ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4f51e6d9670fd1a2d3c1ed5a090cd3') in 0.000641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.095429 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_3/Materials/Female_Legs_3_Skin_Dark.mat
+  artifactKey: Guid(38068334753dcee4995c2c60fc48dcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_3/Materials/Female_Legs_3_Skin_Dark.mat using Guid(38068334753dcee4995c2c60fc48dcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98bf8c288575b6dffd4f372f5ed1d4a') in 0.000682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.056921 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_3/Materials/Female_Legs_3_Skin_Light.mat
+  artifactKey: Guid(1bd40f27ff5070a40b4b0c304b6f8d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_3/Materials/Female_Legs_3_Skin_Light.mat using Guid(1bd40f27ff5070a40b4b0c304b6f8d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540d79909a17f657a4ecc95afb9921d6') in 0.000968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.054970 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_3/Materials/Female_Legs_3_White.mat
+  artifactKey: Guid(99c3634b11543fa409a72a1266473ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Legs/Legs_3/Materials/Female_Legs_3_White.mat using Guid(99c3634b11543fa409a72a1266473ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99fa02b51258657261eebbaa12443cd') in 0.000682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.026295 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_1/Materials/Female_Torso_1_Red.mat
+  artifactKey: Guid(4ba498ce1f827be4f8ee1ff7f788e38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_1/Materials/Female_Torso_1_Red.mat using Guid(4ba498ce1f827be4f8ee1ff7f788e38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac949e6ac2bcc1894b5711554e61f8f') in 0.000655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.098424 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_1/Materials/Female_Torso_1_Skin.mat
+  artifactKey: Guid(1f4eb2ee258d00f46b7e2c217f2996eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_1/Materials/Female_Torso_1_Skin.mat using Guid(1f4eb2ee258d00f46b7e2c217f2996eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d69ab60c4ec8a77abc0875e174634f') in 0.000687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.033577 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_1/Materials/Female_Torso_1_Skin_Dark.mat
+  artifactKey: Guid(40c80b68cce95f249b8dc8292a209132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_1/Materials/Female_Torso_1_Skin_Dark.mat using Guid(40c80b68cce95f249b8dc8292a209132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c0c2f8d4c204b1f3a41691f772cfbe') in 0.000692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001874 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_1/Materials/Female_Torso_1_Yellow.mat
+  artifactKey: Guid(a43cbd281bd63ac4b9cb9d53dc557891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_1/Materials/Female_Torso_1_Yellow.mat using Guid(a43cbd281bd63ac4b9cb9d53dc557891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c1e4fd8b74a13fedf0b8df48f3b8c9') in 0.000613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.345041 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Blue.mat
+  artifactKey: Guid(b51421c6a4ea7ac4895dc01f52a1901c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Blue.mat using Guid(b51421c6a4ea7ac4895dc01f52a1901c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09dc347510f1b3fa7bd481089698e84') in 0.004328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010575 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Green.mat
+  artifactKey: Guid(36e85cc99a1790b41a147803cc76eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Green.mat using Guid(36e85cc99a1790b41a147803cc76eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941b41c72b0e46f0abb618698a902dbb') in 0.000763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.019138 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Red.mat
+  artifactKey: Guid(66890726b3c012448b88441882d6efc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Red.mat using Guid(66890726b3c012448b88441882d6efc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0b4ecc27fc2614cbbb43d5bdb1099b') in 0.002782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.052372 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Skin.mat
+  artifactKey: Guid(d5617c5bbd0c5b84d817bd31a677be99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Skin.mat using Guid(d5617c5bbd0c5b84d817bd31a677be99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bd909e8f278e3ce19edafd790a66e0') in 0.000798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.112499 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Skin_Dark.mat
+  artifactKey: Guid(d04e539da360a9c40b26116846f5f1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_2/Materials/Female_Torso_2_Skin_Dark.mat using Guid(d04e539da360a9c40b26116846f5f1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b97ccac002aa61db7969246908502f7') in 0.005320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.266682 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_3/Materials/Female_Torso_3_Green.mat
+  artifactKey: Guid(cb18b88ddbcf5f348842c185ceb496bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_3/Materials/Female_Torso_3_Green.mat using Guid(cb18b88ddbcf5f348842c185ceb496bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6328c944120fd091b5de276b9aaf834') in 0.000692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010808 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_3/Materials/Female_Torso_3_Skin_Dark.mat
+  artifactKey: Guid(8a29e495fdc66de448285d98bc2e0cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_3/Materials/Female_Torso_3_Skin_Dark.mat using Guid(8a29e495fdc66de448285d98bc2e0cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4784d8862938fb1b3f6f1dc8bb558f24') in 0.000600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.075194 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_3/Materials/Female_Torso_3_Skin_Light.mat
+  artifactKey: Guid(995fa9817298ca545bc26a3f375b925b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_3/Materials/Female_Torso_3_Skin_Light.mat using Guid(995fa9817298ca545bc26a3f375b925b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c470e5a2b4fa1e9b2b3bfabf98ae58a9') in 0.000715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.054353 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_3/Materials/Female_Torso_3_Yellow.mat
+  artifactKey: Guid(da7a13480ddb58044980a6563b562d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Torsos/Torso_3/Materials/Female_Torso_3_Yellow.mat using Guid(da7a13480ddb58044980a6563b562d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346765d198be343ffc4d35543998812c') in 0.000737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.070611 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
+  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ec63d2720dd0ca0bbe8cd761177228') in 0.054912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
+  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918b8808fd26abb586f3446551f4ed1d') in 0.013846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e619233e1532fcc5b92c836dca74a2') in 0.031724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.619367 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf
+  artifactKey: Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf using Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6095e610e0f891c84bcfb546216c886f') in 0.053079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.254853 seconds.
+  path: Assets/Resources/Enemies/Dragon/Materials/DragonSoulEater/GreenPBR.mat
+  artifactKey: Guid(1b51484aceb3349479b6c084713a5517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Dragon/Materials/DragonSoulEater/GreenPBR.mat using Guid(1b51484aceb3349479b6c084713a5517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394a8a5f148073a644c12cf3455331cd') in 0.000746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.221323 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504e0c41c29359a33087d6f19d5806be') in 0.000579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011746 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Base Legs/Materials/Male_Base_Legs_Dark.mat
+  artifactKey: Guid(2a6250889f14e5641bc142b970738c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Base Legs/Materials/Male_Base_Legs_Dark.mat using Guid(2a6250889f14e5641bc142b970738c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1921f418b5f55d3b81ae29b23686af') in 0.000641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.062987 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Base Legs/Materials/Male_Base_Legs_Light.mat
+  artifactKey: Guid(f7eb11e091042684182d66076672e377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Base Legs/Materials/Male_Base_Legs_Light.mat using Guid(f7eb11e091042684182d66076672e377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f694ee68c8c8e98902b129d861b9a9') in 0.000694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000661 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Base Torso/Materials/Male_Base_Torso.mat
+  artifactKey: Guid(dad6ecf4df825004897244446133fa7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Base Torso/Materials/Male_Base_Torso.mat using Guid(dad6ecf4df825004897244446133fa7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51fefb7d4e2db5924f92a30ecfc333b') in 0.000503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001798 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Base Torso/Materials/Male_Base_Torso_Dark.mat
+  artifactKey: Guid(ed4301b3acf796f44891aaa0439ac07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Base Torso/Materials/Male_Base_Torso_Dark.mat using Guid(ed4301b3acf796f44891aaa0439ac07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0eecd29e991d2ec99faaa489fe8bc7') in 0.000650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.018246 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Base Torso/Materials/Male_Base_Torso_Light.mat
+  artifactKey: Guid(ac1c2d6fecc6e3b4c95808616cac1d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Base Torso/Materials/Male_Base_Torso_Light.mat using Guid(ac1c2d6fecc6e3b4c95808616cac1d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71e4e4e2b5d30fae14177d06e4874bf') in 0.000700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011964 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_1/Materials/Male_Hair_1.mat
+  artifactKey: Guid(780edec6694115d46b5cedff31487a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_1/Materials/Male_Hair_1.mat using Guid(780edec6694115d46b5cedff31487a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab55c7da6588de56d7216fdeadac39e') in 0.000959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.470526 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_1/Materials/Male_Hair_1_Black.mat
+  artifactKey: Guid(55ad61842b02c3a45871931aaa2a255e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_1/Materials/Male_Hair_1_Black.mat using Guid(55ad61842b02c3a45871931aaa2a255e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a794d2c20468567e24c4516c7e05f3') in 0.000698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002584 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_1/Materials/Male_Hair_1_Blond.mat
+  artifactKey: Guid(4d95781dcd39c66428a7fae43b646325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_1/Materials/Male_Hair_1_Blond.mat using Guid(4d95781dcd39c66428a7fae43b646325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2a070362561873a12181017c28ba9c') in 0.000502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.044662 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_2/Materials/Male_Hair_2.mat
+  artifactKey: Guid(409155a311846ee44a995766d35a6341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_2/Materials/Male_Hair_2.mat using Guid(409155a311846ee44a995766d35a6341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055a1b706424a544178491fc92e6961a') in 0.000811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011838 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_2/Materials/Male_Hair_2_Blonde.mat
+  artifactKey: Guid(af88f57f60f5dec468277d3b143f7179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_2/Materials/Male_Hair_2_Blonde.mat using Guid(af88f57f60f5dec468277d3b143f7179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2721c1edf3ae0e9893ac42b83996a3') in 0.000702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.065739 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Materials/Male_Hair_3.mat
+  artifactKey: Guid(2df24410c0acf71478ccaedd025142ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Materials/Male_Hair_3.mat using Guid(2df24410c0acf71478ccaedd025142ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017289ba9ec2981350487fb95387719f') in 0.006686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.054352 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Materials/Male_Hair_3_Black.mat
+  artifactKey: Guid(8badc6f468c5a6340a18921906577d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Materials/Male_Hair_3_Black.mat using Guid(8badc6f468c5a6340a18921906577d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177348d3032ec1889961037c737a8c17') in 0.000692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.063874 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Materials/Male_Hair_3_Blond.mat
+  artifactKey: Guid(a4c26117dbf37a34a80066325bfb05fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Hairs/Hair_3/Materials/Male_Hair_3_Blond.mat using Guid(a4c26117dbf37a34a80066325bfb05fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d25a8c8a327d14ad17d694b8e97da7') in 0.000688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008983 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_1/Materials/Male_Head_1.mat
+  artifactKey: Guid(25e381a33d04932429a8bd13baaefaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_1/Materials/Male_Head_1.mat using Guid(25e381a33d04932429a8bd13baaefaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762dd87914ad8e2fac40f49e61b85fe8') in 0.000636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.054996 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_2/Materials/Male_Head_2.mat
+  artifactKey: Guid(61a3b559664a8db4cbfdfd415b46ed7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_2/Materials/Male_Head_2.mat using Guid(61a3b559664a8db4cbfdfd415b46ed7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ba6d81dea2085cdb091df399ef016f') in 0.001764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.141884 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_3/Materials/Male_Head_3.mat
+  artifactKey: Guid(5dcf0ed991d705f49b5f5977b57cb520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Heads/Head_3/Materials/Male_Head_3.mat using Guid(5dcf0ed991d705f49b5f5977b57cb520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed81674a46bd456c09c4a87ed389fb89') in 0.000746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.884899 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_1/Materials/Male_Legs_1_Black.mat
+  artifactKey: Guid(04d5ac432965eca47a69656ac9c69338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_1/Materials/Male_Legs_1_Black.mat using Guid(04d5ac432965eca47a69656ac9c69338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d47ce3576bf8e4b8320f8e9526167a') in 0.000714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001904 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_2/Materials/Male_Legs_2_Black.mat
+  artifactKey: Guid(959ddde271455ab4c975f33ed1927d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_2/Materials/Male_Legs_2_Black.mat using Guid(959ddde271455ab4c975f33ed1927d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db86ecbe95dea45945dd4fbdc0f5c581') in 0.000545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.056789 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_2/Materials/Male_Legs_2_Brown.mat
+  artifactKey: Guid(a8da38c631b457644976e7c700997dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_2/Materials/Male_Legs_2_Brown.mat using Guid(a8da38c631b457644976e7c700997dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94ce26c29a5cf436d74fb2b07d4e133') in 0.000812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.186711 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_3/Materials/Male_Legs_3_Black.mat
+  artifactKey: Guid(9f9a7472d5f04a5488049cb8142fcc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Legs/Legs_3/Materials/Male_Legs_3_Black.mat using Guid(9f9a7472d5f04a5488049cb8142fcc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b9beda1f2f4249f0a8cc913d452d52') in 0.000701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.032690 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Blue.mat
+  artifactKey: Guid(9f874ffaba85f234389775ed49b4e691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Blue.mat using Guid(9f874ffaba85f234389775ed49b4e691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1743a653b0b0a4c94c21a18e35ac3d88') in 0.000653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.140479 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Green.mat
+  artifactKey: Guid(62a60473b9d13bc43952441c4cfa8e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Green.mat using Guid(62a60473b9d13bc43952441c4cfa8e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65da44cc2959fb9044dd607a3a3ea710') in 0.000843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.053728 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Red.mat
+  artifactKey: Guid(39d2188cf8e2a22439f65bce096b068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Red.mat using Guid(39d2188cf8e2a22439f65bce096b068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbc5fafa207ca64d89f53fc8094531b') in 0.000766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.040363 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Skin.mat
+  artifactKey: Guid(08f1732b8a6f2c74e96eb586910d25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Skin.mat using Guid(08f1732b8a6f2c74e96eb586910d25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ddcaa9e628b399895b4e71e9d7b8fc') in 0.000710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.043777 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Skin_Dark.mat
+  artifactKey: Guid(9f9e78354a8976441a8e0071b4325b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Skin_Dark.mat using Guid(9f9e78354a8976441a8e0071b4325b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025f77acd7654bca19952b0ef25dc9d0') in 0.000705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.052725 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Skin_Light.mat
+  artifactKey: Guid(43696d17fd476f64b9e9cd9a66c61855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Skin_Light.mat using Guid(43696d17fd476f64b9e9cd9a66c61855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79e6f57ffb8d51a98d47fb96b77996b') in 0.000815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Yellow.mat
+  artifactKey: Guid(b144a4a4d26c47b4485eba56fb574713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_1/Materials/Male_Torso_1_Yellow.mat using Guid(b144a4a4d26c47b4485eba56fb574713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e602da40094209482273083e8570f29') in 0.000563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006364 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Blue.mat
+  artifactKey: Guid(82e49f9e37249c74392c3fb56ce726fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Blue.mat using Guid(82e49f9e37249c74392c3fb56ce726fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf93d82d9bbbe583ff205f79293ecda') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.048227 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Green.mat
+  artifactKey: Guid(624fccd252a104d4f9a55cd6fcf85ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Green.mat using Guid(624fccd252a104d4f9a55cd6fcf85ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c522580c30efd8fe59a5968c16fb03a') in 0.000793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.056134 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Red.mat
+  artifactKey: Guid(8f8cf135fad1074439bca6bcf1ff6ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Red.mat using Guid(8f8cf135fad1074439bca6bcf1ff6ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826703f6251f78133068b9e4565e6788') in 0.000711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.067197 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Skin.mat
+  artifactKey: Guid(7be2f6e0a2d76d14f9f522f2c2b22809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Skin.mat using Guid(7be2f6e0a2d76d14f9f522f2c2b22809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5486b0a8c47cf1c16f425bf342122206') in 0.000737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004813 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Skin_Dark.mat
+  artifactKey: Guid(55134133c3091444787da717cce68fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Skin_Dark.mat using Guid(55134133c3091444787da717cce68fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6501e0673a2bbff7d4b4a36900edbb2') in 0.000677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.062338 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Skin_Light.mat
+  artifactKey: Guid(5025593c45d07cb46b19e4f6d9b44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Skin_Light.mat using Guid(5025593c45d07cb46b19e4f6d9b44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed11ad4f4f5d0b07b31d87d092f80004') in 0.000725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011221 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Yellow.mat
+  artifactKey: Guid(6211994c0576b7241a869fd7fc0d206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_2/Materials/Male_Torso_2_Yellow.mat using Guid(6211994c0576b7241a869fd7fc0d206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dd356835be457c4ac97dc87e0418f9') in 0.000721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.152042 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_3/Materials/Male_Torso_3_Blue.mat
+  artifactKey: Guid(37bcbdfc82c10ac4eba9464ac59c7218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_3/Materials/Male_Torso_3_Blue.mat using Guid(37bcbdfc82c10ac4eba9464ac59c7218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fd8b2e1cef40ba2e84bf46e58c793b') in 0.000787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.569683 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_3/Materials/Male_Torso_3_Skin_Dark.mat
+  artifactKey: Guid(e5aa232d9b500f94b8045befbcdfc609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_3/Materials/Male_Torso_3_Skin_Dark.mat using Guid(e5aa232d9b500f94b8045befbcdfc609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e857fabe0977def61d9238bc341e90') in 0.000690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010480 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_3/Materials/Male_Torso_3_Yellow.mat
+  artifactKey: Guid(2d0031d3e1ffcaa4ba3deede89fca2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Male/3D/Torsos/Torso_3/Materials/Male_Torso_3_Yellow.mat using Guid(2d0031d3e1ffcaa4ba3deede89fca2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d721a3d706d38613599148d6942c74') in 0.001029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.061584 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph
+  artifactKey: Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph using Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab401586d92a8d53026001453c324231') in 0.016216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.901496 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph
+  artifactKey: Guid(80aa867ac363ac043847b06ad71604cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph using Guid(80aa867ac363ac043847b06ad71604cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9c828fd805dff02e24e27470c28862') in 0.000866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph
+  artifactKey: Guid(1a207e3bee00db44b940e6f362a8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph using Guid(1a207e3bee00db44b940e6f362a8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbc2387efcc78606a42afb4b78037c0') in 0.035080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.683401 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph
+  artifactKey: Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph using Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10ec1c9469d66ecd07d68fbd0014142') in 0.001166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.970518 seconds.
+  path: Assets/Resources/Enemies/Dragon/Materials/DragonSoulEater/PurplePBR.mat
+  artifactKey: Guid(0526c5be35ba93547acf614ed1950a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Dragon/Materials/DragonSoulEater/PurplePBR.mat using Guid(0526c5be35ba93547acf614ed1950a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b39402b5fb222440457349f5b51795c') in 0.011742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006960 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-blue.mat
+  artifactKey: Guid(28638862ea1084726a3511cd325fc53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/root-blue.mat using Guid(28638862ea1084726a3511cd325fc53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4d58e0412abb494d211630358ed00d') in 0.001514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.073626 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-green.mat
+  artifactKey: Guid(bc6da4580f5514e458fe5def87e138be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/root-green.mat using Guid(bc6da4580f5514e458fe5def87e138be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77729153aade586da969b16853ceeedb') in 0.001215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.058739 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-red.mat
+  artifactKey: Guid(4459fff084dd84526ab8fd5082d2eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/root-red.mat using Guid(4459fff084dd84526ab8fd5082d2eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad21fb4c624adf737163f52d9bc3221') in 0.012019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.412238 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Textures/SkyBoxes/SkyBox_DarkBlue.mat
+  artifactKey: Guid(54d617af1e3f4a978bd4b7743e90e340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Textures/SkyBoxes/SkyBox_DarkBlue.mat using Guid(54d617af1e3f4a978bd4b7743e90e340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cfbad8adb9c654e38ac15859131a12') in 0.000671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009879 seconds.
+  path: Assets/SceneAssets/Fx/Ambient/smoke.mat
+  artifactKey: Guid(678f6fbe0f37a4ef9950bfd3d913f379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneAssets/Fx/Ambient/smoke.mat using Guid(678f6fbe0f37a4ef9950bfd3d913f379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2e84f41697bb777782f488fe1c659d') in 0.000594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004899 seconds.
+  path: Assets/SceneAssets/Fx/Ambient/Fog/Smoke.mat
+  artifactKey: Guid(39149a632c37b4b2995a60a48072335f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneAssets/Fx/Ambient/Fog/Smoke.mat using Guid(39149a632c37b4b2995a60a48072335f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fbfa3f21434af1b8465a722018e7ac') in 0.000543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.012485 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Textures/Materials/Smoke_FX_Material_02.mat
+  artifactKey: Guid(e731e99f1ed34d8c8cbe1459b9622f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Textures/Materials/Smoke_FX_Material_02.mat using Guid(e731e99f1ed34d8c8cbe1459b9622f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3343d071eabdc22e6a6cc4aefef0c63c') in 0.000623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.060352 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_1/3D/Materials/Sowrd_1.mat
+  artifactKey: Guid(a6c39805b2036aa45a5b95d9618cfc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_1/3D/Materials/Sowrd_1.mat using Guid(a6c39805b2036aa45a5b95d9618cfc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8b3afe19ecc5f71cff61fc432d1037') in 0.000692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009313 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
+  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19837dc6f09adef6030af878855e5d6') in 0.000907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.748619 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Textures/SkyBoxes/SkyBox_Dark_Blue.psd
+  artifactKey: Guid(f3f8fee121874149897e455d78883b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Textures/SkyBoxes/SkyBox_Dark_Blue.psd using Guid(f3f8fee121874149897e455d78883b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebad29b982fb9de6cb6a89d9723b267b') in 0.001070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.203570 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat
+  artifactKey: Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat using Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d803f9dd1eba460d2b4c50276f1970') in 0.000989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009220 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
+  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d13c5ebb9dbca8f6511e8bb8c78ff9a') in 0.000828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004303 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
+  artifactKey: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9376dbdb44f9b848989b50348a97c9c') in 0.000773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.085409 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_1/3D/Materials/Sword_1_Gray.mat
+  artifactKey: Guid(17245f7e3705df848b9194a91683de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_1/3D/Materials/Sword_1_Gray.mat using Guid(17245f7e3705df848b9194a91683de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5aae95174a86c255ee2c3dcf936430') in 0.000691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.012287 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_2/3D/Materials/Sword_2.mat
+  artifactKey: Guid(0071c697325f1974dba5feb4735df41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_2/3D/Materials/Sword_2.mat using Guid(0071c697325f1974dba5feb4735df41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd8790cc0df5583bb584b0c04a8c432') in 0.000643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.932852 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_2/3D/Materials/Sword_2_Gray.mat
+  artifactKey: Guid(5284465724a051a468950ae23b8e1186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_2/3D/Materials/Sword_2_Gray.mat using Guid(5284465724a051a468950ae23b8e1186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815889bd353dc8fa36f3eabd5c4b836e') in 0.000730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.175132 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_3/3D/Materials/Sword_3_Yellow.mat
+  artifactKey: Guid(5b426fb14380310499c150739fa7612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_3/3D/Materials/Sword_3_Yellow.mat using Guid(5b426fb14380310499c150739fa7612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402f23f498a3d266cf15b3abc5f7ea66') in 0.000709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002812 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_4/3D/Materials/Sword_4.mat
+  artifactKey: Guid(79b8de0da4662244894926006f03a9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_4/3D/Materials/Sword_4.mat using Guid(79b8de0da4662244894926006f03a9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adee6011d31b07208066cbad7f83ba9a') in 0.000496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.032458 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_4/3D/Materials/Sword_4_Gray.mat
+  artifactKey: Guid(567546ca9ad72904ba7d62da3ee14235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_4/3D/Materials/Sword_4_Gray.mat using Guid(567546ca9ad72904ba7d62da3ee14235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f332926b8c1b67f2a48b667104dbb232') in 0.000697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.242513 seconds.
+  path: Assets/Resources/Enemies/Dragon/Materials/Stage.mat
+  artifactKey: Guid(34466cf7960487a4380913c62e795ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Dragon/Materials/Stage.mat using Guid(34466cf7960487a4380913c62e795ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b404f9cf18352a729fc9d18c1b8b57e2') in 0.000660 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_4/3D/Materials/Sword_4_Yellow.mat
+  artifactKey: Guid(f2013b95037b0aa48a3170f71df13812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_4/3D/Materials/Sword_4_Yellow.mat using Guid(f2013b95037b0aa48a3170f71df13812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aef0527c32e907c6ebc3bfd50cd79cd') in 0.000752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_3/3D/Materials/Sword_3_Yellow.mat
+  artifactKey: Guid(5b426fb14380310499c150739fa7612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_3/3D/Materials/Sword_3_Yellow.mat using Guid(5b426fb14380310499c150739fa7612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a4df695dd224ae077c1aae2a3c008c') in 0.000692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.740291 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Prefabs/Props/Furniture/Cupboard_Preset_05.prefab
+  artifactKey: Guid(9ca80a708cb044a896bdc73595df86e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Prefabs/Props/Furniture/Cupboard_Preset_05.prefab using Guid(9ca80a708cb044a896bdc73595df86e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6dcb7388fe26223e7f3420cbe1bee9') in 0.025393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.007691 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Prefabs/Walls And Arches/Damaged_Arch_Alley_01.prefab
+  artifactKey: Guid(46f22adc7f2f4676a4812d1321859422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Prefabs/Walls And Arches/Damaged_Arch_Alley_01.prefab using Guid(46f22adc7f2f4676a4812d1321859422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea62226ddc2d5faedc1d69f6e3f2755') in 0.033941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Prefabs/Columns/Damaged_Column_01.prefab
+  artifactKey: Guid(4b4c09e8a0bb46549213446131df1057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Prefabs/Columns/Damaged_Column_01.prefab using Guid(4b4c09e8a0bb46549213446131df1057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83545a9f48e33cb659163a4106f037d') in 0.017678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Prefabs/Walls And Arches/Damaged_Arch_Alley_Corner_01.prefab
+  artifactKey: Guid(288930ef0c7d4237bfd120b10ebb302d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Prefabs/Walls And Arches/Damaged_Arch_Alley_Corner_01.prefab using Guid(288930ef0c7d4237bfd120b10ebb302d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf76e358a65544740a5ef04f4b6bc2c2') in 0.001029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Prefabs/Doors And Bars/Damaged_Bars_01.prefab
+  artifactKey: Guid(ad435545a23a40c1b1c4606b58ba20a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Prefabs/Doors And Bars/Damaged_Bars_01.prefab using Guid(ad435545a23a40c1b1c4606b58ba20a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413b6e1d95d65a668f7bde9ac7f143d4') in 0.028044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.356938 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Die.FBX
+  artifactKey: Guid(08453cf285bee474ab9f882724a65ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Die.FBX using Guid(08453cf285bee474ab9f882724a65ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8567f1183402ba22df1dc31e1002cd') in 0.008485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.009663 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Jump.FBX
+  artifactKey: Guid(8ba2178ed4716f348b34190ecf5d365e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Jump.FBX using Guid(8ba2178ed4716f348b34190ecf5d365e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67105359d59ab972d509c340cdf3be8a') in 0.002706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.008861 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Roll.FBX
+  artifactKey: Guid(69f1e5d1c1139c34ea159d3f7d42cdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Roll.FBX using Guid(69f1e5d1c1139c34ea159d3f7d42cdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe840753407ae7b4ee8cc6a9108f4f6') in 0.001662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.005321 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sprint.FBX
+  artifactKey: Guid(41a9542dfeb1583478948b6f4702f26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sprint.FBX using Guid(41a9542dfeb1583478948b6f4702f26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e7494a0726c3808424b54a64cb9188') in 0.001749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.028769 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Block.FBX
+  artifactKey: Guid(020c8f2ae0efb944fb08ff9c463cab8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Block.FBX using Guid(020c8f2ae0efb944fb08ff9c463cab8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffa0b884681ae45e81f15093a221600') in 0.002002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.002675 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Damage.FBX
+  artifactKey: Guid(436e584145a65834ba98fc684b2e4934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Damage.FBX using Guid(436e584145a65834ba98fc684b2e4934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6344baf6b3a3d0d0c97fc9846c2ab6f2') in 0.001566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.004763 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Die.FBX
+  artifactKey: Guid(88b371f485b13064183196949595c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Die.FBX using Guid(88b371f485b13064183196949595c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e3a7d63a3c8185fc77f889252986e3') in 0.010235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.024299 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Sprint.FBX
+  artifactKey: Guid(ae15895b0c240414fb78082f0a01a2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Sprint.FBX using Guid(ae15895b0c240414fb78082f0a01a2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96164832d76f62b712038974d46acb93') in 0.003365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.008725 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Walk.FBX
+  artifactKey: Guid(a67930d394f07574f9746782f6671841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Walk.FBX using Guid(a67930d394f07574f9746782f6671841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bceb42cab62c0a8d76ec4cae1fdae189') in 0.001612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 2.033144 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(27c74a4d340b2c244ab76a12a2548c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(27c74a4d340b2c244ab76a12a2548c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2b749a6376dbda52850efd00f5a340') in 0.012628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.514441 seconds.
+  path: Assets/Resources/Enemies/Dragon/Texture/DragonSoulEater/green/Albedo.png
+  artifactKey: Guid(ee296f39b4ba6684bb7472b54e7562e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Dragon/Texture/DragonSoulEater/green/Albedo.png using Guid(ee296f39b4ba6684bb7472b54e7562e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9418c6c5870cacee13168dc657808235') in 0.017185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Textures/Atlas_Base_01_Specular.psd
+  artifactKey: Guid(f16cfb1b681147dd9a2a3798e7876a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Textures/Atlas_Base_01_Specular.psd using Guid(f16cfb1b681147dd9a2a3798e7876a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fe8c61aa7d425bf84ad8dc27e5e82e') in 0.014465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Textures/Atlas_Furniture_01_Normal.psd
+  artifactKey: Guid(e2a78d032f964db9aa0405d80f0ed07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Textures/Atlas_Furniture_01_Normal.psd using Guid(e2a78d032f964db9aa0405d80f0ed07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42a1b4ae9088a6c38d6dc0bba518c51') in 0.004798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Textures/Atlas_Props_02_Specular.psd
+  artifactKey: Guid(57d83ff8241d40f7adc94897a9bd289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Textures/Atlas_Props_02_Specular.psd using Guid(57d83ff8241d40f7adc94897a9bd289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fff9a1b343cb26cda6b5ec12a7800dc') in 0.001976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Enemies/Dragon/Texture/DragonSoulEater/purple/AO.png
+  artifactKey: Guid(cf7cc70ea5ed3c046aec3919aa28e586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Dragon/Texture/DragonSoulEater/purple/AO.png using Guid(cf7cc70ea5ed3c046aec3919aa28e586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e225fe17a9092f9d72ae83415bf720') in 0.002893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/Levels/Multistory Dungeons/Textures/Atlas_Props_01.psd
+  artifactKey: Guid(ee6f3aaa6abf4ce1a3100b4b20eeca71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Multistory Dungeons/Textures/Atlas_Props_01.psd using Guid(ee6f3aaa6abf4ce1a3100b4b20eeca71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dff5818ea60bccb914592b4016c7538') in 0.007566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.111277 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_2/Textures/Sword_2_Normals.tga
+  artifactKey: Guid(b3b87f7c967c1fe4a918781690f7db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_2/Textures/Sword_2_Normals.tga using Guid(b3b87f7c967c1fe4a918781690f7db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8651e85ce8f0b33fbc1c04890ece8738') in 0.003212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Enemies/Minotaur/Textures/t_minotaur1_AO.png
+  artifactKey: Guid(8df7e2b1890be8d4cbf50c7dd1c2158a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Minotaur/Textures/t_minotaur1_AO.png using Guid(8df7e2b1890be8d4cbf50c7dd1c2158a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626c2f8cc82a612335964474667371ec') in 0.001605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Enemies/Minotaur/Textures/t_minotaur1_Normal.png
+  artifactKey: Guid(7871415dd872a7940819f07d0cb3b93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Enemies/Minotaur/Textures/t_minotaur1_Normal.png using Guid(7871415dd872a7940819f07d0cb3b93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75451bf488653d209d297c31ba4bd6d') in 0.001781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_4/Textures/Sword_4_Gray.tga
+  artifactKey: Guid(708e9f5cf5ec14e47a05b9878e7f199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_4/Textures/Sword_4_Gray.tga using Guid(708e9f5cf5ec14e47a05b9878e7f199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b98619bade5c0df0afceaab06873de') in 0.001941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_3/Textures/Sword_3_Yellow.tga
+  artifactKey: Guid(ce7664590343cc647b5ebab1310d05f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Cartoon Heroes/Weapons/Sword_3/Textures/Sword_3_Yellow.tga using Guid(ce7664590343cc647b5ebab1310d05f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e423cce4bd40e107ee699701121cea') in 0.006928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6 unused Assets / (448.8 KB). Loaded Objects now: 8150.
+Memory consumption went from 127.7 MB to 127.3 MB.
+Total: 10.136200 ms (FindLiveObjects: 0.920200 ms CreateObjectMapping: 0.611100 ms MarkObjects: 8.352400 ms  DeleteObjects: 0.251400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43.313662 seconds.
+  path: Assets/AssetsThirdParty/GUI_Parts/Gui_parts/warrior_silhouette_man.png
+  artifactKey: Guid(cc8e2be9532fbc543af51c6932181466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/GUI_Parts/Gui_parts/warrior_silhouette_man.png using Guid(cc8e2be9532fbc543af51c6932181466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980341efd6410edf65b468f794de2a0e') in 0.005909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 37.007911 seconds.
+  path: Assets/AssetsThirdParty/GUI_Parts/Gui_parts/warrior_silhouette_man.png
+  artifactKey: Guid(cc8e2be9532fbc543af51c6932181466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/GUI_Parts/Gui_parts/warrior_silhouette_man.png using Guid(cc8e2be9532fbc543af51c6932181466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0c63437a3f33e19a55a1b2c33cfc46') in 0.001661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

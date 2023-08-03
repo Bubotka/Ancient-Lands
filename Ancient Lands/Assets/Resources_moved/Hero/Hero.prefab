@@ -3521,6 +3521,56 @@ Transform:
   m_Father: {fileID: 5369569511015253036}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6619610663374859869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2108378890570296021}
+  - component: {fileID: 2275329367477413864}
+  m_Layer: 12
+  m_Name: Light Probe Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2108378890570296021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6619610663374859869}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.04, z: 0}
+  m_LocalScale: {x: 0.73, y: 0.73, z: 0.73}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 3937524200340463561}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!220 &2275329367477413864
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6619610663374859869}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 0.359974, y: 0.71462196, z: 0.27222553}
+  - {x: 0.359974, y: 0.71462196, z: -0.5525132}
+  - {x: 0.359974, y: -1, z: 0.27222553}
+  - {x: 0.359974, y: -1, z: -0.5525132}
+  - {x: -0.4167518, y: 0.71462196, z: 0.27222553}
+  - {x: -0.4167518, y: 0.71462196, z: -0.5525132}
+  - {x: -0.4167518, y: -1, z: 0.27222553}
+  - {x: -0.4167518, y: -1, z: -0.5525132}
+  m_Dering: 1
 --- !u!1 &6649867210119721686
 GameObject:
   m_ObjectHideFlags: 0
@@ -3695,8 +3745,9 @@ Transform:
   - {fileID: 6623730404554893329}
   - {fileID: 5467606290333509153}
   - {fileID: 6985650470734981451}
+  - {fileID: 2108378890570296021}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &4944066753591801406
 Animator:
