@@ -15,7 +15,7 @@ D:/Unity репозиторий/Ancient-Lands/Ancient Lands
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-1744
+2057
 Successfully changed project path to: D:/Unity репозиторий/Ancient-Lands/Ancient Lands
 D:/Unity репозиторий/Ancient-Lands/Ancient Lands
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Unity репозиторий/Ancient-Lands/Ancient Lands
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1520] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 1314117654 [EditorId] 1314117654 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8632] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 1854059267 [EditorId] 1854059267 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1520] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 1314117654 [EditorId] 1314117654 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8632] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 1854059267 [EditorId] 1854059267 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 7.44 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
 [Subsystems] Discovering subsystems at path A:/Unity/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -69,47 +69,47 @@ Initialize mono
 Mono path[0] = 'A:/Unity/2022.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003096 seconds.
-- Loaded All Assemblies, in  0.213 seconds
+Registered in 0.003124 seconds.
+- Loaded All Assemblies, in  0.218 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 197 ms
+Android Extension - Scanning For ADB Devices 190 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.422 seconds
-Domain Reload Profiling: 635ms
-	BeginReloadAssembly (53ms)
+- Finished resetting the current domain, in  0.414 seconds
+Domain Reload Profiling: 632ms
+	BeginReloadAssembly (57ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (23ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (94ms)
-		LoadAssemblies (53ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (57ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (92ms)
-			TypeCache.Refresh (91ms)
-				TypeCache.ScanAssembly (84ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (83ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (423ms)
+	FinalizeReload (415ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (378ms)
+		SetupLoadedEditorAssemblies (373ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (272ms)
+			InitializePlatformSupportModulesInManaged (265ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (69ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,52 +119,53 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.564 seconds
-Refreshing native plugins compatible for Editor in 3.59 ms, found 4 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.587 seconds
+Refreshing native plugins compatible for Editor in 5.59 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.580 seconds
-Domain Reload Profiling: 1144ms
-	BeginReloadAssembly (93ms)
+- Finished resetting the current domain, in  0.675 seconds
+Domain Reload Profiling: 1262ms
+	BeginReloadAssembly (86ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (412ms)
-		LoadAssemblies (204ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (444ms)
+		LoadAssemblies (219ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (252ms)
-			TypeCache.Refresh (219ms)
-				TypeCache.ScanAssembly (208ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (580ms)
+		AnalyzeDomain (265ms)
+			TypeCache.Refresh (228ms)
+				TypeCache.ScanAssembly (216ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (676ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (452ms)
+		SetupLoadedEditorAssemblies (535ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (305ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.10 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 5.58 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7008 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 119 unused Assets / (429.5 KB). Loaded Objects now: 7476.
-Memory consumption went from 261.0 MB to 260.5 MB.
-Total: 3.905500 ms (FindLiveObjects: 0.409200 ms CreateObjectMapping: 0.353200 ms MarkObjects: 2.920800 ms  DeleteObjects: 0.221300 ms)
+Unloading 7689 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 130 unused Assets / (437.7 KB). Loaded Objects now: 8146.
+Memory consumption went from 274.7 MB to 274.3 MB.
+Total: 6.265500 ms (FindLiveObjects: 0.405500 ms CreateObjectMapping: 0.175600 ms MarkObjects: 5.477200 ms  DeleteObjects: 0.206300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,62 +180,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 822.342385 seconds.
-  path: Packages/com.unity.2d.spriteshape/package.json
-  artifactKey: Guid(4eabc3d1ad1424372b03cfc117521e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/package.json using Guid(4eabc3d1ad1424372b03cfc117521e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef55db4d3fa1e65e88dd10d8ea5bec2') in 0.011019 seconds
+  Time since last request: 3883.105319 seconds.
+  path: Assets/CodeBase/Services/Input/PlayerInput.inputactions
+  artifactKey: Guid(ad13a7c7f77d8d04fb23c903f5049b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodeBase/Services/Input/PlayerInput.inputactions using Guid(ad13a7c7f77d8d04fb23c903f5049b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3230b52fcca817b66f19b9cfd87f9d') in 0.013924 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.590 seconds
-Refreshing native plugins compatible for Editor in 3.86 ms, found 4 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.638 seconds
+Refreshing native plugins compatible for Editor in 5.56 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.918 seconds
-Domain Reload Profiling: 1508ms
-	BeginReloadAssembly (134ms)
+- Finished resetting the current domain, in  1.078 seconds
+Domain Reload Profiling: 1714ms
+	BeginReloadAssembly (132ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (392ms)
-		LoadAssemblies (218ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (232ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (224ms)
-			TypeCache.Refresh (209ms)
-				TypeCache.ScanAssembly (199ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (228ms)
 			ScanForSourceGeneratedMonoScriptInfo (5ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (919ms)
+	FinalizeReload (1078ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (422ms)
+		SetupLoadedEditorAssemblies (490ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (247ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 3.35 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6830 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (399.1 KB). Loaded Objects now: 7495.
-Memory consumption went from 228.5 MB to 228.1 MB.
-Total: 3.881600 ms (FindLiveObjects: 0.365200 ms CreateObjectMapping: 0.168800 ms MarkObjects: 3.209600 ms  DeleteObjects: 0.136700 ms)
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (405.9 KB). Loaded Objects now: 8167.
+Memory consumption went from 242.3 MB to 241.9 MB.
+Total: 6.251800 ms (FindLiveObjects: 0.424700 ms CreateObjectMapping: 0.190100 ms MarkObjects: 5.438600 ms  DeleteObjects: 0.197900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -253,51 +255,52 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.535 seconds
-Refreshing native plugins compatible for Editor in 3.56 ms, found 4 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.580 seconds
+Refreshing native plugins compatible for Editor in 4.44 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.847 seconds
-Domain Reload Profiling: 1382ms
-	BeginReloadAssembly (115ms)
+- Finished resetting the current domain, in  0.976 seconds
+Domain Reload Profiling: 1555ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (22ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (369ms)
-		LoadAssemblies (199ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (211ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (213ms)
-			TypeCache.Refresh (205ms)
-				TypeCache.ScanAssembly (196ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (231ms)
+				TypeCache.ScanAssembly (220ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (847ms)
+	FinalizeReload (976ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (384ms)
+		SetupLoadedEditorAssemblies (492ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (2ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (232ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 3.76 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6830 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (399.3 KB). Loaded Objects now: 7512.
-Memory consumption went from 228.5 MB to 228.1 MB.
-Total: 3.281600 ms (FindLiveObjects: 0.391500 ms CreateObjectMapping: 0.339000 ms MarkObjects: 2.439000 ms  DeleteObjects: 0.111500 ms)
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (406.0 KB). Loaded Objects now: 8184.
+Memory consumption went from 242.3 MB to 241.9 MB.
+Total: 6.752900 ms (FindLiveObjects: 0.724100 ms CreateObjectMapping: 0.368600 ms MarkObjects: 5.506700 ms  DeleteObjects: 0.152100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -316,51 +319,180 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.543 seconds
-Refreshing native plugins compatible for Editor in 3.90 ms, found 4 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.584 seconds
+Refreshing native plugins compatible for Editor in 4.85 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.884 seconds
-Domain Reload Profiling: 1426ms
+- Finished resetting the current domain, in  0.970 seconds
+Domain Reload Profiling: 1554ms
 	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (207ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (970ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 5.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (406.0 KB). Loaded Objects now: 8201.
+Memory consumption went from 242.3 MB to 241.9 MB.
+Total: 6.164800 ms (FindLiveObjects: 0.426600 ms CreateObjectMapping: 0.191500 ms MarkObjects: 5.415300 ms  DeleteObjects: 0.130700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.571 seconds
+Refreshing native plugins compatible for Editor in 4.60 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.963 seconds
+Domain Reload Profiling: 1533ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (202ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (963ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (406.1 KB). Loaded Objects now: 8218.
+Memory consumption went from 242.3 MB to 241.9 MB.
+Total: 7.346300 ms (FindLiveObjects: 0.452900 ms CreateObjectMapping: 0.398600 ms MarkObjects: 6.362200 ms  DeleteObjects: 0.131700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.571 seconds
+Refreshing native plugins compatible for Editor in 5.39 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.984 seconds
+Domain Reload Profiling: 1554ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (365ms)
-		LoadAssemblies (204ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (219ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (212ms)
-			TypeCache.Refresh (204ms)
-				TypeCache.ScanAssembly (195ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (202ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (884ms)
+	FinalizeReload (984ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (385ms)
+		SetupLoadedEditorAssemblies (461ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (2ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (226ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 3.92 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6830 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (400.4 KB). Loaded Objects now: 7529.
-Memory consumption went from 228.5 MB to 228.2 MB.
-Total: 3.389400 ms (FindLiveObjects: 0.448100 ms CreateObjectMapping: 0.215300 ms MarkObjects: 2.597000 ms  DeleteObjects: 0.128200 ms)
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (406.1 KB). Loaded Objects now: 8235.
+Memory consumption went from 242.3 MB to 241.9 MB.
+Total: 6.223400 ms (FindLiveObjects: 0.488900 ms CreateObjectMapping: 0.241100 ms MarkObjects: 5.371900 ms  DeleteObjects: 0.120800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -379,51 +511,372 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.551 seconds
-Refreshing native plugins compatible for Editor in 4.18 ms, found 4 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.548 seconds
+Refreshing native plugins compatible for Editor in 4.77 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.857 seconds
-Domain Reload Profiling: 1407ms
+- Finished resetting the current domain, in  0.999 seconds
+Domain Reload Profiling: 1546ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (196ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (999ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 5.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (406.1 KB). Loaded Objects now: 8252.
+Memory consumption went from 242.3 MB to 242.0 MB.
+Total: 6.661500 ms (FindLiveObjects: 0.448500 ms CreateObjectMapping: 0.401300 ms MarkObjects: 5.683100 ms  DeleteObjects: 0.127800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.560 seconds
+Refreshing native plugins compatible for Editor in 5.41 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.935 seconds
+Domain Reload Profiling: 1494ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (397ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (225ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (200ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (935ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (460ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (406.1 KB). Loaded Objects now: 8269.
+Memory consumption went from 242.4 MB to 242.0 MB.
+Total: 6.370400 ms (FindLiveObjects: 0.444500 ms CreateObjectMapping: 0.197400 ms MarkObjects: 5.596900 ms  DeleteObjects: 0.130600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.555 seconds
+Refreshing native plugins compatible for Editor in 4.39 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.989 seconds
+Domain Reload Profiling: 1544ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (193ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (990ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (489ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 5.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (406.0 KB). Loaded Objects now: 8286.
+Memory consumption went from 242.4 MB to 242.0 MB.
+Total: 6.046900 ms (FindLiveObjects: 0.415200 ms CreateObjectMapping: 0.167500 ms MarkObjects: 5.344000 ms  DeleteObjects: 0.119500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.547 seconds
+Refreshing native plugins compatible for Editor in 4.78 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.014 seconds
+Domain Reload Profiling: 1560ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (192ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1014ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (488ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 5.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (406.0 KB). Loaded Objects now: 8303.
+Memory consumption went from 242.4 MB to 242.0 MB.
+Total: 6.339100 ms (FindLiveObjects: 0.415800 ms CreateObjectMapping: 0.168300 ms MarkObjects: 5.598500 ms  DeleteObjects: 0.155800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.559 seconds
+Refreshing native plugins compatible for Editor in 4.94 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.004 seconds
+Domain Reload Profiling: 1562ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (389ms)
+		LoadAssemblies (211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (199ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1004ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (479ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 5.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (407.0 KB). Loaded Objects now: 8320.
+Memory consumption went from 242.4 MB to 242.0 MB.
+Total: 6.289700 ms (FindLiveObjects: 0.539400 ms CreateObjectMapping: 0.208800 ms MarkObjects: 5.391600 ms  DeleteObjects: 0.149000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.572 seconds
+Refreshing native plugins compatible for Editor in 4.98 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.005 seconds
+Domain Reload Profiling: 1576ms
 	BeginReloadAssembly (125ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (370ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (392ms)
 		LoadAssemblies (207ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (215ms)
-			TypeCache.Refresh (205ms)
-				TypeCache.ScanAssembly (196ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (206ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (857ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1006ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (387ms)
+		SetupLoadedEditorAssemblies (487ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (234ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 3.34 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 6.35 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6830 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (399.3 KB). Loaded Objects now: 7546.
-Memory consumption went from 228.6 MB to 228.2 MB.
-Total: 3.095900 ms (FindLiveObjects: 0.369900 ms CreateObjectMapping: 0.149100 ms MarkObjects: 2.471500 ms  DeleteObjects: 0.104600 ms)
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (406.1 KB). Loaded Objects now: 8337.
+Memory consumption went from 242.4 MB to 242.0 MB.
+Total: 7.004900 ms (FindLiveObjects: 0.454500 ms CreateObjectMapping: 0.202800 ms MarkObjects: 6.224000 ms  DeleteObjects: 0.123000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -438,743 +891,194 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 2087.363303 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arcade_02.fbx
-  artifactKey: Guid(b32ecca3b1fa47919773b510a5a282dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arcade_02.fbx using Guid(b32ecca3b1fa47919773b510a5a282dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abb434358f8da6c62a9db61893e9d13') in 0.016577 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 43
-========================================================================
-Received Import Request.
-  Time since last request: 0.016493 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_03.fbx
-  artifactKey: Guid(4cfdcf4de89648d39b170353e66a386a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_03.fbx using Guid(4cfdcf4de89648d39b170353e66a386a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85453c6361fb068998cf2d5539ebc59') in 0.001705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_05.fbx
-  artifactKey: Guid(1b85af72ce94466bb64d4e9d3e889891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_05.fbx using Guid(1b85af72ce94466bb64d4e9d3e889891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7518e49c523625a9e70253c9f1baa6f') in 0.001170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.015820 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Alley_02.fbx
-  artifactKey: Guid(351f7bb3ab1f4644a9b8df2a60e5bc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Alley_02.fbx using Guid(351f7bb3ab1f4644a9b8df2a60e5bc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47153565d5a3ef7bb37070d05900a90') in 0.001309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.166581 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Big_02.fbx
-  artifactKey: Guid(ffdc750d50354693b2fef83c4d89c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Big_02.fbx using Guid(ffdc750d50354693b2fef83c4d89c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4129645b62a089043892f835e92fae2d') in 0.001844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Big_04.fbx
-  artifactKey: Guid(23e888d5639b45088be39849fb2c0678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Big_04.fbx using Guid(23e888d5639b45088be39849fb2c0678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e38a1867959cb97f5917d257ddc0f6a') in 0.001751 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.055694 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Half_04.fbx
-  artifactKey: Guid(838e36b7e4b74b45a9e2977b53854c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Half_04.fbx using Guid(838e36b7e4b74b45a9e2977b53854c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d653c7d7b728acfd616375e724fc4f3') in 0.001289 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.004546 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Half_Ruined_02.fbx
-  artifactKey: Guid(c7524939b90a4a55a220a33692e18e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Half_Ruined_02.fbx using Guid(c7524939b90a4a55a220a33692e18e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02207484e3959d4d109bb65461d925eb') in 0.001024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.027674 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Tall_Bars_02.fbx
-  artifactKey: Guid(88494df96c394ca699017a633cf9e37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Arch_Tall_Bars_02.fbx using Guid(88494df96c394ca699017a633cf9e37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0217aa61f3cb58456902ab2eb626e352') in 0.000936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.009766 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_01.fbx
-  artifactKey: Guid(eddb5297a9ec46648cd7bbbc72a373fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_01.fbx using Guid(eddb5297a9ec46648cd7bbbc72a373fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b13a1227cd0fa117b95bd9d562d664') in 0.001558 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 2.878905 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_04.fbx
-  artifactKey: Guid(5f97b27ce5d74ddea27d9d1a4892391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_04.fbx using Guid(5f97b27ce5d74ddea27d9d1a4892391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076c2db8ceb38e634491d10969d584d0') in 0.001648 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.008548 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_06.fbx
-  artifactKey: Guid(88c2273349a940fcaa8a28913933db62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_06.fbx using Guid(88c2273349a940fcaa8a28913933db62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a372a3afd68d2e0bf7f8cdaebd3242d9') in 0.003923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_07.fbx
-  artifactKey: Guid(629823cd1b1b4a83b55fb6f6f9ab11af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_07.fbx using Guid(629823cd1b1b4a83b55fb6f6f9ab11af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77944bec69c45e55a48a8768611119c') in 0.001679 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.002852 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Niche_01.fbx
-  artifactKey: Guid(f34bb6652d1f4aaf9667b6bff15acb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Niche_01.fbx using Guid(f34bb6652d1f4aaf9667b6bff15acb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609ced1c6f5bd3eb872da860de645d46') in 0.001474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Niche_02.fbx
-  artifactKey: Guid(44bd10706b774912ae0bd7e1afc58baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Niche_02.fbx using Guid(44bd10706b774912ae0bd7e1afc58baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c0502c4ff5dee718450f4f7c271a99') in 0.001669 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.018083 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Ruined_01.fbx
-  artifactKey: Guid(5a71a9dedaa94544a5ee13e4d51ace1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Archway_Ruined_01.fbx using Guid(5a71a9dedaa94544a5ee13e4d51ace1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357196376aacb0ce7a20317d8ae47096') in 0.001372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.076673 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Barrels_Preset_01.fbx
-  artifactKey: Guid(905e1e29b45f41958574ee26a147e611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Barrels_Preset_01.fbx using Guid(905e1e29b45f41958574ee26a147e611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6199ef8a3ac05fe6863842f8805718fb') in 0.001084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Barrels_Preset_03.fbx
-  artifactKey: Guid(2b23fa3be2c54f438c5e125f837f5c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Barrels_Preset_03.fbx using Guid(2b23fa3be2c54f438c5e125f837f5c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eab5ff28956a3fcd40d87ca1108e255') in 0.001152 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Barrels_Preset_02.fbx
-  artifactKey: Guid(0dd1d82885ed48668a479ef5c68e2770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Barrels_Preset_02.fbx using Guid(0dd1d82885ed48668a479ef5c68e2770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a0410ba483dfc74de9d90c2af976fe') in 0.001147 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_01.fbx
-  artifactKey: Guid(2e797e66886a4406be8dd8bad7cdcf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_01.fbx using Guid(2e797e66886a4406be8dd8bad7cdcf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d1cf73275c3c8f546956bc02c3774f') in 0.000675 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_06.fbx
-  artifactKey: Guid(cf9fda3b3a324eb48da5fef7780e6e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_06.fbx using Guid(cf9fda3b3a324eb48da5fef7780e6e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bc6f6dfd326959305331bd2bd019c6') in 0.000604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_07.fbx
-  artifactKey: Guid(0c29c3ff1e964ea6b63264c7c16e0ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Bars_07.fbx using Guid(0c29c3ff1e964ea6b63264c7c16e0ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad99bac6212f98e4ecf9a07ec213bcf') in 0.000640 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.016167 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_01.fbx
-  artifactKey: Guid(fb1f968a151840fbaddc1d2e4a739f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_01.fbx using Guid(fb1f968a151840fbaddc1d2e4a739f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02a362b8ae1a8d9252bef056d9f3d24') in 0.000845 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Arch_01.fbx
-  artifactKey: Guid(ca1a1fa0a97b4565844bc78c4feb133c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Arch_01.fbx using Guid(ca1a1fa0a97b4565844bc78c4feb133c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556e2251a01883d0fe85ea44c9bfa870') in 0.002686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 68
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_04.fbx
-  artifactKey: Guid(9dee75923ab04a2b90ca037879423268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_04.fbx using Guid(9dee75923ab04a2b90ca037879423268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6dd52b332398f6da1f371756b04906') in 0.000784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 13.681177 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Bridge_01.fbx
-  artifactKey: Guid(ed722719acb04a84b96db5e8c6af93b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Bridge_01.fbx using Guid(ed722719acb04a84b96db5e8c6af93b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3190d0fe4b8fc1ef3aa4ca4d984b7a0d') in 0.002631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 63
-========================================================================
-Received Import Request.
-  Time since last request: 0.052231 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Rounded_01.fbx
-  artifactKey: Guid(3b7ccf99c31a4d4689f29343ac0cb69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Rounded_01.fbx using Guid(3b7ccf99c31a4d4689f29343ac0cb69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a49178c13332d5be006918d4b7af1de') in 0.000945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.642602 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Thin_02.fbx
-  artifactKey: Guid(0ec10650812047d5b99f31d08dd1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Base_Thin_02.fbx using Guid(0ec10650812047d5b99f31d08dd1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f1f71974d5071c8f95ee383450e328') in 0.001028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.082107 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Books_Preset_02.fbx
-  artifactKey: Guid(3c7dcccba9d045e695d648753ed330d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Books_Preset_02.fbx using Guid(3c7dcccba9d045e695d648753ed330d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bac0ba1030d5769ab30878d16d58210') in 0.000893 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.027763 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Bottle_01.fbx
-  artifactKey: Guid(6fb15102bc0d4383bd7a0c324bba41ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Bottle_01.fbx using Guid(6fb15102bc0d4383bd7a0c324bba41ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82796d93a81d29e310a07e951882e014') in 0.000879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Bottle_02.fbx
-  artifactKey: Guid(212593e055f04cc1b49b89673e64066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Bottle_02.fbx using Guid(212593e055f04cc1b49b89673e64066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dda383f1e10ba0bef3abc066222cd98') in 0.000684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.012372 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Brick_03.fbx
-  artifactKey: Guid(2976c4dcd8b34adf9c175a0154fc8964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Brick_03.fbx using Guid(2976c4dcd8b34adf9c175a0154fc8964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef6bc90772806af2afeca9401295bcf') in 0.000938 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.021623 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Buttress_01.fbx
-  artifactKey: Guid(9e3a03575de84e06855b3c5c44e8f6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Buttress_01.fbx using Guid(9e3a03575de84e06855b3c5c44e8f6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6414a403454df95ff3988ad461ec052') in 0.000926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Buttress_03.fbx
-  artifactKey: Guid(d5f55ec25bd74e0bb1a2a7fb8cbacf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Buttress_03.fbx using Guid(d5f55ec25bd74e0bb1a2a7fb8cbacf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67d444f4c51abc48c69c59895e22ae7') in 0.000725 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.090007 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Candlestick_Floor_01.fbx
-  artifactKey: Guid(8ea6ac2f7cb84172a23b1531e31b5109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Candlestick_Floor_01.fbx using Guid(8ea6ac2f7cb84172a23b1531e31b5109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17f3b5be74f140e270ee0fb9c532a21') in 0.001144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Candlestick_Floor_02.fbx
-  artifactKey: Guid(88e9d05fa43f45b882d6206fd89efa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Candlestick_Floor_02.fbx using Guid(88e9d05fa43f45b882d6206fd89efa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5932b35b7bc10c8afbe386e337108d90') in 0.001172 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.056553 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Ceiling_Curved_01.fbx
-  artifactKey: Guid(c8edd2625e9040128d1f299aad653f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Ceiling_Curved_01.fbx using Guid(c8edd2625e9040128d1f299aad653f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7129e6d34f555ccd168f858335a34f') in 0.002234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 43
-========================================================================
-Received Import Request.
-  Time since last request: 0.058681 seconds.
-  path: Assets/Plugins/JMO Assets/Cartoon FX/Mesh/CFX_Mesh_Circular.FBX
-  artifactKey: Guid(33e6621d2756c044d88f4f9de1a55e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/JMO Assets/Cartoon FX/Mesh/CFX_Mesh_Circular.FBX using Guid(33e6621d2756c044d88f4f9de1a55e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d644871dcbb7abfc1390af53ca71d23') in 0.000899 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.010719 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Chair_01.fbx
-  artifactKey: Guid(970176150adc40e29c812bb7823d307a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Chair_01.fbx using Guid(970176150adc40e29c812bb7823d307a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab484ea3ceb56f944db6bb91ccceed9') in 0.000928 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.023071 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_03.fbx
-  artifactKey: Guid(693c8cceaae841ff9b7fcc87eae3210c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_03.fbx using Guid(693c8cceaae841ff9b7fcc87eae3210c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b18262e24b25b37a0ab5c00a4a317a') in 0.001070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000951 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_04.fbx
-  artifactKey: Guid(c680aceb8bc745639940c196fd0c27e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_04.fbx using Guid(c680aceb8bc745639940c196fd0c27e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f249bc885324e5ddda551e05518b7983') in 0.001448 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_11.fbx
-  artifactKey: Guid(079e5bdc44834be7bd3e5cc3e8808adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_11.fbx using Guid(079e5bdc44834be7bd3e5cc3e8808adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c9c0fb0ad50bb390e4804d73075fed') in 0.001098 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_14.fbx
-  artifactKey: Guid(9f370551d3a44bb2b77190ebdb0b85a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Column_14.fbx using Guid(9f370551d3a44bb2b77190ebdb0b85a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302f564145cb28230410c7c11ffb24c7') in 0.001149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 1.236065 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Cornice_Half_01.fbx
-  artifactKey: Guid(08b57f80c6814bfe9b57eb927b2d64a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Cornice_Half_01.fbx using Guid(08b57f80c6814bfe9b57eb927b2d64a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b68ab8f74845df1e5e67464f57b0909') in 0.000851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.017136 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Cornice_Ruined_04.fbx
-  artifactKey: Guid(2d9da95c8ae140c8a0dbbe62806193ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Cornice_Ruined_04.fbx using Guid(2d9da95c8ae140c8a0dbbe62806193ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786e38ede4dbd8c7aced942a6717fa2d') in 0.000824 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.020020 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_02.fbx
-  artifactKey: Guid(5016bbbd2b6340c894f132e2c6fa37a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_02.fbx using Guid(5016bbbd2b6340c894f132e2c6fa37a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4446ea3f1d6006a51d20c6a1608793b8') in 0.001008 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_04.fbx
-  artifactKey: Guid(cde237b409d1446d854ac33642a7dc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_04.fbx using Guid(cde237b409d1446d854ac33642a7dc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7606a860ad4384852873ac665bffa24') in 0.000753 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_Big_Preset_03.fbx
-  artifactKey: Guid(40b71007ea6c485cb23cc805b8cf4d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_Big_Preset_03.fbx using Guid(40b71007ea6c485cb23cc805b8cf4d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8232a82b24b362cb2fea56a7d21caea') in 0.000924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_Preset_03.fbx
-  artifactKey: Guid(d697306b62f04041b9036d4876582269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_Preset_03.fbx using Guid(d697306b62f04041b9036d4876582269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f602581a48aed209fb824e14525ff595') in 0.001211 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.015993 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_Preset_07.fbx
-  artifactKey: Guid(4e4f8b661fd64f5c87e5dc36c28d486a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Cupboard_Preset_07.fbx using Guid(4e4f8b661fd64f5c87e5dc36c28d486a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13328d3a9706e21f69847a2dc38f7365') in 0.000834 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.016334 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Arch_Alley_03.fbx
-  artifactKey: Guid(e234eddfe4454945bb09e4b83e8332b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Arch_Alley_03.fbx using Guid(e234eddfe4454945bb09e4b83e8332b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26a59a7abaf18101a7ddc1e0a6f6f39') in 0.001271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Arch_Alley_Corner_01.fbx
-  artifactKey: Guid(f1c898412f95468d8754e47905d93a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Arch_Alley_Corner_01.fbx using Guid(f1c898412f95468d8754e47905d93a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d19cb9177787cc7b94f56624ceefb08') in 0.001380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Arch_Alley_04.fbx
-  artifactKey: Guid(ec76d787860c402595c57de91a0dcb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Arch_Alley_04.fbx using Guid(ec76d787860c402595c57de91a0dcb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006331ab985db861e1a74486349ca616') in 0.001122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.060285 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Column_02.fbx
-  artifactKey: Guid(77f2e413ecef46aa9aee11aa9f813be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Column_02.fbx using Guid(77f2e413ecef46aa9aee11aa9f813be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957550df15c1127712663d5fd6a3b4d5') in 0.001113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Column_04.fbx
-  artifactKey: Guid(398f594056e54a858ef095b06270c69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Column_04.fbx using Guid(398f594056e54a858ef095b06270c69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdad15edbfcfd050655e6a1559d6308e') in 0.001421 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Railing_03.fbx
-  artifactKey: Guid(2fb6b438b9a54b07ab47554ac087e65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Railing_03.fbx using Guid(2fb6b438b9a54b07ab47554ac087e65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9852a819414b378a406e44b6c118066') in 0.001311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 1.229366 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Railing_Pillar_01.fbx
-  artifactKey: Guid(c9930b63d62942558979ac0a936b5ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Damaged_Railing_Pillar_01.fbx using Guid(c9930b63d62942558979ac0a936b5ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2947cd33345e2dd5b106b8f1f25f2f') in 0.000915 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.059440 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Door_03.fbx
-  artifactKey: Guid(3258000f04d040c3a9ce41bff6356fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Door_03.fbx using Guid(3258000f04d040c3a9ce41bff6356fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b6ded3005869b1360e7aa982472f4e') in 0.001557 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Door_01.fbx
-  artifactKey: Guid(84a368180fd64708b8da5f8ce82d05c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Door_01.fbx using Guid(84a368180fd64708b8da5f8ce82d05c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab3c771276cf23a4379c8bfea06bfa9') in 0.002088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 63
-========================================================================
-Received Import Request.
-  Time since last request: 2.218728 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Fence_03.fbx
-  artifactKey: Guid(737cd7d172304fe3b1d6207681aa53bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Fence_03.fbx using Guid(737cd7d172304fe3b1d6207681aa53bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dac12cacf0464fc9169552a4cf99f2') in 0.001322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.006414 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_02.fbx
-  artifactKey: Guid(77b1a8ff2e284f50ad68526557a59953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_02.fbx using Guid(77b1a8ff2e284f50ad68526557a59953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e729e2892cfdf2e99cdb37dd777913de') in 0.000901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.008436 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_Detailed_02.fbx
-  artifactKey: Guid(0f3b3fe9e44f47609daa6103128ba186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Floor_Detailed_02.fbx using Guid(0f3b3fe9e44f47609daa6103128ba186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd958af058afb61818e145cb276e030f1') in 0.000814 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 1.145856 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/FP_Wall_01.fbx
-  artifactKey: Guid(4501c7faea83499fa026ef47751cb037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/FP_Wall_01.fbx using Guid(4501c7faea83499fa026ef47751cb037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b59bf5393935893442ef04ad93e0c3') in 0.001128 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.002246 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/FP_Wall_Corner_01.fbx
-  artifactKey: Guid(cfd21c8de5734c8194e07e595033220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/FP_Wall_Corner_01.fbx using Guid(cfd21c8de5734c8194e07e595033220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb96daf4b28a32db76d5edbdb7282275') in 0.000885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.072323 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Gas_Burner_01.fbx
-  artifactKey: Guid(02abe065b39445f9b23ba12b800afc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Gas_Burner_01.fbx using Guid(02abe065b39445f9b23ba12b800afc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59064d99630326df7abb0cbab193b5ca') in 0.000865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.021147 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Hallway_03.fbx
-  artifactKey: Guid(5f0078dd118c44a3be42977998b57c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Hallway_03.fbx using Guid(5f0078dd118c44a3be42977998b57c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e29a94f9283694fb3e7ed5667cd9f0') in 0.001496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.047341 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Jug_02.fbx
-  artifactKey: Guid(7c9f97b48ebe402f8604780c77cbdf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Jug_02.fbx using Guid(7c9f97b48ebe402f8604780c77cbdf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97968d13d53cb817cf550c95a0a09f6') in 0.000978 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.010365 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Jugs_Preset_02.fbx
-  artifactKey: Guid(df6980d04b5e4e9896f6687d8a73d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Jugs_Preset_02.fbx using Guid(df6980d04b5e4e9896f6687d8a73d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527d2d9dbe609e4cbc0c7db978a1fb72') in 0.001190 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 1.127902 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Pedestal_03.fbx
-  artifactKey: Guid(950628ff21724b02874392e7b2c38c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Pedestal_03.fbx using Guid(950628ff21724b02874392e7b2c38c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac77eb22ac2dfb746f9d4cce48b1810') in 0.000859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.239492 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Platform_03.fbx
-  artifactKey: Guid(c5017451583a469685dfbba80f30e23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Platform_03.fbx using Guid(c5017451583a469685dfbba80f30e23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1905c0f1d63db2f5dc7445ef47711c1') in 0.001744 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 1.866474 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Plinth_02.fbx
-  artifactKey: Guid(7324621248f84db1a94425e12dad61a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Plinth_02.fbx using Guid(7324621248f84db1a94425e12dad61a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de31e9fa9ae9d4bb01e73612f8b856fe') in 0.000926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.009431 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Plinth_Curved_01.fbx
-  artifactKey: Guid(52eb935826a34fa0a92ba3554a826a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Plinth_Curved_01.fbx using Guid(52eb935826a34fa0a92ba3554a826a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313481184bfcae9322538a0b96ccd4cc') in 0.001597 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.068266 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Potion_Red_01.fbx
-  artifactKey: Guid(72e4a743464c4b26857b460ca6ade400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Potion_Red_01.fbx using Guid(72e4a743464c4b26857b460ca6ade400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330e02b16a7a03f116713118218c5e20') in 0.000906 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.629114 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Pillar_01.fbx
-  artifactKey: Guid(1bc5f1fb2dcb44c6b4209b2f55509925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Pillar_01.fbx using Guid(1bc5f1fb2dcb44c6b4209b2f55509925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b4c0e3b5fb2b8a7942ab89a3764980') in 0.001166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 1.048649 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Stair_Low_01.fbx
-  artifactKey: Guid(0cde0b5fb72c45e892ecac4fcc17049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Railing_Stair_Low_01.fbx using Guid(0cde0b5fb72c45e892ecac4fcc17049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ab5d7f4490f34cda163efe3d3af389') in 0.001055 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.102434 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Shelf_01.fbx
-  artifactKey: Guid(6a6313edc075415a9f611d2f01b4f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Shelf_01.fbx using Guid(6a6313edc075415a9f611d2f01b4f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cebf1305f2c500d4d9bca53f3c4cd4') in 0.001066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Shelf_Preset_03.fbx
-  artifactKey: Guid(c28d15a65b5740498d0386ca7c05da4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Shelf_Preset_03.fbx using Guid(c28d15a65b5740498d0386ca7c05da4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aba57291c9bbd51c11958c1b46e1721') in 0.000772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.026029 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Stair_02.fbx
-  artifactKey: Guid(50f340a3219c47ea9e23b262508b8111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Stair_02.fbx using Guid(50f340a3219c47ea9e23b262508b8111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08ae2bf498aba91fbbda89a67420cfc') in 0.001157 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 1.096731 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Stair_Pool_02.fbx
-  artifactKey: Guid(da158241229e4689858f44beb306304d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Stair_Pool_02.fbx using Guid(da158241229e4689858f44beb306304d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28736be0f574ab41ef234dd5149ef15') in 0.001100 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.711645 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Table_Preset_01.fbx
-  artifactKey: Guid(80c8bbea7f7f4a3dabb8ddfc660b21e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Props/Table_Preset_01.fbx using Guid(80c8bbea7f7f4a3dabb8ddfc660b21e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fb9dbbdfec9aa92d1c042a314eee3f') in 0.001211 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.071245 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_04.fbx
-  artifactKey: Guid(112623308f0f421bbaae484019e8b8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_04.fbx using Guid(112623308f0f421bbaae484019e8b8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3179440e21586eee362f810646af30') in 0.000919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.025723 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Arch_Preset_02.fbx
-  artifactKey: Guid(c3af1eb9f22f48fcbefa9d1211d96301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Arch_Preset_02.fbx using Guid(c3af1eb9f22f48fcbefa9d1211d96301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628f23da6ac2a36e03f8e0f084d35aac') in 0.001749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Arch_Preset_04.fbx
-  artifactKey: Guid(c23ec03f3fe8427c8cb92b7f601db943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Arch_Preset_04.fbx using Guid(c23ec03f3fe8427c8cb92b7f601db943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06daba8370e134fdbf6daf93c6b6c0b') in 0.001196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.041455 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Bottom_Decor_Corner_01.fbx
-  artifactKey: Guid(b082fc20b151457db9aa223156a50770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Bottom_Decor_Corner_01.fbx using Guid(b082fc20b151457db9aa223156a50770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98244d70360400a42e84da6cc63e39c9') in 0.001120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.041046 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Bottom_Decor_Rounded_02.fbx
-  artifactKey: Guid(0530a183f5a840ceba84eaef80709da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Bottom_Decor_Rounded_02.fbx using Guid(0530a183f5a840ceba84eaef80709da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9803c04e363199039c27bbc8e277faa5') in 0.001796 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.043635 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Curved_03.fbx
-  artifactKey: Guid(77dd65ee65c7415cb6a331cee8515823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Curved_03.fbx using Guid(77dd65ee65c7415cb6a331cee8515823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c061391585cf958e657d03a58836463') in 0.001838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 43
-========================================================================
-Received Import Request.
-  Time since last request: 0.142405 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Inner_Corner_01.fbx
-  artifactKey: Guid(ee6cadf43b85455b8c6bd6ca4e3ee395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Inner_Corner_01.fbx using Guid(ee6cadf43b85455b8c6bd6ca4e3ee395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cc16a6a646e1423875f8ac2d1ccd3d') in 0.001082 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.096920 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Outer_Corner_01.fbx
-  artifactKey: Guid(da6b8ecb4319457eae600056b169b340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Outer_Corner_01.fbx using Guid(da6b8ecb4319457eae600056b169b340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb6667bc964b4f45a89fa593cc8b478') in 0.001028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.412828 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Preset_03.fbx
-  artifactKey: Guid(083f3b4308ca4200820874521eb71ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Preset_03.fbx using Guid(083f3b4308ca4200820874521eb71ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a782dbf5d94b86c0ae1f9699afeb313') in 0.000931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.050208 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Upper_Decor_Corner_02.fbx
-  artifactKey: Guid(0991677140334b478f73bbada2c47b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Wall_Upper_Decor_Corner_02.fbx using Guid(0991677140334b478f73bbada2c47b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c866d119c057d108fec11aa1a391db2') in 0.000990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.224633 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Window_Tall_02.fbx
-  artifactKey: Guid(d99669b07348419396b678816bac237f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Window_Tall_02.fbx using Guid(d99669b07348419396b678816bac237f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8b01dfda10fd67c9fed42884198de6') in 0.001701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Window_Tall_Bars_02.fbx
-  artifactKey: Guid(d86102de10cb47fc860a6dd321d4cac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Levels/Multistory Dungeons/Meshes/SRC_Architecture/Window_Tall_Bars_02.fbx using Guid(d86102de10cb47fc860a6dd321d4cac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fead52c12cd9040b865f20e324d845a9') in 0.000752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.549 seconds
+Refreshing native plugins compatible for Editor in 5.25 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.942 seconds
+Domain Reload Profiling: 1490ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (191ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (943ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 4.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (406.1 KB). Loaded Objects now: 8354.
+Memory consumption went from 242.4 MB to 242.0 MB.
+Total: 5.817600 ms (FindLiveObjects: 0.428900 ms CreateObjectMapping: 0.191500 ms MarkObjects: 5.083600 ms  DeleteObjects: 0.112900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.559 seconds
+Refreshing native plugins compatible for Editor in 5.48 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.011 seconds
+Domain Reload Profiling: 1569ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (197ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1012ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (475ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (241ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (406.0 KB). Loaded Objects now: 8371.
+Memory consumption went from 242.4 MB to 242.0 MB.
+Total: 5.839000 ms (FindLiveObjects: 0.428400 ms CreateObjectMapping: 0.210700 ms MarkObjects: 5.059500 ms  DeleteObjects: 0.139300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity репозиторий\Ancient-Lands\Ancient Lands\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.556 seconds
+Refreshing native plugins compatible for Editor in 5.35 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.001 seconds
+Domain Reload Profiling: 1556ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (197ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1001ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (485ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 5.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (406.0 KB). Loaded Objects now: 8388.
+Memory consumption went from 242.4 MB to 242.0 MB.
+Total: 6.074500 ms (FindLiveObjects: 0.652100 ms CreateObjectMapping: 0.227300 ms MarkObjects: 5.059700 ms  DeleteObjects: 0.134300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 

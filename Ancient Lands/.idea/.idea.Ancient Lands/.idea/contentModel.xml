@@ -16,6 +16,7 @@
           </e>
           <e p="AssetGroupTemplates" t="Include" />
           <e p="DataBuilders" t="Include" />
+          <e p="Windows" t="Include" />
         </e>
         <e p="AssetsThirdParty" t="Include">
           <e p="Cartoon Heroes" t="Include">
@@ -236,6 +237,7 @@
         <e p="Codebase" t="Include">
           <e p="Constants.cs" t="Include" />
           <e p="Data" t="Include">
+            <e p="BoughtIAP.cs" t="Include" />
             <e p="DataExtensions.cs" t="Include" />
             <e p="DictionaryData_Base.cs" t="Include" />
             <e p="KillData.cs" t="Include" />
@@ -245,6 +247,7 @@
             <e p="LootPieceDataDictionary.cs" t="Include" />
             <e p="PlayerProgress.cs" t="Include" />
             <e p="PositionOnLevel.cs" t="Include" />
+            <e p="PurchaseData.cs" t="Include" />
             <e p="State.cs" t="Include" />
             <e p="Stats.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
@@ -326,6 +329,15 @@
               <e p="IAdsService.cs" t="Include" />
             </e>
             <e p="AllServices.cs" t="Include" />
+            <e p="IAP" t="Include">
+              <e p="IAPProvider.cs" t="Include" />
+              <e p="IAPService.cs" t="Include" />
+              <e p="IIAPService.cs" t="Include" />
+              <e p="ItemType.cs" t="Include" />
+              <e p="ProductConfig.cs" t="Include" />
+              <e p="ProductConfigWrapper.cs" t="Include" />
+              <e p="ProductDescription.cs" t="Include" />
+            </e>
             <e p="Input" t="Include">
               <e p="IInputService.cs" t="Include" />
               <e p="InputService.cs" t="Include" />
@@ -381,12 +393,15 @@
             <e p="Windows" t="Include">
               <e p="Shop" t="Include">
                 <e p="RewardedAdItem.cs" t="Include" />
+                <e p="ShopItem.cs" t="Include" />
+                <e p="ShopItemsContainer.cs" t="Include" />
                 <e p="ShopWindow.cs" t="Include" />
               </e>
               <e p="WindowBase.cs" t="Include" />
             </e>
           </e>
         </e>
+        <e p="GUI_Parts" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include" />
@@ -474,6 +489,7 @@
         </e>
         <e p="Rendering" t="Include" />
         <e p="Resources" t="Include">
+          <e p="BillingMode.json" t="Include" />
           <e p="Enemies" t="Include">
             <e p="Dragon" t="Include">
               <e p="Animations" t="Include">
@@ -507,6 +523,9 @@
           <e p="Hero" t="Include" />
           <e p="Hud" t="Include">
             <e p="Joystick" t="Include" />
+          </e>
+          <e p="IAP" t="Include">
+            <e p="products.json" t="Include" />
           </e>
           <e p="Infrastructure" t="Include" />
           <e p="Levels" t="Include">
@@ -570,7 +589,12 @@
               </e>
             </e>
           </e>
-          <e p="Loot" t="Include" />
+          <e p="Loot" t="Include">
+            <e p="BullSkull" t="Include">
+              <e p="Materials" t="Include" />
+              <e p="Texture" t="Include" />
+            </e>
+          </e>
           <e p="Settings" t="Include" />
           <e p="Static Data" t="Include">
             <e p="Levels" t="Include" />
@@ -588,7 +612,12 @@
             </e>
             <e p="Minotaur" t="Include" />
           </e>
+          <e p="Hero" t="Include" />
+          <e p="Hud" t="Include" />
           <e p="Loot" t="Include" />
+          <e p="UI" t="Include">
+            <e p="ShopIcons" t="Include" />
+          </e>
         </e>
         <e p="SceneAssets" t="Include">
           <e p="Fx" t="Include">

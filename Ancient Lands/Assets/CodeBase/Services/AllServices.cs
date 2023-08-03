@@ -1,3 +1,7 @@
+using CodeBase.Infrastructure.AssetManagement;
+using CodeBase.Services.IAP;
+using CodeBase.StaticData;
+
 namespace CodeBase.Services
 {
   public class AllServices

@@ -23,8 +23,11 @@
       <Path>Library/PackageCache/com.unity.ide.vscode@1.2.5</Path>
       <Path>Library/PackageCache/com.unity.inputsystem@1.6.1</Path>
       <Path>Library/PackageCache/com.unity.mathematics@1.2.6</Path>
+      <Path>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1</Path>
+      <Path>Library/PackageCache/com.unity.purchasing@4.9.3</Path>
       <Path>Library/PackageCache/com.unity.scriptablebuildpipeline@1.21.7</Path>
       <Path>Library/PackageCache/com.unity.searcher@4.9.2</Path>
+      <Path>Library/PackageCache/com.unity.services.core@1.9.0</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.1.33</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@3.0.6</Path>
       <Path>Library/PackageCache/com.unity.timeline@1.7.4</Path>
