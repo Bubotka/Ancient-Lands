@@ -32,15 +32,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.9.3/Runtime/Purchasing/ProductType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DA4980BE-16EF-46FC-8876-152CAD08AFD4/cd/8d100a2c/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CodeBase/Services/Ads/AdsService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ads@4.4.2/Runtime/Advertisement/Platform/Editor/EditorPlatform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.9.3/Runtime/Purchasing/ProductType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CodeBase/Services/Ads/AdsService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/IStaticDataService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/WindowConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/WindowStaticData.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/StaticData/Windows/WindowStaticData.cs" />
@@ -91,6 +90,7 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/Windows/Shop/ShopItem.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Services/IAP/ProductConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/IAP/products.json" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroLook.cs" />
       </list>
     </option>
   </component>
@@ -149,6 +149,7 @@
       <workItem from="1690897556155" duration="3963000" />
       <workItem from="1690968181082" duration="8156000" />
       <workItem from="1691046693227" duration="7941000" />
+      <workItem from="1691071356697" duration="601000" />
     </task>
     <servers />
   </component>

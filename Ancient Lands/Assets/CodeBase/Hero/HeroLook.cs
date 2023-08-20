@@ -8,8 +8,8 @@ namespace CodeBase.Hero
 {
     public class HeroLook : MonoBehaviour
     {
-        [Range(0, 1)] public float SensetivityX = 1;
-        [Range(0, 1)] public float SensetivityY = 1;
+        [Range(0, 5)] public float SensetivityX = 1;
+        [Range(0, 5)] public float SensetivityY = 1;
 
         private CinemachineFreeLook _camera;
         private IInputService _inputService;
